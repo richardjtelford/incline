@@ -1,0 +1,535 @@
+Site	Species	Treat	Block	Plot	Year	Date	Registrator	IDS	MS	IDG	X	Y	SH	NL	NL_partitioned	LL	WL	NFL	NFL1	NFL2	NFL3	NFL4	NFL5	NB	NB1	NB2	NB3	NC	NC1	NC2	NAC	NFS	Length of aks	Length of aks (partitioned)	seedl	juvinale	comment
+Låv	Ver_off	Extant	1	2	2018	14.09.2018		1		1	17,5	20,0	45	11		17	7																				
+Låv	Ver_off	Extant	1	2	2018	14.09.2018		2	1	1	18,5	19,5	10	7		12	5																				
+Låv	Ver_off	Extant	1	2	2018	14.09.2018		3			19,0	9,5	25	18		15	8																				
+Låv	Ver_off	Extant	1	2	2018	14.09.2018		4		2	16,5	8,0	29	8		30	6																				
+Låv	Ver_off	Extant	1	2	2018	14.09.2018		5		2	17,0	6,5	26	23		16	11																				
+Låv	Ver_off	Extant	1	2	2018	14.09.2018		6		2	16,5	7,0	27	7		19	8																				
+Låv	Vio_can	Extant	1	2	2018	14.09.2018		1			27,0	18,0	22	4		20	18																				
+Låv	Vio_can	Extant	1	2	2018	14.09.2018		2			25,0	8,5	23	2		19	16																				
+Låv	Ver_off	Extant	1	4	2018	14.09.2018		1			7,5	15,0	50	50		29	50																				
+Låv	Ver_off	Extant	1	4	2018	14.09.2018		2			6,5	15,5	24	7		9	5																				
+Låv	Ver_off	Extant	1	4	2018	14.09.2018		3			6,0	7,5	70	22		29	12																				
+Låv	Ver_off	Extant	1	4	2018	14.09.2018		4			8,5	8,5	26	9		15	7																				
+Låv	Vio_can	Extant	1	4	2018	14.09.2018		1			27,0	17,5	35	7		25	19											1									
+Låv	Vio_can	Extant	1	4	2018	14.09.2018		2			27,0	6,5	17	4		19	15																				
+Låv	Vio_can	Extant	2	2	2018	11.09.2018	SO	1			7,5	18,0	28	7		28	20																				
+Låv	Vio_can	Extant	2	2	2018	11.09.2018	SO	2			8,0	9,5	21	11		35	24																				
+Låv	Ver_off	Extant	2	2	2018	11.09.2018	SO	1			26,5	17,5	33	34		19	9																				
+Låv	Ver_off	Extant	2	2	2018	11.09.2018	SO	2			26,0	7,0	54	46		21	12																				
+Låv	Vio_can	Extant	2	6	2018	14.09.2018		1			16,5	17,5	17	4		23	16																				
+Låv	Vio_can	Extant	2	6	2018	14.09.2018		2			16,0	8,0	34	7		18	19																				2 shoot
+Låv	Ver_off	Extant	2	6	2018	14.09.2018		1			26,5	18,5	35	21		15	9											2			7						
+Låv	Ver_off	Extant	2	6	2018	14.09.2018		2			28,0	16,0	62	45		19	10																				2/3 shoots
+Låv	Ver_off	Extant	2	6	2018	14.09.2018		3			26,5	7,5	30	23		12	7																				
+Låv	Ver_off	Extant	2	6	2018	14.09.2018		4			25,0	5,5	38	36		28	12																				2 shoots
+Låv	Ver_off	Extant	2	6	2018	14.09.2018		5		1	26,5	8,0	58	19		12	7																				
+Låv	Ver_off	Extant	2	6	2018	14.09.2018		6	5	1	27,5	7,0	10			11	7																				
+Låv	Ver_off	Extant	2	6	2018	14.09.2018		7	5	1	28,5	7,5	21	12		13	6																				
+Låv	Ver_off	Extant	3	1	2018	11.09.2018	RG	1			7,0	18,5	35	14		16	9																				
+Låv	Ver_off	Extant	3	1	2018	11.09.2018	RG	2		1	10,0	16,5	52	20		22	13																				
+Låv	Ver_off	Extant	3	1	2018	11.09.2018	RG	3		1	10,0	15,5	34	6		17	18																				
+Låv	Ver_off	Extant	3	1	2018	11.09.2018	RG	4		1	89,0	16,0	36	8		13	6																				
+Låv	Ver_off	Extant	3	1	2018	11.09.2018	RG	5		1	9,0	16,0	40	5		12	7																				
+Låv	Ver_off	Extant	3	1	2018	11.09.2018	RG	6		1	10,0	17,5	18	5		8	5																				
+Låv	Ver_off	Extant	3	1	2018	11.09.2018	RG	7	8	2	6,5	7,0	18+15	8+4		18	8																				two branches on 8
+Låv	Ver_off	Extant	3	1	2018	11.09.2018	RG	8		2	8,0	7,0	30	15		20	13																				two branches on 8
+Låv	Vio_can	Extant	3	1	2018	11.09.2018	RG	1			26,0	16,0	26	34		18	15																				
+Låv	Vio_can	Extant	3	1	2018	11.09.2018	RG	2			29,0	16,5	45	1		19	18																				
+Låv	Vio_can	Extant	3	1	2018	11.09.2018	RG	3			25,5	17,5	19	2		17	13																				
+Låv	Vio_can	Extant	3	1	2018	11.09.2018	RG	4			27,5	8,0	10	5		26	19											1									
+Låv	Ver_off	Extant	3	4	2018	11.09.2018	RG	1			8,0	16,5	69	19		28	14																				
+Låv	Ver_off	Extant	3	4	2018	11.09.2018	RG	2	1		9,0	17,0	30	7		20	11																				grazed
+Låv	Ver_off	Extant	3	4	2018	11.09.2018	RG	3	1		7,5	17,0	13	7		14	6																				
+Låv	Ver_off	Extant	3	4	2018	11.09.2018	RG	4	1		7,0	18,5	43	8		14	7																				
+Låv	Ver_off	Extant	3	4	2018	11.09.2018	RG	5			6,5	9,0	ca 90	30		24	14																				
+Låv	Ver_off	Extant	3	4	2018	11.09.2018	RG	6	x		6,0	8,0	ca 50	11		15	10																				
+Låv	Ver_off	Extant	3	4	2018	11.09.2018	RG	7	x		7,5	8,0	7	4		14	7																				
+Låv	Vio_can	Extant	3	4	2018	11.09.2018	RG	1			27,0	16,0	28	6		20	18											1									
+Låv	Vio_can	Extant	3	4	2018	11.09.2018	RG	2			27,5	7,5	25	11		25	21																				
+Låv	Ver_off	Extant	5	3	2018	14.09.2018		1		1	9,0	17,5	57	25		14																					
+Låv	Ver_off	Extant	5	3	2018	14.09.2018		2	1	1	8,5	19,5	13	7		5																					
+Låv	Ver_off	Extant	5	3	2018	14.09.2018		3	1	1	8,5	18,5	16	8		5																					
+Låv	Ver_off	Extant	5	3	2018	14.09.2018		4			7,0	9,5	26	13		7																					
+Låv	Ver_off	Extant	5	3	2018	14.09.2018		5		2	8,5	8,5	15	9		8																					
+Låv	Ver_off	Extant	5	3	2018	14.09.2018		6	5	2	9,0	7,5	13	9		6																					
+Låv	Vio_can	Extant	5	3	2018	14.09.2018		1			27,5	18,5	29	3		20	18																				
+Låv	Vio_can	Extant	5	3	2018	14.09.2018		2			28,0	17,5	35	1		15	18																				
+Låv	Vio_can	Extant	5	3	2018	14.09.2018		3			28,0	20,0	25	2		20	16																				
+Låv	Vio_can	Extant	5	3	2018	14.09.2018		4			27,5	7,5	15	15		34	26											2									
+Låv	Vio_can	Extant	5	6	2018	14.09.2018	IA	1			17,0	19,0	10	6		22	22																				2 shoots grazed
+Låv	Vio_can	Extant	5	6	2018	14.09.2018	IA	2			17,0	7,5	31	4		16	15																				
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	1	7	1	25,5	16,0	16	11		4																					
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	2	7	1	26,5	16,0	13	9		5																					
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	3	7	1	26,0	17,5	3	3		2																					
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	4	7	1	27,0	18,0	5	18		12																					
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	5	7	1	26,5	19,0	3	21		12																					
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	6	7	1	27,5	19,0	4	3		2																					
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	7		1	27,0	19,5	11	25		12																					
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	8	10	2	29,0	5,0	22	9		9	6																				
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	9	10	2	29,0	6,0	23	6		13	5																				
+Låv	Ver_off	Extant	5	6	2018	14.09.2018	IA	10		2	26,5	6,0	48	2		27	13																				
+Gud	Car_pal	Extant	7	2	2018	03.09.2018	RG	1			16,0	19,5		15		145																					
+Gud	Car_pal	Extant	7	2	2018	03.09.2018	RG	2			15,5	18,0		10		150																					avblomstret
+Gud	Car_pal	Extant	7	2	2018	03.09.2018	RG	3			17,0	18,0		7		113																					
+Gud	Car_pal	Extant	7	2	2018	03.09.2018	RG	4			16,0	7,5		7		109																					
+Gud	Car_pal	Extant	7	2	2018	03.09.2018	RG	5			17,0	19,0		7		192																	11				avblomstret
+Låv	Vio_can	Extant	6	6	2018	14.09.2018		1			17,5	15,5	22	16		27	23											3									4 shoots
+Låv	Vio_can	Extant	6	6	2018	14.09.2018		2			17,0	10,0	31	5		27	25																				
+Låv	Vio_can	Extant	6	6	2018	14.09.2018		3			17,5	7,0	23	3		19	20																				
+Låv	Vio_can	Extant	6	6	2018	14.09.2018		4			18,5	6,5	24	24		22	21																				6 shoots
+Låv	Ver_off	Extant	6	6	2018	14.09.2018		1		1	26,0	16,5	8	15		22	13											8									
+Låv	Ver_off	Extant	6	6	2018	14.09.2018		2		2	28,0	17,5	46	10		40	6																				
+Låv	Ver_off	Extant	6	6	2018	14.09.2018		3	1	1	27,0	18,5	25	10		17	7																				
+Låv	Ver_off	Extant	6	6	2018	14.09.2018		4	1	1	27,5	18,5	12	6		12	4																				
+Låv	Ver_off	Extant	6	6	2018	14.09.2018		5		2	26,0	15,5	56	12		15	11																				
+Låv	Ver_off	Extant	6	6	2018	14.09.2018		6	5	2	28,0	16,0	21	5		30	6																				
+Låv	Ver_off	Extant	6	6	2018	14.09.2018		7	5	2	29,0	18,0	20	7		18	12																				(+) shoots
+Låv	Ver_off	Extant	6	6	2018	14.09.2018		8			29,0	8,0	70	40		28	12																				
+Låv	Ver_off	Extant	7	2	2018	14.09.2018		1			16,5	18,5	40	8		34	14																				
+Låv	Ver_off	Extant	7	2	2018	14.09.2018		2			18,5	6,0	45	12		20	9																				
+Låv	Ver_off	Extant	7	2	2018	14.09.2018		3			16,0	5,0	15	3		15	8																				
+Låv	Vio_can	Extant	7	2	2018	14.09.2018		1			26,0	18,0	28	25		28	24																				5 shoot
+Låv	Vio_can	Extant	7	2	2018	14.09.2018		2			29,0	6,0	17	3		21	30																				
+Låv	Vio_can	Extant	7	2	2018	14.09.2018		3			28,0	8,0	12	7		26	25																				
+Låv	Vio_can	Extant	7	2	2018	14.09.2018		4			26,5	6,5	20	7		26	24																				
+Gud	Ver_off	Extant	1	4	2018	03.09.2018	SO	1			26,5	18,0	68	19		26	14	1										24									
+Gud	Ver_off	Extant	1	4	2018	03.09.2018	SO	2			27,0	9,0	94	20		21	12																				
+Gud	Vio_can	Extant	1	4	2018	03.09.2018	SO	1			8,5	17,5	16	4		20	14																				
+Gud	Vio_can	Extant	1	4	2018	03.09.2018	SO	2			6,0	7,5	20	3		20	12																				
+Gud	Vio_can	Extant	1	4	2018	03.09.2018	SO	3			6,5	9,5	10	3		14	10																				
+Gud	Ver_off	Extant	2	3	2018	03.09.2018	ELE/RG	1			8,0	17,0	51	22		18	10																				
+Gud	Ver_off	Extant	2	3	2018	03.09.2018	ELE/RG	2			9,0	16,0	28	12		16	8																				
+Gud	Ver_off	Extant	2	3	2018	03.09.2018	ELE/RG	3			11,0	17,0	103	24		17	9																				
+Gud	Ver_off	Extant	2	3	2018	03.09.2018	ELE/RG	4			10,0	19,5	10	6		5	3																				
+Gud	Ver_off	Extant	2	3	2018	03.09.2018	ELE/RG	5			7,0	8,0	78	2		22	11																				
+Gud	Ver_off	Extant	2	3	2018	03.09.2018	ELE/RG	6			7,0	6,0	67	16		24	13											11									
+Gud	Vio_can	Extant	2	3	2018	03.09.2018	ELE/RG	1			17,0	18,0	17	6		18	14											1									
+Gud	Vio_can	Extant	2	3	2018	03.09.2018	ELE/RG	2			17,0	7,5	15	8		15	14																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	1		1	17,0	18,0	15	13		18	9																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	2	1	1	16,5	19,0	4	4		7	4																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	3	1	1	16,0	18,5	4	4		6	4																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	4		1	15,5	18,5	20	8		11	6																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	5			16,5	17,0	15	4		10	6																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	6			16,0	16,0	4	4		6	3																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	7			17,0	16,5	13	8		9	6																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	8			17,0	15,5	8	4		9	5																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	9			27,5	15,5	11	6		11	6																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	10			18,5	14,5	30	36		19	11																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	11			16,0	8,5	27	10		14	7																				
+Gud	Ver_off	Extant	3	2	2018	03.09.2018	RG	12			18,0	7,5	72	12		28	11																				
+Gud	Vio_can	Extant	3	2	2018	03.09.2018	RG	1			27,5	17,5	18	3		16	9																				
+Gud	Vio_can	Extant	3	2	2018	03.09.2018	RG	2			26,5	6,5	25	4		24	18																				
+Gud	Ver_off	Extant	3	6	2018	03.09.2018	ELE	1			6,5	17,5	103	34		23	10																				
+Gud	Ver_off	Extant	3	6	2018	03.09.2018	ELE	2			7,0	8,0	39	16		18	9																				
+Gud	Vio_can	Extant	3	6	2018	03.09.2018	ELE	1			17,5	17,5	14	10		16	12																				
+Gud	Vio_can	Extant	3	6	2018	03.09.2018	ELE	2			17,5	8,0	19	8		17	14											1									
+Låv	Car_pil	Extant	1	2	2018	14.09.2018		1			5,0	19,0		6		85																	10				
+Låv	Car_pil	Extant	1	2	2018	14.09.2018		2			6,0	18,5		6		186																	9				
+Låv	Car_pil	Extant	1	2	2018	14.09.2018		3			5,5	18,0		4		101																	14				
+Låv	Car_pil	Extant	1	2	2018	14.09.2018		4			5,5	9,5		12		111																					
+Gud	Ver_off	Extant	4	6	2018	04.09.2018	RG	1			14,5	17,0	54,0	34		20	11																				with two branches, but not rooted
+Gud	Ver_off	Extant	4	6	2018	04.09.2018	RG	2			15	9,0	44,0	12		19	10																				
+Gud	Ver_off	Extant	4	6	2018	04.09.2018	RG	3		1	17	8,5	3,0	12		21	12																				
+Gud	Ver_off	Extant	4	6	2018	04.09.2018	RG	4	3	1	16,5	7,0	3,0	4		4	3																				
+Gud	Vio_can	Extant	4	6	2018	04.09.2018	RG	1			25,5	17,5	17	2		16	12																				one leaf gone
+Gud	Vio_can	Extant	4	6	2018	04.09.2018	RG	2			26,5	17,5	15	5		21	18																				
+Gud	Vio_can	Extant	4	6	2018	04.09.2018	RG	3			26,5	7,0	17	3		18	15																				
+Gud	Ver_off	Extant	5	1	2018	03.09.2018	SO	1			7,0	17,0	7	26		21	16											17									
+Gud	Ver_off	Extant	5	1	2018	03.09.2018	SO	2			7,0	9,0	31	35		15	7																				
+Gud	Vio_can	Extant	5	1	2018	03.09.2018	SO	1			16,0	18,5	11	14		28	20																				
+Gud	Vio_can	Extant	5	1	2018	03.09.2018	SO	2			16,5	7,5	17	3		8	11																				
+Gud	Vio_can	Extant	5	1	2018	03.09.2018	SO	3			16,0	7,0	21	2		8	7																				
+Låv	Car_pil	Extant	1	2	2018	14.09.2018		5			6,5	8,5		4		2																					
+Låv	Car_pil	Extant	1	2	2018	14.09.2018		6			8,0	9,5		12		91																	14				
+Låv	Car_pil	Extant	1	2	2018	14.09.2018		7			7,5	7,0		?		?																	11				
+Låv	Car_pil	Extant	1	4	2018	14.09.2018		1			16,5	16,0		10		109																	12				2 shoots
+Gud	Ver_off	Extant	5	5	2018	04.09.2018	ELE	1			7,0	19,0	18	6		8	4																				
+Gud	Ver_off	Extant	5	5	2018	04.09.2018	ELE	2			7,0	18,0	11	6		8	4																				
+Gud	Ver_off	Extant	5	5	2018	04.09.2018	ELE	3			7,5	17,0	22	12		5	6																				
+Gud	Ver_off	Extant	5	5	2018	04.09.2018	ELE	4			9,0	17,0	30	12		15	7																				
+Gud	Ver_off	Extant	5	5	2018	04.09.2018	ELE	5			7,5	8,0	55	18		25	16																				
+Gud	Vio_can	Extant	5	5	2018	04.09.2018	ELE	1			18,0	17,5	17	9		21	16																				
+Gud	Vio_can	Extant	5	5	2018	04.09.2018	ELE	2			17,0	8,0	9	2		7	7																				
+Gud	Vio_can	Extant	5	5	2018	04.09.2018	ELE	3			18,0	7,5	15	6		22	16											1									
+Låv	Car_pil	Extant	1	4	2018	14.09.2018		2			16,5	7,0		4		30																					tip missing
+Låv	Car_pil	Extant	1	4	2018	14.09.2018		3			18,0	7,0		11		83																	40				2 shoots
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	1			18,0	19,5		3		55																					
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	2			19,0	19,0		6		95																1	21				
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	3			18,5	18,5		5		160																					
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	4			17,0	9,0		7		111																					
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	5			18,0	8,0		7		95																1	21				
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	6			19,0	8,0		8		113																					
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	7			17,0	7,5		6																							neibeitet, målte ikke LL
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	8			18,5	7,0		8																							neibeitet, målte ikke LL
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	9			16,5	7,0		5																							neibeitet, målte ikke LL
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	10			19,0	6,5		7		75																					
+Låv	Car_pil	Extant	2	2	2018	11.09.2018	SO	11						7		76																1	21				
+Låv	Car_pil	Extant	2	6	2018	14.09.2018		1			6,0	19,0		17		108																3	18				
+Låv	Car_pil	Extant	2	6	2018	14.09.2018		2			8,0	19,5		4		77																1	17				
+Låv	Car_pil	Extant	2	6	2018	14.09.2018		3			7,5	18,5		4		52																					
+Låv	Car_pil	Extant	2	6	2018	14.09.2018		4			6,5	7,5		21		128																3	24				
+Låv	Car_pil	Extant	2	6	2018	14.09.2018		5			7,0	6,0		3		70																1	11				
+Låv	Car_pil	Extant	3	1	2018	11.09.2018	RG	1		1	16,5	19,0		10		141																	12				
+Låv	Car_pil	Extant	3	1	2018	11.09.2018	RG	2		1	17,5	15,5		10		125																	11				
+Låv	Car_pil	Extant	3	1	2018	11.09.2018	RG	3		2	17,0	8,5		8		141																	11				
+Låv	Car_pil	Extant	3	1	2018	11.09.2018	RG	4		2	17,5	7,5		7		148																					
+Gud	Vio_can	Extant	6	6	2018	03.09.2018	SO	1			8,0	17,5	28	5		24	19																				
+Gud	Vio_can	Extant	6	6	2018	03.09.2018	SO	2			8,0	7,5	14	3		21	18																				
+Gud	Ver_off	Extant	6	6	2018	03.09.2018	SO	1			28,5	18,0	48	10		27	15											4				1					
+Gud	Ver_off	Extant	6	6	2018	03.09.2018	SO	2	1		28,0	17,5	50	10		20	11											4				1					
+Gud	Ver_off	Extant	6	6	2018	03.09.2018	SO	3			27,0	8,0	44	10		20	11											6				1					
+Låv	Car_pil	Extant	3	1	2018	11.09.2018	RG	5		2	15,0	8,0		5		63																	10				
+Låv	Car_pil	Extant	3	1	2018	11.09.2018	RG	6		2	15,5	7,0		7		130																					
+Låv	Car_pil	Extant	3	4	2018	11.09.2018	RG	1			18,5	18,5		16		140																					
+Låv	Car_pil	Extant	3	4	2018	11.09.2018	RG	2			18,5	16,5		14		131																					flowering not possible to measure
+Låv	Car_pil	Extant	3	4	2018	11.09.2018	RG	3			17,5	7,5		10		179																	15				
+Låv	Car_pil	Extant	5	3	2018	14.09.2018		1			17,0	19,0		16		89																3	19				
+Låv	Car_pil	Extant	5	3	2018	14.09.2018		2			16,0	20,0		6		74																					
+Gud	Ver_off	Extant	7	2	2018	03.09.2018	RG	1			7,5	18,5	ca 20	7		22	14											21			3						
+Gud	Ver_off	Extant	7	2	2018	03.09.2018	RG	2			7,5	9,0	ca 20	14		14	7																				
+Gud	Ver_off	Extant	7	2	2018	03.09.2018	RG	3		1	5,5	6,0	35	14		15	9																				
+Gud	Ver_off	Extant	7	2	2018	03.09.2018	RG	4		1	6,0	5,5	10	4		11	5																				
+Gud	Ver_off	Extant	7	2	2018	03.09.2018	RG	5		1	7,5	5,0	7	9		13	5																				
+Låv	Car_pil	Extant	5	3	2018	14.09.2018		3			17,0	21,0		7		84																					
+Låv	Car_pil	Extant	5	3	2018	14.09.2018		4			17,5	20,5		3		78																					
+Låv	Car_pil	Extant	5	3	2018	14.09.2018		5			18,5	19,5		5		70																					
+Låv	Car_pil	Extant	5	3	2018	14.09.2018		6			17,5	10,5		7		114																	17				
+Låv	Car_pil	Extant	5	3	2018	14.09.2018		7			18,0	9,5		12		125																2	15				
+Gud	Vio_can	Extant	7	2	2018	03.09.2018	RG	1			26,0	17,5	19	3		19	16																				
+Gud	Vio_can	Extant	7	2	2018	03.09.2018	RG	2			27,0	9,0	24	3		23	23																				
+Gud	Vio_can	Extant	7	2	2018	03.09.2018	RG	3			26,5	8,0	22	3		22	22																				
+Gud	Ver_off	Extant	7	4	2018	03.09.2018	ELE	1			7,0	7,5	37	16		15	10																				
+Gud	Ver_off	Extant	7	4	2018	03.09.2018	ELE	2			8,0	8,0	38	14		14	10																				
+Gud	Ver_off	Extant	7	4	2018	03.09.2018	ELE	3			6,0	6,0	15	10		11	7																				
+Gud	Vio_can	Extant	7	4	2018	03.09.2018	ELE	1			18,0	17,0	15	5		25	18																				
+Gud	Vio_can	Extant	7	4	2018	03.09.2018	ELE	2			18,0	7,0	18	5		22	18																				
+Låv	Car_pil	Extant	5	3	2018	14.09.2018		8			17,0	7,5		18		152																3					3 shoots grazed flowers shoots
+Låv	Car_pil	Extant	5	3	2018	14.09.2018		9			19,0	8,0		4		18																					new shoots/grazed
+Låv	Car_pil	Extant	5	6	2018	14.09.2018	IA	1			7,0	18,5		26		151																	5				4 shoots/grazed
+Låv	Car_pil	Extant	5	6	2018	14.09.2018	IA	2			7,0	7,5		15		162																	9				
+Låv	Car_pil	Extant	5	6	2018	14.09.2018	IA	3			8,5	6,5		16		158																					3 shoots
+Låv	Car_pil	Extant	6	6	2018	14.09.2018		1			7,5	17,5		9		121																					
+Låv	Car_pil	Extant	6	6	2018	14.09.2018		2			8,5	16,0		9		95																					
+Låv	Car_pil	Extant	6	6	2018	14.09.2018		3			6,0	9,5		6		153																	12				1 shoots
+Låv	Car_pil	Extant	6	6	2018	14.09.2018		4			6,0	8,0		4		67																	15				
+Ulv	Vio_can	Extant	1	4	2018	13.09.2018	IA & RG	1			5,0	19,0	29	8		21	20																				
+Ulv	Vio_can	Extant	1	4	2018	13.09.2018	IA & RG	2			4,5	17,5	25	9		25	27																				
+Ulv	Vio_can	Extant	1	4	2018	13.09.2018	IA & RG	3			7,0	18,5	30	7		31	32																				
+Ulv	Vio_can	Extant	1	4	2018	13.09.2018	IA & RG	4			6,5	9,0	22	11		32	24																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	1			15,5	18,5	4	5		10	5																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	2			16,5	18,5	9	8		10	6																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	3			17,0	17,5	8	9		9	6																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	4			17,5	18,5	4	5		5	4																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	5			18,0	17,5	15	11		14	8																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	6			18,0	16,5	4	6		8	5																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	7			19,0	17,0	14	6		14	8																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	8			16,0	7,0	12	9		16	8																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	9			17,0	7,0	18	15		20	11																				
+Ulv	Ver_off	Extant	1	4	2018	13.09.2018	IA & RG	10			16,5	9,0	15	11		19	10																				
+Låv	Car_pil	Extant	6	6	2018	14.09.2018		5			8,0	8,5		6																							grazed
+Låv	Car_pil	Extant	7	2	2018	14.09.2018		1			6,5	17,0		1		35																					grazed
+Låv	Car_pil	Extant	7	2	2018	14.09.2018		2			5,5	18,5		19		110																					4 shoots
+Ulv	Ver_off	Extant	1	3	2018	13.09.2018	RG/BM	1		1	6,5	17,0	28	11		18	12											7			7						
+Ulv	Ver_off	Extant	1	3	2018	13.09.2018	RG/BM	2		1	7,0	16,5	31	20		18	11											11			2						
+Ulv	Ver_off	Extant	1	3	2018	13.09.2018	RG/BM	3			9,0	9,0	140	33		24	14																				very long rooted 0,3
+Ulv	Ver_off	Extant	1	3	2018	13.09.2018	RG/BM	4	3		8,5	8,0	4	4		4	3																				
+Ulv	Ver_off	Extant	1	3	2018	13.09.2018	RG/BM	5	3		8,0	7,5	17	8		11	6																				
+Ulv	Ver_off	Extant	1	3	2018	13.09.2018	RG/BM	6	3		7,5	6,5	15	9		13	9																				
+Ulv	Ver_off	Extant	1	3	2018	13.09.2018	RG/BM	7	3		7,5	5,5	18	10		15	8																				
+Ulv	Vio_can	Extant	1	3	2018	13.09.2018	RG/BM	1			17,0	17,0	22	8		28	21																				
+Ulv	Vio_can	Extant	1	3	2018	13.09.2018	RG/BM	2			18,5	17,5	30	9		23	17																				2 shoots
+Ulv	Vio_can	Extant	1	3	2018	13.09.2018	RG/BM	3			16,0	8,0	31	8		30	25																				
+Ulv	Vio_can	Extant	1	3	2018	13.09.2018	RG/BM	4			17,0	6,5	5	23		30	28																				
+Låv	Car_pil	Extant	7	2	2018	14.09.2018		3			8,0	18,0		30		115																1	17				3 shoots
+Låv	Car_pil	Extant	7	2	2018	14.09.2018		4			8,0	15,5		5		106																					
+Låv	Car_pil	Extant	7	2	2018	14.09.2018		5			6,5	8,0		22		89																	11				4 shoots
+Låv	Car_pil	Extant	7	2	2018	14.09.2018		6			7,5	7,5		9		137																					1 shoot
+Låv	Car_pil	Extant	7	2	2018	14.09.2018		7			8,0	5,5		5		50																					top
+Gud	Car_pil	Extant	1	4	2018	03.09.2018	SO	1			17,0	19,5		4		80																					
+Gud	Car_pil	Extant	1	4	2018	03.09.2018	SO	2			17,5	19,5		8		184																1	27				
+Gud	Car_pil	Extant	1	4	2018	03.09.2018	SO	3			18,0	20,0		4		71																					
+Gud	Car_pil	Extant	1	4	2018	03.09.2018	SO	4			18,0	9,0		4		85																1	23				
+Gud	Car_pil	Extant	1	4	2018	03.09.2018	SO	5			18,0	8,5		6		121																					
+Gud	Car_pil	Extant	1	4	2018	03.09.2018	SO	6			17,0	7,5		8		101																					
+Gud	Car_pil	Extant	1	4	2018	03.09.2018	SO	7			17,0	7,0		5		76																					
+Gud	Car_pil	Extant	1	4	2018	03.09.2018	SO	8			17,5	6,5		9		101																					
+Ulv	Ver_off	Extant	2	2	2018	13.09.2018	RG/BM	1		1	8,0	16,5	17	9		30	8																				
+Ulv	Ver_off	Extant	2	2	2018	13.09.2018	RG/BM	2		1	8,5	16,5	12	4		9	7																				
+Ulv	Ver_off	Extant	2	2	2018	13.09.2018	RG/BM	3	6	2	9,0	17,0	8	8		8	6																				
+Ulv	Ver_off	Extant	2	2	2018	13.09.2018	RG/BM	4	6	2	10,0	17,5	15	8		12	7																				
+Ulv	Ver_off	Extant	2	2	2018	13.09.2018	RG/BM	5	6	2	10,0	19,0	25	10		15	7																				
+Ulv	Ver_off	Extant	2	2	2018	13.09.2018	RG/BM	6		2	10,5	16,5	12	11		18	11																				
+Ulv	Ver_off	Extant	2	2	2018	13.09.2018	RG/BM	7		3	8,0	6,5	34	40		17	10																				
+Ulv	Ver_off	Extant	2	2	2018	13.09.2018	RG/BM	8		3	9,0	6,0	20	10		17	9																				
+Ulv	Ver_off	Extant	2	2	2018	13.09.2018	RG/BM	9		3	9,0	8,0	6	3		10	5																				
+Gud	Car_pil	Extant	2	3	2018	03.09.2018	ELE/RG	1			27,0	18,0		10		84																	18				
+Gud	Car_pil	Extant	2	3	2018	03.09.2018	ELE/RG	2			28,0	17,5		7		141																					
+Gud	Car_pil	Extant	2	3	2018	03.09.2018	ELE/RG	3			28,5	8,0		10		134																	22				
+Gud	Car_pil	Extant	2	3	2018	03.09.2018	ELE/RG	4			29,0	7,5		5		113																					
+Gud	Car_pil	Extant	3	2	2018	03.09.2018	RG	1			6,5	17,5		7		96																					avblomstret
+Ulv	Vio_can	Extant	2	2	2018	13.09.2018	RG/BM	1			26,5	16,5	15	8		26	24																				
+Ulv	Vio_can	Extant	2	2	2018	13.09.2018	RG/BM	2			28,0	17,5	80	7		29	22																				
+Ulv	Vio_can	Extant	2	2	2018	13.09.2018	RG/BM	3			27,5	16,5	7	2		7	5																				juvenile
+Ulv	Vio_can	Extant	2	2	2018	13.09.2018	RG/BM	4			26,5	6,0	39	6		37	30																				
+Ulv	Vio_can	Extant	2	2	2018	13.09.2018	RG/BM	5			27,5	7,0	26	4		30	26																				
+Ulv	Vio_can	Extant	2	2	2018	13.09.2018	RG/BM	6			29,0	6,0	23	4		26	22																				
+Ulv	Vio_can	Extant	2	2	2018	13.09.2018	RG/BM	7			17,0	17,0	17	2		12	12																				
+Gud	Car_pil	Extant	3	2	2018	03.09.2018	RG	2			7,0	17,0		6		92																					
+Gud	Car_pil	Extant	3	2	2018	03.09.2018	RG	3			6,0	16,0		6		64																					
+Gud	Car_pil	Extant	3	2	2018	03.09.2018	RG	4			6,5	15,5		3		73																	13				
+Gud	Car_pil	Extant	3	2	2018	03.09.2018	RG	5			7,0	15,0		4		47																					
+Gud	Car_pil	Extant	3	2	2018	03.09.2018	RG	6			7,5	15,5		7		110																					avblomstret
+Gud	Car_pil	Extant	3	2	2018	03.09.2018	RG	7			8,0	8,0		10		178																	8				
+Gud	Car_pil	Extant	3	2	2018	03.09.2018	RG	8			8,5	7,0		4		69																					
+Gud	Car_pil	Extant	3	6	2018	03.09.2018	ELE	1			28,0	19,0		9		69																					aks/topp borte
+Gud	Car_pil	Extant	3	6	2018	03.09.2018	ELE	2			28,0	18,0		12		151																					
+Gud	Car_pil	Extant	3	6	2018	03.09.2018	ELE	3			27,5	8,0		8		158																	33				
+Gud	Car_pil	Extant	3	6	2018	03.09.2018	ELE	4			27,5	7,5		11		171																	19				
+Gud	Car_pil	Extant	3	6	2018	03.09.2018	ELE	5			29,0	18,5		8		160																					
+Gud	Car_pil	Extant	3	6	2018	03.09.2018	ELE	6			25,0	7,5		6		39																	19				
+Gud	Car_pil	Extant	4	6	2018	04.09.2018	RG	1			6,0	18,0		6		79																					
+Gud	Car_pil	Extant	4	6	2018	04.09.2018	RG	2			6,5	17,5		6		76																	?				avblomstret
+Gud	Car_pil	Extant	4	6	2018	04.09.2018	RG	3		2	4,5	7,0		6		88																2	6				Two (one with onlu leaves, and one with a stem, but to close to seperate)
+Gud	Car_pil	Extant	4	6	2018	04.09.2018	RG	4		2	5,0	8,0		4		67																					
+Gud	Car_pil	Extant	4	6	2018	04.09.2018	RG	5		2	6,0	8,5		4		55																					
+Gud	Car_pil	Extant	4	6	2018	04.09.2018	RG	6		2	7,0	8,5		11		70																3	16				3 stems (one with flower)
+Ulv	Ver_off	Extant	3	5	2018	13.09.2018	SO	1			16,0	18,0	30	10		16	11																				
+Ulv	Ver_off	Extant	3	5	2018	13.09.2018	SO	2			17,0	17,0	20	10		27	8																				
+Ulv	Ver_off	Extant	3	5	2018	13.09.2018	SO	3			18,5	17,0	5	4		9	7																				
+Ulv	Ver_off	Extant	3	5	2018	13.09.2018	SO	4			17,0	8,0	36	14		20	11																				
+Ulv	Vio_can	Extant	3	5	2018	13.09.2018	SO	1			26,5	18,0	29	6		35	25																				
+Ulv	Vio_can	Extant	3	5	2018	13.09.2018	SO	2			28,0	18,5	27	9		31	25																				
+Ulv	Vio_can	Extant	3	5	2018	13.09.2018	SO	3			26,5	9,0	21	8		30	22																				
+Ulv	Vio_can	Extant	3	5	2018	13.09.2018	SO	4			27,5	9,5	22	6		24	16																				
+Ulv	Vio_can	Extant	3	5	2018	13.09.2018	SO	5			26,5	8,5	21	8		30	21																				
+Ulv	Vio_can	Extant	3	5	2018	13.09.2018	SO	6			28,5	8,5	16	4		25	13																				
+Ulv	Vio_can	Extant	3	5	2018	13.09.2018	SO	7			27,0	7,5	20	3		22	17																				
+Ulv	Ver_off	Extant	4	1	2018	13.09.2018	RG	1			7,5	17,5	31	16		22	11																				
+Ulv	Ver_off	Extant	4	1	2018	13.09.2018	RG	2			6,5	9,0	37	13		19	11																				
+Ulv	Ver_off	Extant	4	1	2018	13.09.2018	RG	3			8,5	8,5	8	6		8	5																				
+Ulv	Vio_can	Extant	4	1	2018	13.09.2018	RG	1			16,0	17,5	22	6		23	26																				
+Ulv	Vio_can	Extant	4	1	2018	13.09.2018	RG	2			16,5	18,5	12	4		21	17																				
+Ulv	Vio_can	Extant	4	1	2018	13.09.2018	RG	3			17,0	16,5	18	3		20	16																				
+Ulv	Vio_can	Extant	4	1	2018	13.09.2018	RG	4			18,0	17,0	16	15		30	26																				2 shoots
+Ulv	Vio_can	Extant	4	1	2018	13.09.2018	RG	5			17,0	8,0	22	11		26	25																				
+Ulv	Vio_can	Extant	4	1	2018	13.09.2018	RG	6			16,5	6,5	12	3		19	17																				
+Ulv	Vio_can	Extant	4	1	2018	13.09.2018	RG	7			17,5	7,0	16	10		25	21																				3 shoots
+Gud	Car_pil	Extant	4	6	2018	04.09.2018	RG	7		2	8,0	7,0		4		48																1	13				
+Gud	Car_pil	Extant	5	1	2018	03.09.2018	SO	1			27,0	19,0		13		92																1	20				
+Gud	Car_pil	Extant	5	1	2018	03.09.2018	SO	2			28,5	18,5		5		171																					
+Gud	Car_pil	Extant	5	1	2018	03.09.2018	SO	3			27,0	8,0		9		100																1	14				
+Gud	Car_pil	Extant	5	1	2018	03.09.2018	SO	4			28,0	7,5		8		110																	10				
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	1			28,5	20,0		7		86																	24				
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	2			29,5	19,5		3		30																					
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	3			27,5	19,0		5		38																					grazed/cut
+Ulv	Ver_off	Extant	4	4	2018	13.09.2018	RG	1		1	7,0	16,0	93	72		17	10																				(many shoots, will not be able to separate)
+Ulv	Ver_off	Extant	4	4	2018	13.09.2018	RG	2	1	1	7,0	18,0	42	9		18	10																				
+Ulv	Ver_off	Extant	4	4	2018	13.09.2018	RG	3			9,0	17,5	18	6		11	7																				
+Ulv	Ver_off	Extant	4	4	2018	13.09.2018	RG	4	5		7,0	5,0	28	22		22	10																				
+Ulv	Ver_off	Extant	4	4	2018	13.09.2018	RG	5			6,0	6,5	ca 90	28		10	7																				
+Ulv	Vio_can	Extant	4	4	2018	13.09.2018	RG	1			15,5	15,5	17	18		31	25																				a group of many
+Ulv	Vio_can	Extant	4	4	2018	13.09.2018	RG	2			16,0	7,0	22	2		20	16																				
+Ulv	Vio_can	Extant	4	4	2018	13.09.2018	RG	3			18,5	6,5	32	5		26	26																				long and narrow leaves
+Ulv	Vio_can	Extant	4	4	2018	13.09.2018	RG	4			17,0	8,0	22	3		18	16																				
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	4			28,0	18,0		8		83																					
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	5			28,0	17,0		5		71																	27				
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	6			27,5	16,0		8		94																					
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	7			28,5	16,0		9		57																	26				
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	8			27,5	8,0		13		103																					
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	9			27,5	7,0		5		40																	21				
+Gud	Car_pil	Extant	5	5	2018	04.09.2018	ELE	10			29,0	17,5		5		70																					
+Gud	Car_pil	Extant	6	6	2018	03.09.2018	SO	1		1	18,0	19,0		11		103																					
+Gud	Car_pil	Extant	6	6	2018	03.09.2018	SO	2		1	17,5	18,5		3		40																1	13				
+Gud	Car_pil	Extant	6	6	2018	03.09.2018	SO	3		1	19,0	18,5		8		63																					
+Ulv	Vio_can	Extant	5	3	2018	13.09.2018	RG	1			15,5	20,0	18	11		28	26																				3 shoots
+Ulv	Vio_can	Extant	5	3	2018	13.09.2018	RG	2			16,0	19,0	25	4		27	25																				
+Ulv	Vio_can	Extant	5	3	2018	13.09.2018	RG	3			16,0	17,0	24	7		28	26																				
+Ulv	Vio_can	Extant	5	3	2018	13.09.2018	RG	4			16,0	8,0	37	10		31	27											1									2 shoots
+Ulv	Vio_can	Extant	5	3	2018	13.09.2018	RG	5			17,5	7,5	35	6		24	23											1									2 shoots
+Ulv	Vio_can	Extant	5	3	2018	13.09.2018	RG	6			18,5	8,5	37	7		29	26																				
+Ulv	Ver_off	Extant	5	3	2018	13.09.2018	RG	1	2		27,0	18,0	38	23		20	11	3																			
+Ulv	Ver_off	Extant	5	3	2018	13.09.2018	RG	2			25,0	17,5	28	14		21	11																				
+Ulv	Ver_off	Extant	5	3	2018	13.09.2018	RG	3			26,5	10,0	10	4		8	6																				
+Ulv	Ver_off	Extant	5	3	2018	13.09.2018	RG	4	7		25,5	8,5	12	4		11	7																				
+Ulv	Ver_off	Extant	5	3	2018	13.09.2018	RG	5	7		27,0	10,5	43	12		20	11																				
+Ulv	Ver_off	Extant	5	3	2018	13.09.2018	RG	6	7		27,5	9,5	28	12		18	9																				
+Ulv	Ver_off	Extant	5	3	2018	13.09.2018	RG	7			28,0	10,0	45	4		12	6																				
+Gud	Car_pil	Extant	6	6	2018	03.09.2018	SO	4		1	17,0	17,0		8		89																					
+Gud	Car_pil	Extant	6	6	2018	03.09.2018	SO	5		2	17,0	9,0		7		95																1	14				
+Gud	Car_pil	Extant	6	6	2018	03.09.2018	SO	6		2	17,5	8,0		7		71																					
+Gud	Car_pil	Extant	7	4	2018	03.09.2018	ELE	1			27,0	19,0		6		126																					
+Gud	Car_pil	Extant	7	4	2018	03.09.2018	ELE	2			28,0	18,0		10		86																	21				
+Gud	Car_pil	Extant	7	4	2018	03.09.2018	ELE	3			27,5	7,0		2		45																	14				
+Gud	Car_pil	Extant	7	4	2018	03.09.2018	ELE	4			30,0	7,5		4		168																					
+Ulv	Car_pil	Extant	1	4	2018	13.09.2018	IA & RG	1			26,5	19,0		3		74																					
+Ulv	Car_pil	Extant	1	4	2018	13.09.2018	IA & RG	2			28,0	16,5		17		138																					2 shoots (cut off)
+Ulv	Car_pil	Extant	1	4	2018	13.09.2018	IA & RG	3			28,0	8,5		9		85																	6				
+Ulv	Ver_off	Extant	6	1	2018	13.09.2018	SO	1			9,0	16,0	55	24		28	18											18									
+Ulv	Ver_off	Extant	6	1	2018	13.09.2018	SO	2			9,5	15,0	8	35		22	14																				
+Ulv	Ver_off	Extant	6	1	2018	13.09.2018	SO	3			9,0	6,0	14	54		25	14																				
+Ulv	Vio_can	Extant	6	1	2018	13.09.2018	SO	1			18,0	18,0	7	22		38	22																				
+Ulv	Vio_can	Extant	6	1	2018	13.09.2018	SO	2			17,5	6,0	3	19		27	20																				
+Ulv	Vio_can	Extant	6	1	2018	13.09.2018	SO	3			18,5	5,5	6	20		28	20																				
+Ulv	Car_pil	Extant	1	3	2018	13.09.2018	RG/BM	1			27,5	19,0		9		78																	10				
+Ulv	Car_pil	Extant	1	3	2018	13.09.2018	RG/BM	2			27,0	9,0		8		104																					
+Ulv	Car_pil	Extant	1	3	2018	13.09.2018	RG/BM	3			27,5	6,0		10		120																					2 shoots
+Ulv	Car_pil	Extant	2	2	2018	13.09.2018	RG/BM	1			16,0	17,5		11		134																					2 shoot
+Ulv	Car_pil	Extant	2	2	2018	13.09.2018	RG/BM	2			17,5	16,0		17		154																	18				3 shoot
+Ulv	Car_pil	Extant	2	2	2018	13.09.2018	RG/BM	3			15,5	7,5		12		138																					3 shoot
+Ulv	Car_pil	Extant	2	2	2018	13.09.2018	RG/BM	4			16,0	6,5		12		150																					2 shoot
+Ulv	Car_pil	Extant	2	2	2018	13.09.2018	RG/BM	5			17,0	5,5		8		112																	30				lose no survive 2 shoot
+Ulv	Car_pil	Extant	3	5	2018	13.09.2018	SO	1			7,5	19,5		33		209																	16				
+Ulv	Car_pil	Extant	3	5	2018	13.09.2018	SO	2			8,5	18,0		22		241																					
+Ulv	Car_pil	Extant	3	5	2018	13.09.2018	SO	3			7,0	9,0		13		120																	11				
+Ulv	Car_pil	Extant	3	5	2018	13.09.2018	SO	4			7,5	6,5		8		87																	13				
+Ulv	Car_pil	Extant	4	1	2018	13.09.2018	RG	1			27,5	18,0		16		92																	15				3 shoots
+Ulv	Car_pil	Extant	4	1	2018	13.09.2018	RG	2			26,0	8,5		23		85																	11				5 shoots
+Ulv	Vio_can	Extant	6	5	2018	13.09.2018	SO	1			8,0	18,5	27	2		26	18																				
+Ulv	Vio_can	Extant	6	5	2018	13.09.2018	SO	2			7,5	17,5	31	4		25	20																				
+Ulv	Vio_can	Extant	6	5	2018	13.09.2018	SO	3			8,0	9,0	23	8		38	33																				
+Ulv	Car_pil	Extant	4	4	2018	13.09.2018	RG	1			25,5	16,0		3		95																					3 leaves
+Ulv	Car_pil	Extant	4	4	2018	13.09.2018	RG	2			27,0	16,5		13		120																					2 shoots
+Ulv	Car_pil	Extant	4	4	2018	13.09.2018	RG	3			27,0	7,0		10		157																	10				2 shoots
+Ulv	Car_pil	Extant	5	3	2018	13.09.2018	RG	1			6,0	18,0		8		91																	14				
+Ulv	Ver_off	Extant	6	5	2018	13.09.2018	SO	1			27,5	17,5	35	24		12	9																				
+Ulv	Ver_off	Extant	6	5	2018	13.09.2018	SO	2			28,0	17,0	15	10		10	7																				
+Ulv	Ver_off	Extant	6	5	2018	13.09.2018	SO	3			28,0	8,0	10	8		12	6																				
+Ulv	Ver_off	Extant	6	5	2018	13.09.2018	SO	4			28,5	6,5	20	18		19	9																				
+Ulv	Vio_can	Extant	7	2	2018	12.09.2018	RG	1			16,5	16,5	26	5		32	28																				
+Ulv	Vio_can	Extant	7	2	2018	12.09.2018	RG	2			18,0	15,5	39	9		38	34																				
+Ulv	Vio_can	Extant	7	2	2018	12.09.2018	RG	3			17,0	6,0	29	25		31	27																				many at the same spot
+Ulv	Ver_off	Extant	7	2	2018	12.09.2018	RG	1	2		27,5	19,0	34	8		21	11																				
+Ulv	Ver_off	Extant	7	2	2018	12.09.2018	RG	2			29,0	17,0	60	10		19	11																				
+Ulv	Ver_off	Extant	7	2	2018	12.09.2018	RG	3	4		27,5	8,5	12	6		11	5																				
+Ulv	Ver_off	Extant	7	2	2018	12.09.2018	RG	4			27,5	7,0	34	9		15	8																				
+Ulv	Car_pil	Extant	5	3	2018	13.09.2018	RG	2			8,0	19,5		5		121																					2 shoots
+Ulv	Car_pil	Extant	5	3	2018	13.09.2018	RG	3			7,0	17,0		9		53																	12				2 shoots
+Ulv	Car_pil	Extant	5	3	2018	13.09.2018	RG	4			8,5	18,0		9		84																					3 shoots
+Ulv	Car_pil	Extant	5	3	2018	13.09.2018	RG	5			8,5	7,0		9		97																	8				2 shoots
+Ulv	Car_pil	Extant	5	3	2018	13.09.2018	RG	6			10,0	8,0		13		116																					2shoot
+Ulv	Car_pil	Extant	5	3	2018	13.09.2018	RG	7			9,5	6,5		5		20																					chewed up/graxed
+Ulv	Car_pil	Extant	6	1	2018	13.09.2018	SO	1			28,0	17,5		38		116																	14				
+Ulv	Car_pil	Extant	6	1	2018	13.09.2018	SO	2			26,5	6,0		10		74																	14				
+Ulv	Car_pil	Extant	6	5	2018	13.09.2018	SO	1			17,0	16,5		18		87																					beitet på
+Ulv	Car_pil	Extant	6	5	2018	13.09.2018	SO	2			18,5	15,5		10		79																					beitet på
+Ulv	Car_pil	Extant	6	5	2018	13.09.2018	SO	3			18,0	7,5		19		60																1	17				
+Ulv	Car_pil	Extant	6	5	2018	13.09.2018	SO	4			17,5	6,0		29		92																2	35	20+15			
+Ulv	Car_pil	Extant	7	2	2018	12.09.2018	RG	1			8,0	17,5		94		140																4	54	21+10+7+16			
+Ulv	Car_pil	Extant	7	2	2018	12.09.2018	RG	2			7,5	9,0		8		66																					
+Ulv	Car_pil	Extant	7	2	2018	12.09.2018	RG	3			6,5	7,5		9		83																1	24				
+Skj	Vio_can	Extant	2	1	2018	01.09.2018	ELE	1			27,5	18,0	21	7		22	16																				
+Skj	Vio_can	Extant	2	1	2018	01.09.2018	ELE	2			27,5	7,5	21	4		19	15																				
+Skj	Ver_off	Extant	2	1	2018	01.09.2018	ELE	1			7,0	17,0	48	17		10																					
+Skj	Ver_off	Extant	2	1	2018	01.09.2018	ELE	2			8,0	18,0	40	16		10																					
+Skj	Ver_off	Extant	2	1	2018	01.09.2018	ELE	3			7,0	8,0	17	15		9																					
+Skj	Ver_off	Extant	2	1	2018	01.09.2018	ELE	4			9,0	8,0	14	10		5																					
+Skj	Car_pil	Extant	2	1	2018	01.09.2018	ELE	1			18,0	17,0		6		127																					uten blomsterskudd
+Skj	Car_pil	Extant	2	1	2018	01.09.2018	ELE	2			19,5	17,5		4		104																1	23				
+Skj	Car_pil	Extant	2	1	2018	01.09.2018	ELE	3			17,0	7,5		7		66																1	20				uten blomsterskudd
+Skj	Car_pil	Extant	2	1	2018	01.09.2018	ELE	4			17,5	7,0		5		79																					
+Skj	Ver_off	Extant	2	6	2018	01.09.2018	RG	1			8,0	17,5	60	17		25	15											46	27	19		2					
+Skj	Ver_off	Extant	2	6	2018	01.09.2018	RG	2		1	5,0	10,0	5	3		9	6																				
+Skj	Ver_off	Extant	2	6	2018	01.09.2018	RG	3	2	1	6,0	9,5	44	15		20	10																				
+Skj	Ver_off	Extant	2	6	2018	01.09.2018	RG	4	2	1	7,0	9,0	9	4		6	4																				
+Skj	Ver_off	Extant	2	6	2018	01.09.2018	RG	5		2	5,5	7,5	35	13		29	11																				
+Skj	Ver_off	Extant	2	6	2018	01.09.2018	RG	6	5	2	7,5	7,5	20	9		19	6																				
+Skj	Ver_off	Extant	2	6	2018	01.09.2018	RG	7	5	2	6,5	6,5	8	6		12	6																				
+Skj	Vio_can	Extant	2	6	2018	01.09.2018	RG	1			17,5	26,0	21	5		14	10																				
+Skj	Vio_can	Extant	2	6	2018	01.09.2018	RG	2			8,0	27,0	32	4		19	19																				
+Skj	Car_pil	Extant	2	6	2018	01.09.2018	RG	1			17,5	19,0		11		86																1	26				
+Skj	Car_pil	Extant	2	6	2018	01.09.2018	RG	2			18,0	18,0		7		87																0					
+Skj	Car_pil	Extant	2	6	2018	01.09.2018	RG	3			18,0	17,5		7		94																0					
+Skj	Car_pil	Extant	2	6	2018	01.09.2018	RG	4			17,0	8,0		12		119																1	25				
+Skj	Car_pil	Extant	2	6	2018	01.09.2018	RG	5			18,5	7,0		13		90																0					
+Skj	Car_pil	Extant	2	6	2018	01.09.2018	RG	6			17,0	7,0		8		69																1					topp av skudd mangler
+Skj	Car_pil	Extant	2	6	2018	01.09.2018	RG	7			16,0	7,0		7		76																0					
+Skj	Car_pil	Extant	2	6	2018	01.09.2018	RG	8			15,5	6,5		7		45																0					
+Skj	Ver_off	Extant	3	3	2018	01.09.2018	RG	1			6,0	17,0	100	30		26	17											24									curled
+Skj	Ver_off	Extant	3	3	2018	01.09.2018	RG	2		1	7,0	7,0	29	16		23	11																				
+Skj	Ver_off	Extant	3	3	2018	01.09.2018	RG	3	2	1	7,5	6,5	12	6		12	7																				
+Skj	Ver_off	Extant	3	3	2018	01.09.2018	RG	4	2	1	8,5	7,0	13	5		13	5																				
+Skj	Ver_off	Extant	3	3	2018	01.09.2018	RG	5			10,0	7,5	47	12		21	10																				
+Skj	Ver_off	Extant	3	3	2018	01.09.2018	RG	6	1	2	6,0	17,0	28	11		17	9																				
+Skj	Vio_can	Extant	3	3	2018	01.09.2018	RG	1			26,5	18,5	22	4			9																				could not measure length - too dry
+Skj	Vio_can	Extant	3	3	2018	01.09.2018	RG	2		1	27,0	17,5	19	4		12	10																				
+Skj	Vio_can	Extant	3	3	2018	01.09.2018	RG	3	2	1	26,5	7,0	14	8		17	13																				
+Skj	Vio_can	Extant	3	3	2018	01.09.2018	RG	4	2	1	27,5	7,5	12	5		17	12											1									
+Skj	Vio_can	Extant	3	3	2018	01.09.2018	RG	5			28,0	8,0	12	3		6	5																				
+Skj	Car_pil	Extant	3	3	2018	01.09.2018	RG	1			18,0	17,0		9		94																1	18				
+Skj	Car_pil	Extant	3	3	2018	01.09.2018	RG	2			17,0	9,0		10		101																0					
+Skj	Car_pil	Extant	3	3	2018	01.09.2018	RG	3			17,0	7,5		5		87																1	17				
+Skj	Car_pil	Extant	3	3	2018	01.09.2018	RG	4			18,5	8,0		15		205																1	18				
+Skj	Vio_can	Extant	4	3	2018	01.09.2018	ELE/SO	1			8,0	17,5	25	3		23	24																				
+Skj	Vio_can	Extant	4	3	2018	01.09.2018	ELE/SO	2			7,0	7,5	32	6		19	12																				
+Skj	Ver_off	Extant	4	3	2018	01.09.2018	ELE/SO	1			27,5	18,0	45	16		21	14																				
+Skj	Ver_off	Extant	4	3	2018	01.09.2018	ELE/SO	2			26,0	8,0	25	10		16	11																				
+Skj	Ver_off	Extant	4	3	2018	01.09.2018	ELE/SO	3			28,0	6,0	30	12		20	11																				
+Skj	Car_pil	Extant	4	3	2018	01.09.2018	ELE/SO	1		1	16,5	17,5		10		101																1	21				
+Skj	Car_pil	Extant	4	3	2018	01.09.2018	ELE/SO	2		1	17,0	16,5		6		95																					
+Skj	Car_pil	Extant	4	3	2018	01.09.2018	ELE/SO	3		2	17,0	18,0		8		109																					
+Skj	Car_pil	Extant	4	3	2018	01.09.2018	ELE/SO	4		2	17,0	17,0		15		72																					
+Skj	Car_pil	Extant	4	3	2018	01.09.2018	ELE/SO	5		2	17,0	16,5		9		129																1	9				
+Skj	Ver_off	Extant	4	4	2018	01.09.2018	SO	1			7,0	19,0	55	21		23	12																				
+Skj	Ver_off	Extant	4	4	2018	01.09.2018	SO	2			8,5	8,0	30	17		19	10																				
+Skj	Vio_can	Extant	4	4	2018	01.09.2018	SO	1			28,5	17,5	28	10		14	14																				
+Skj	Vio_can	Extant	4	4	2018	01.09.2018	SO	2			26,5	7,0	41	11		20	17																				
+Skj	Car_pil	Extant	4	4	2018	01.09.2018	SO	1		1	16,0	19,0		6		97																					
+Skj	Car_pil	Extant	4	4	2018	01.09.2018	SO	2	1	1	15,5	18,0		8		101																1	28				
+Skj	Car_pil	Extant	4	4	2018	01.09.2018	SO	3		1	16,0	16,5		12		231																1	20				
+Skj	Car_pil	Extant	4	4	2018	01.09.2018	SO	4			17,5	8,0		4																							nedbeitet, målte ikke ll
+Skj	Car_pil	Extant	4	4	2018	01.09.2018	SO	5			18,0	7,5		5		74																1	9				
+Skj	Ver_off	Extant	3	4	2018	01.09.2018	SO	1			6,0	19,0	25	20		22	10																				
+Skj	Ver_off	Extant	3	4	2018	01.09.2018	SO	2			6,0	7,5	81	20		30	16											19				1					
+Skj	Vio_can	Extant	3	4	2018	01.09.2018	SO	1			26,0	16,0	20	7		19	16																				
+Skj	Vio_can	Extant	3	4	2018	01.09.2018	SO	2			27,0	16,0	18	5		21	16																				
+Skj	Vio_can	Extant	3	4	2018	01.09.2018	SO	3			26,0	7,0	29	2		21	19																				
+Skj	Vio_can	Extant	3	4	2018	01.09.2018	SO	4			27,5	7,5	41	8		22	21																				
+Skj	Car_pil	Extant	3	4	2018	01.09.2018	SO	1		1	17,5	17,0		10		167																					
+Skj	Car_pil	Extant	3	4	2018	01.09.2018	SO	2		1	18,5	17,5		7		215																1	20				
+Skj	Car_pil	Extant	3	4	2018	01.09.2018	SO	3		2	17,5	7,5		8		134																					
+Skj	Car_pil	Extant	3	4	2018	01.09.2018	SO	4		2	17,5	7,0		8		135																1	18				
+Skj	Vio_can	Extant	5	1	2018	01.09.2018	RG	1			8,0	17,5	19	5		13	12																				
+Skj	Vio_can	Extant	5	1	2018	01.09.2018	RG	2			7,5	7,5	59	8		24	24																				
+Skj	Ver_off	Extant	5	1	2018	01.09.2018	RG	1		1	28,0	18,5	57	18		21	11																				
+Skj	Ver_off	Extant	5	1	2018	01.09.2018	RG	2	1	1	27,5	17,0	3	4		9	3																				
+Skj	Ver_off	Extant	5	1	2018	01.09.2018	RG	3	1	1	25,5	16,5	15	8		10	4																				
+Skj	Ver_off	Extant	5	1	2018	01.09.2018	RG	4			25,5	7,5	80	15		21	11																				
+Skj	Ver_off	Extant	5	1	2018	01.09.2018	RG	5			27,0	9,0	50	15		18	11																				
+Skj	Ver_off	Extant	5	1	2018	01.09.2018	RG	6	5	2	28,0	7,5	4	6		5	2																				
+Skj	Ver_off	Extant	5	1	2018	01.09.2018	RG	7	1	1	28,0	15,5	3	4		4	2																				toothpick on right side
+Skj	Ver_off	Extant	5	1	2018	01.09.2018	RG	8	5	2	28,5	7,5	4	4		6	3																				toothpick on right side
+Skj	Car_pil	Extant	5	1	2018	01.09.2018	RG	1			16,0	17,0		5		90																1	24				
+Skj	Car_pil	Extant	5	1	2018	01.09.2018	RG	2			17,0	16,0		6		83																					uten blomsterskudd
+Skj	Car_pil	Extant	5	1	2018	01.09.2018	RG	3			18,0	7,0		8		163																1	8				
+Skj	Ver_off	Extant	5	4	2018	01.09.2018	ELE	1			7,0	18,0	44	12		19	10																				
+Skj	Ver_off	Extant	5	4	2018	01.09.2018	ELE	2			7,0	6,0	90	30		24	12																				
+Skj	Vio_can	Extant	5	4	2018	01.09.2018	ELE	1			26,5	17,0	41	3		23	25																				
+Skj	Vio_can	Extant	5	4	2018	01.09.2018	ELE	2			28,0	17,0	31	4		20	23																				
+Skj	Vio_can	Extant	5	4	2018	01.09.2018	ELE	3			27,5	7,5	8	5		14	10																				
+Skj	Vio_can	Extant	5	4	2018	01.09.2018	ELE	4			27,5	7,5	14	4		13	11																				
+Skj	Car_pil	Extant	5	4	2018	01.09.2018	ELE	1			16,5	18,5		6		112																1	22				
+Skj	Car_pil	Extant	5	4	2018	01.09.2018	ELE	2			18,0	8,0		9		78																1	16				
+Skj	Car_pil	Extant	6	2	2018	02.09.2018	RG	1			6,5	16,5		5		69																					flower, but impossible to measure
+Skj	Car_pil	Extant	6	2	2018	02.09.2018	RG	2			7,5	17,0		7		100																					
+Skj	Car_pil	Extant	6	2	2018	02.09.2018	RG	3			6,5	6,5		4		58																					
+Skj	Car_pil	Extant	6	2	2018	02.09.2018	RG	4			7,5	7,0		5		92												10									
+Skj	Vio_can	Extant	6	2	2018	02.09.2018	RG	1			16,5	18,0	11	4		15	13																				
+Skj	Vio_can	Extant	6	2	2018	02.09.2018	RG	2			17,0	8,0	32	4		22	19																				
+Skj	Vio_can	Extant	6	2	2018	02.09.2018	RG	3			18,5	5,5	34	5		26	24																				
+Skj	Ver_off	Extant	6	2	2018	02.09.2018	RG	1		1	27,5	17,5	80	13		21	9																				
+Skj	Ver_off	Extant	6	2	2018	02.09.2018	RG	2	1	1	28,5	17,5	70	11		24	11																				
+Skj	Ver_off	Extant	6	2	2018	02.09.2018	RG	3		2	27,5	9,0	80	25		28	14																				
+Skj	Ver_off	Extant	6	2	2018	02.09.2018	RG	4	3	2	27,0	8,0	28	8		16	7																				
+Skj	Ver_off	Extant	6	2	2018	02.09.2018	RG	5	4	2	28,0	7,0	10	4		13	6																				
+Skj	Ver_off	Extant	6	2	2018	02.09.2018	RG	6	1	1	27,5	15,5	40	12		22	10																				
+Skj	Ver_off	Extant	6	6	2018	02.09.2018	ELE/RG	1		1	8,0	19,0	37	20		23	13																				
+Skj	Ver_off	Extant	6	6	2018	02.09.2018	ELE/RG	2	1	1	7,5	18,0	25	6		13	9																				
+Skj	Ver_off	Extant	6	6	2018	02.09.2018	ELE/RG	3			7,0	16,5	45	12		23	10																				
+Skj	Ver_off	Extant	6	6	2018	02.09.2018	ELE/RG	4	5	2	8,0	8,0	35	10		18	6																				
+Skj	Ver_off	Extant	6	6	2018	02.09.2018	ELE/RG	5		2	8,0	7,0	28	14		25	11																				
+Skj	Ver_off	Extant	6	6	2018	02.09.2018	ELE/RG	6	5	2	8,0	6,5	12	6		11	5																				
+Skj	Car_pil	Extant	6	6	2018	02.09.2018	ELE/RG	1			17,0	18,5		10		148																					Aks borte
+Skj	Car_pil	Extant	6	6	2018	02.09.2018	ELE/RG	2			18,0	9,0		6		84																	13				
+Skj	Vio_can	Extant	6	6	2018	02.09.2018	ELE/RG	1			27,5	17,0	19	6		18	18																				
+Skj	Vio_can	Extant	6	6	2018	02.09.2018	ELE/RG	2			28,0	6,0	45	12		23	23																				

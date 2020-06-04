@@ -1,0 +1,458 @@
+Site	Species	Treat	Block	Plot	Year	Date	Registrator	IDS	MS	IDG	X	Y	SH	NL	NL_partitioned	LL	WL	NFL	NFL1	NFL2	NFL3	NFL4	NFL5	NB	NB1	NB2	NB3	NC	NC1	NC2	NAC	NFS	Length of aks	Length of aks (partitioned)	seedl	juvinale	comment
+Låv	Hyp_mac	Novel	1	1	2018	14.09.2018	RG/BM	1			5,0	19,0	111	32		16	11																				
+Låv	Hyp_mac	Novel	1	1	2018	14.09.2018	RG/BM	2			3,5	6,5	200	44		15	8	1																			
+Låv	Hyp_mac	Novel	1	1	2018	14.09.2018	RG/BM	3			4,0	7,5	192	22		17	9	2																			
+Låv	Hyp_mac	Novel	1	1	2018	14.09.2018	RG/BM	4			6,0	6,5	188	31		18	11							1													
+Låv	Car_pal	Novel	1	1	2018	14.09.2018	RG/BM	1			15,5	17,5		7		108																					
+Låv	Car_pal	Novel	1	1	2018	14.09.2018	RG/BM	2			15,5	16,0		2		30																					
+Låv	Car_pal	Novel	1	1	2018	14.09.2018	RG/BM	3			17,0	18,0		11		113																	17				
+Låv	Car_pal	Novel	1	1	2018	14.09.2018	RG/BM	4			16,5	16,5		6		150																	1,7				
+Låv	Car_pal	Novel	1	1	2018	14.09.2018	RG/BM	5			16,0	6,5		2		104																					
+Låv	Suc_pra	Novel	1	1	2018	14.09.2018	RG/BM	1			27,0	17,5		17	11+6	110	32	14																			
+Låv	Suc_pra	Novel	1	1	2018	14.09.2018	RG/BM	2			26,5	7,5		15	10+5	148	33							10													
+Låv	Car_pal	Novel	1	6	2018	14.09.2018	RG/BM	1			8,5	17,5		2		120																	22				
+Låv	Car_pal	Novel	1	6	2018	14.09.2018	RG/BM	2			9,0	16,0		4		130																	26				
+Låv	Car_pal	Novel	1	6	2018	14.09.2018	RG/BM	3			10,0	17,5		4		121																					2 shoots
+Låv	Car_pal	Novel	1	6	2018	14.09.2018	RG/BM	4			7,5	8,0		11		80																	18				
+Låv	Car_pal	Novel	2	3	2018	14.09.2018	IA	1			18,0	17,0		13		148																					
+Låv	Car_pal	Novel	2	3	2018	14.09.2018	IA	2			19,0	17,5		14		138																3	6				
+Låv	Car_pal	Novel	2	3	2018	14.09.2018	IA	3			17,5	16,0		10		123																					
+Låv	Car_pal	Novel	2	3	2018	14.09.2018	IA	4			15,5	6,5		17		136																2					
+Låv	Car_pal	Novel	2	3	2018	14.09.2018	IA	5			18,5	7,5		16		137																2	9				
+Låv	Car_pal	Novel	2	5	2018	14.09.2018		1			7,0	19,0		2		160																	19				
+Låv	Car_pal	Novel	2	5	2018	14.09.2018		2			6,5	17,5		5		145																					
+Låv	Car_pal	Novel	2	5	2018	14.09.2018		3			5,5	8,0		2		110																	15				
+Låv	Car_pal	Novel	2	5	2018	14.09.2018		4			7,5	7,0		4		153																					
+Låv	Car_pal	Novel	2	5	2018	14.09.2018		5			4,0	7,0		2		150																	27				
+Låv	Suc_pra	Novel	1	6	2018	14.09.2018	RG/BM	1			17,0	16,5		9	7+2	130	35	15																			
+Låv	Suc_pra	Novel	1	6	2018	14.09.2018	RG/BM	2			18,0	8,0		19	12+7	99	26							8				10									
+Låv	Suc_pra	Novel	1	6	2018	14.09.2018	RG/BM	3			17,0	6,0		10	7+3	85	70																				
+Låv	Hyp_mac	Novel	1	6	2018	14.09.2018	RG/BM	1			25,5	17,0	151	66		40	10																				
+Låv	Hyp_mac	Novel	1	6	2018	14.09.2018	RG/BM	2			27,0	17,0	139	84		18	13																				grazed(top)
+Låv	Hyp_mac	Novel	1	6	2018	14.09.2018	RG/BM	3			26,5	6,5	207	86		18	10	3																			
+Låv	Car_pal	Novel	4	1	2018	14.09.2018	IA	1			16,5	19,0		2		173																1	10				
+Låv	Car_pal	Novel	4	1	2018	14.09.2018	IA	2			19,5	19,0		3		71																					
+Låv	Car_pal	Novel	4	1	2018	14.09.2018	IA	3			16,5	17,5		2		217																1	25				
+Låv	Car_pal	Novel	4	1	2018	14.09.2018	IA	4			18,5	10,5		1		143																1	22				
+Låv	Car_pal	Novel	4	1	2018	14.09.2018	IA	5			19,0	10,0		2		157																1	22				
+Låv	Car_pal	Novel	4	1	2018	14.09.2018	IA	6			16,5	8,5		7		201																					1 + 3 new
+Låv	Car_pal	Novel	4	1	2018	14.09.2018	IA	7			18,0	7,0		12		171																					3 + 1 new
+Låv	Car_pal	Novel	4	4	2018	14.09.2018	IA	1			25,0	16,5		2		167																	17				
+Låv	Car_pal	Novel	4	4	2018	14.09.2018	IA	2			26,5	16,5		1		155																	19				
+Låv	Car_pal	Novel	4	4	2018	14.09.2018	IA	3			27,0	7,0		2		217																	28				
+Låv	Car_pal	Novel	6	3	2018	14.09.2018	IA	1			26,0	17,5		4		185																1	19				
+Låv	Hyp_mac	Novel	2	3	2018	14.09.2018	IA	1			7,5	16,5	194	79		22	13	3						1				7									
+Låv	Hyp_mac	Novel	2	3	2018	14.09.2018	IA	2			8,0	6,0	238	41		16	9	1						2				4									
+Låv	Car_pal	Novel	6	3	2018	14.09.2018	IA	2			28,5	7,0		2		129																1	15				
+Låv	Car_pal	Novel	6	3	2018	14.09.2018	IA	3			29,0	5,5				17																					new shoot
+Låv	Car_pal	Novel	6	3	2018	14.09.2018	IA	4			29,5	5,5				10																					new shoot
+Låv	Car_pal	Novel	7	3	2018	14.09.2018	IA	1			27,0	18,0		2		88																	7				
+Låv	Car_pal	Novel	7	3	2018	14.09.2018	IA	2			28,0	16,5		2		95																	17				
+Låv	Suc_pra	Novel	2	3	2018	14.09.2018	IA	1			28,0	19,0		9		71	23																				
+Låv	Suc_pra	Novel	2	3	2018	14.09.2018	IA	2			27,5	16,5		12	6+6	77	19																				
+Låv	Suc_pra	Novel	2	3	2018	14.09.2018	IA	3			26,0	8,0		18		76	36																				
+Låv	Car_pal	Novel	7	3	2018	14.09.2018	IA	3			26,0	7,5		6		189																					
+Låv	Car_pal	Novel	7	3	2018	14.09.2018	IA	4			27,5	7,5		5		156																					
+Låv	Car_pal	Novel	7	3	2018	14.09.2018	IA	5			28,0	6,5		10		214																					3 + 2 newshoots
+Låv	Car_pal	Novel	7	3	2018	14.09.2018	IA	6			28,5	8,0		1		159																	18				
+Låv	Car_pal	Novel	3	3	2018	14.09.2018	IA	1			7,0	18,5		2		213																	20				
+Låv	Suc_pra	Novel	2	5	2018	14.09.2018		1			17,0	15,5		17	11+6	136	27											15									
+Låv	Suc_pra	Novel	2	5	2018	14.09.2018		2			16,5	8,0		8		86	24																				
+Låv	Hyp_mac	Novel	2	5	2018	14.09.2018		1			27,0	16,5	210	133		23	13	2										10			2						
+Låv	Hyp_mac	Novel	2	5	2018	14.09.2018		2			28,5	8,5	162	61		17	9	1																			
+Låv	Car_pal	Novel	3	3	2018	14.09.2018	IA	2			8,0	18,5		4		74																					
+Låv	Car_pal	Novel	3	3	2018	14.09.2018	IA	3			8,5	9,0		11		186																	26				3 shoots
+Låv	Car_pal	Novel	3	3	2018	14.09.2018	IA	4			8,5	7,5		4		185																					
+Låv	Car_pal	Novel	3	3	2018	14.09.2018	IA	5			7,0	6,0		2		176																	24				
+Gud	Car_pal	Novel	1	2	2018	03.09.2018	SO	1		1	6,5	19,5		9		215																1	30				
+Gud	Car_pal	Novel	1	2	2018	03.09.2018	SO	2		1	7,0	16,0		3		97																0					
+Gud	Car_pal	Novel	1	2	2018	03.09.2018	SO	3		2	7,5	9,0		4		132																0					
+Gud	Car_pal	Novel	1	2	2018	03.09.2018	SO	4		2	9,0	9,0		3		95																1	23				
+Gud	Car_pal	Novel	1	2	2018	03.09.2018	SO	5		2	9,5	8,5		6		144																0					
+Gud	Car_pal	Novel	1	6	2018	03.09.2018	SO	1		1	5,0	20,0		5		165																					
+Gud	Car_pal	Novel	1	6	2018	03.09.2018	SO	2			7,0	19,5		4		156																1	36				
+Gud	Car_pal	Novel	1	6	2018	03.09.2018	SO	3		2	7,5	8,0		6		120																1	36				
+Gud	Car_pal	Novel	1	6	2018	03.09.2018	SO	4		2	7,0	6,5		7		223																					
+Gud	Car_pal	Novel	1	6	2018	03.09.2018	SO	5			7,0	10,0																									
+Låv	Hyp_mac	Novel	3	6	2018	11.09.2018	RG	1			7,5	17,5	193	212		12	7	3						1				1									14 branches
+Låv	Hyp_mac	Novel	3	6	2018	11.09.2018	RG	2			8,5	7,0	205	93		16	10																				5 branches
+Låv	Suc_pra	Novel	3	6	2018	11.09.2018	RG	1			18,5	16,5		8		84	26																				
+Låv	Suc_pra	Novel	3	6	2018	11.09.2018	RG	2			15,5	7,5		18	14+4	118	29											10									flower is broken (ca 10 flowers)
+Gud	Car_pal	Novel	1	6	2018	03.09.2018	SO	6		1	5,5	18,5		5		150																1	44				
+Gud	Car_pal	Novel	3	3	2018	03.09.2018	RG	1			16,0	18,0		5		139																					
+Låv	Suc_pra	Novel	4	1	2018	14.09.2018	IA	1			8,0	18,0		11		67	21																				
+Låv	Suc_pra	Novel	4	1	2018	14.09.2018	IA	2			8,5	7,5		14		76	25																				
+Gud	Car_pal	Novel	3	3	2018	03.09.2018	RG	2			17,5	18,0		3		98																	21				
+Gud	Car_pal	Novel	3	3	2018	03.09.2018	RG	3			17,5	7,0		5		173																					
+Gud	Car_pal	Novel	3	3	2018	03.09.2018	RG	4			15,5	9,5		2		101																	17				
+Gud	Car_pal	Novel	3	5	2018	03.09.2018	ELE	1			26,0	18,5		6		41																					
+Gud	Car_pal	Novel	3	5	2018	03.09.2018	ELE	2			29,0	17,5		3		71																	20				
+Gud	Car_pal	Novel	3	5	2018	03.09.2018	ELE	3			28,0	16,5		5		70																	25				
+Gud	Car_pal	Novel	3	5	2018	03.09.2018	ELE	4			29,5	18,0		5		40																					
+Låv	Hyp_mac	Novel	4	1	2018	14.09.2018	IA	1			27,5	18,0	202	74		20	15	3						5				5			2						
+Låv	Hyp_mac	Novel	4	1	2018	14.09.2018	IA	2			26,5	7,5	225	172		16	10	1						1													
+Låv	Suc_pra	Novel	4	4	2018	14.09.2018	IA	1			7,5	17,5		30	10+20	110	23	28	9	6	3			20	6	6	8										3 flowers and 3 buds
+Låv	Suc_pra	Novel	4	4	2018	14.09.2018	IA	2			6,5	8,5		7		65	14																				
+Låv	Suc_pra	Novel	4	4	2018	14.09.2018	IA	3			8,0	9,0		10		125	23																				grazed flower/muchy leaves
+Låv	Suc_pra	Novel	4	4	2018	14.09.2018	IA	4			6,5	7,5		12		106	23																				
+Låv	Hyp_mac	Novel	4	4	2018	14.09.2018	IA	1			16,0	18,5	247	70		20	11	4						1				1									
+Låv	Hyp_mac	Novel	4	4	2018	14.09.2018	IA	2			18,0	6,5	266	163		20	11	4						2				13									
+Gud	Car_pal	Novel	3	5	2018	03.09.2018	ELE	5			28,0	8,0		3		93																	24				
+Gud	Car_pal	Novel	6	3	2018	04.09.2018	ELE	1			16,0	18,0		4		121																	41				
+Gud	Car_pal	Novel	6	3	2018	04.09.2018	ELE	2			17,0	17,5		5		191																					
+Gud	Car_pal	Novel	6	3	2018	04.09.2018	ELE	3			17,0	17,0		6		200																					
+Gud	Car_pal	Novel	6	3	2018	04.09.2018	ELE	4			17,0	8,5		8		124																	9				
+Gud	Car_pal	Novel	6	3	2018	04.09.2018	ELE	5			17,0	7,5		4		12																					
+Gud	Car_pal	Novel	6	3	2018	04.09.2018	ELE	6			17,5	6,5		5		101																	26				
+Gud	Car_pal	Novel	6	3	2018	04.09.2018	ELE	7			19,0	7,5		5		175																					
+Gud	Car_pal	Novel	6	3	2018	04.09.2018	ELE	8			17,0	7,0		4		112																					
+Gud	Car_pal	Novel	6	4	2018	04.09.2018	SO	1		1	25,5	18,0		4		180																					
+Gud	Car_pal	Novel	6	4	2018	04.09.2018	SO	2		1	26,5	17,5		5		189																1	19				
+Gud	Car_pal	Novel	6	4	2018	04.09.2018	SO	3		2	25,0	8,0		4		145																					
+Gud	Car_pal	Novel	6	4	2018	04.09.2018	SO	4		2	26,5	7,5		3		104																1	10				
+Gud	Car_pal	Novel	7	1	2018	03.09.2018	RG	1			6,0	18,0		4		80																	14				
+Gud	Car_pal	Novel	7	1	2018	03.09.2018	RG	2			7,0	16,0		6		82																					
+Låv	Suc_pra	Novel	6	3	2018	14.09.2018	IA	1			8,0	17,0		20	14+6	111	24	10																			
+Låv	Suc_pra	Novel	6	3	2018	14.09.2018	IA	2			6,5	8,5		22	10+12	136	38	27	15	12																	
+Låv	Hyp_mac	Novel	6	3	2018	14.09.2018	IA	1			17,0	18,0	235			22	11	2						2													
+Låv	Hyp_mac	Novel	6	3	2018	14.09.2018	IA	2			17,0	8,0	250	65		16	9	4						2				6									
+Gud	Car_pal	Novel	7	1	2018	03.09.2018	RG	3			7,0	8,5		3		92																	16				
+Gud	Car_pal	Novel	7	6	2018	03.09.2018	ELE	1			29,0	16,5		8		81																	21				
+Gud	Car_pal	Novel	7	6	2018	03.09.2018	ELE	2			27,5	15,5		7		58																					
+Gud	Car_pal	Novel	7	6	2018	03.09.2018	ELE	3			29,0	8,0		9		80																	21				
+Gud	Car_pal	Novel	7	6	2018	03.09.2018	ELE	4			25,5	7,0		5		62																					grazed
+Gud	Car_pal	Novel	7	6	2018	03.09.2018	ELE	5			25,5	6,5		6		67																					
+Ulv	Car_pal	Novel	1	5	2018	13.09.2018	IA	1			5,0	17,5		19		228																					6
+Ulv	Car_pal	Novel	1	5	2018	13.09.2018	IA	2			7,5	17,0		10		209																					3+2
+Ulv	Car_pal	Novel	1	5	2018	13.09.2018	IA	3			5,0	7,5		6		274																					2
+Ulv	Car_pal	Novel	1	5	2018	13.09.2018	IA	4			6,5	6,0		2		55																	28				1+2 new shriveled leaves
+Ulv	Car_pal	Novel	1	5	2018	13.09.2018	IA	5			7,5	5,5		2		162																	21				1
+Låv	Suc_pra	Novel	7	3	2018	14.09.2018	IA	1			8,0	18,0		27	15+12	100	22	26	10	16																	
+Låv	Suc_pra	Novel	7	3	2018	14.09.2018	IA	2			8,5	8,0		23	17+6	96	24	14																			
+Låv	Hyp_mac	Novel	7	3	2018	14.09.2018	IA	1			18,0	16,5	196	93		14	11	5										6									
+Låv	Hyp_mac	Novel	7	3	2018	14.09.2018	IA	2			17,5	8,0	201	65		19	10	1						1													
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		1			6,0	17,5		5		291																					
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		2			6,5	15,5		3		210																					
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		3			7,5	17,0		1		141																	31				
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		4			9,0	16,0		2		129																					use to have
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		5			9,0	17,5				10																					new shoot
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		6			6,0	7,0		3		280																					
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		7			7,0	5,5				32																					new shoot
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		8			7,5	6,0		3		150																					
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		9			8,0	7,0				22																					new shoot
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		10			9,0	8,0				244																					
+Ulv	Car_pal	Novel	2	1	2018	13.09.2018		11			7,5	8,5				30																					new shoot
+Låv	Hyp_mac	Novel	3	3	2018	14.09.2018	IA	1			17,5	17,5	240	164		16	12	2						2				5									
+Låv	Hyp_mac	Novel	3	3	2018	14.09.2018	IA	2			18,0	8,0	229	116		16	10	3						1				6									
+Låv	Suc_pra	Novel	3	3	2018	14.09.2018	IA	1			27,0	18,0		19	13+6	135	37	41	10	12	19																
+Låv	Suc_pra	Novel	3	3	2018	14.09.2018	IA	2			28,0	9,5		10		92	24																				
+Ulv	Car_pal	Novel	2	5	2018	13.09.2018	IA	1			16,5	18,0		4		161																	15				
+Ulv	Car_pal	Novel	2	5	2018	13.09.2018	IA	2			17,0	16,0		5		262																					
+Ulv	Car_pal	Novel	2	5	2018	13.09.2018	IA	3			18,0	18,5		15		28																	47	29+18			2 new shoots
+Ulv	Car_pal	Novel	2	5	2018	13.09.2018	IA	4			15,5	8,0				370																					6 shoots
+Ulv	Car_pal	Novel	2	5	2018	13.09.2018	IA	5			16,0	6,0		3		155																	26				1+4 new
+Gud	Suc_pra	Novel	1	2	2018	03.09.2018	SO	1			17,5	19,0		14	12+2	95	21	9						3													
+Gud	Suc_pra	Novel	1	2	2018	03.09.2018	SO	2			15,5	7,0		26	20+6	162	37	30	9	9	12																
+Gud	Hyp_mac	Novel	1	2	2018	03.09.2018	SO	1		1	27,0	17,0	100	12		15	8																				
+Gud	Hyp_mac	Novel	1	2	2018	03.09.2018	SO	2		1	28,0	16,5	172	58		25	15																				topp av skudd mangler
+Gud	Hyp_mac	Novel	1	2	2018	03.09.2018	SO	3		2	27,5	8,5	309	92		19	12							1													
+Gud	Hyp_mac	Novel	1	2	2018	03.09.2018	SO	4		2	29,0	9,0	92	20		11	7																				
+Ulv	Car_pal	Novel	2	5	2018	13.09.2018	IA	6			17,5	6,5		4		242																					1+4 new grazed
+Ulv	Car_pal	Novel	2	5	2018	13.09.2018	IA	7			16,0	4,0		13		323																					3 shoots
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	1			17,5	17,5		4		291																					
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	2			18,5	17,0																									new shoot
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	3			19,0	18,0		7		360																					
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	4			18,0	16,0		2		166																					topp med aks mangler
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	5			19,0	16,0																									new shoot
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	6			19,5	16,0																									new shoot
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	7			20,0	15,5																									new shoot
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	8			17,5	15,5																									new shoot
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	9			18,5	8,5		4		224																					
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	10			17,5	8,5		4		216																					
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	11			19,5	8,0		4		234																					
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	12			18,5	7,0		3		165																					
+Gud	Hyp_mac	Novel	1	6	2018	03.09.2018	SO	1			17,5	18,5	138	30		14	10																				
+Gud	Hyp_mac	Novel	1	6	2018	03.09.2018	SO	2			18,0	8,5	219	68		21	10																				
+Gud	Suc_pra	Novel	1	6	2018	03.09.2018	SO	1			29,0	17,0		12	9+3	108	27																				
+Gud	Suc_pra	Novel	1	6	2018	03.09.2018	SO	2			26,5	8,0		23	10+4+6+3	120	32							4							3	4					
+Gud	Suc_pra	Novel	2	2	2018	04.09.2018	RG	1			6,5	16,5		22	10+12	118	25											17	9	8		3					3 flower stem, 2 avblomstrert, 1 kapsel, 1 kapsel + 2 avblomstret
+Gud	Suc_pra	Novel	2	2	2018	04.09.2018	RG	2			6,0	8,5		17	13+4	121	32	12										13	8	5		1					1 flower stem with three heads
+Gud	Hyp_mac	Novel	2	2	2018	04.09.2018	RG	1			16,5	16,5	408	70		14												16			1						
+Gud	Hyp_mac	Novel	2	2	2018	04.09.2018	RG	2			17,0	7,5	47	5		4																					
+Gud	Hyp_mac	Novel	2	2	2018	04.09.2018	RG	3			17,0	6,5	113	11		9																					
+Gud	Hyp_mac	Novel	2	2	2018	04.09.2018	RG	4			18,0	7,5	116	12		8																					
+Ulv	Car_pal	Novel	3	3	2018	13.09.2018	SO	13			16,5	6,0		6		285																					
+Ulv	Car_pal	Novel	4	3	2018	13.09.2018	IA	1			29,0	19,0				29																					new shoot
+Ulv	Car_pal	Novel	4	3	2018	13.09.2018	IA	2			30,0	16,5				32																					x dead new shoot
+Ulv	Car_pal	Novel	4	3	2018	13.09.2018	IA	3			30,0	16,0				45																					new shoot
+Ulv	Car_pal	Novel	4	3	2018	13.09.2018	IA	4			28,0	15,5		8		297																					2 shoots
+Ulv	Car_pal	Novel	4	3	2018	13.09.2018	IA	5			29,0	6,5		10		345																					10 whole lot of shoot
+Ulv	Car_pal	Novel	4	3	2018	13.09.2018	IA	6			28,0	9,0		4		265																	50	11+39			2 shoot with flower
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	1			27,0	20,5		4		142																2	54	24+30			two flower stems
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	2			26,5	19,0		2		158																	18				3 new shoots
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	3			27,0	18,0		3		275																					1 new shoots
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	4			29,0	19,5		1		190																					1 new shoots
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	5			26,0	9,0		1		144																	23				1 new shoots
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	6			27,5	9,5		6		203																					1 new shoots
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	7			29,0	8,5		3		175																					3 new shoots
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	8			29,0	7,0		3		146																					
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	9			25,5	8,0		3		145																	29				1 new shoots
+Ulv	Car_pal	Novel	5	5	2018	13.09.2018	RG	10			27,0	6,0		5		168																					1 new shoots
+Ulv	Car_pal	Novel	6	3	2018	13.09.2018	SO	1			17,5	18,5		7		346																					aks borte (avblomstret)
+Gud	Hyp_mac	Novel	3	3	2018	03.09.2018	RG	1			7,0	17,5	71	15		18	12																				
+Gud	Hyp_mac	Novel	3	3	2018	03.09.2018	RG	2			9,0	19,5	145	4		14	11																				grazed
+Gud	Hyp_mac	Novel	3	3	2018	03.09.2018	RG	3			9,0	18,0	190	9		17	10																				grazed, wilted
+Gud	Hyp_mac	Novel	3	3	2018	03.09.2018	RG	4			7,5	16,5	165	6																							wilted + grazed
+Gud	Hyp_mac	Novel	3	3	2018	03.09.2018	RG	5			7,5	7,5	225	38		21	11																				
+Gud	Hyp_mac	Novel	3	3	2018	03.09.2018	RG	6			6,5	7,0																									grazed
+Gud	Hyp_mac	Novel	3	3	2018	03.09.2018	RG	7			7,0	6,0	230	40		21	12																				
+Ulv	Car_pal	Novel	6	3	2018	13.09.2018	SO	2			19,5	18,0		4		240																					
+Ulv	Car_pal	Novel	6	3	2018	13.09.2018	SO	3			17,5	17,0		6		325																					
+Ulv	Car_pal	Novel	6	3	2018	13.09.2018	SO	4			16,0	9,0		13		300																	34				
+Ulv	Car_pal	Novel	6	3	2018	13.09.2018	SO	5			17,5	9,0		8		362																					
+Gud	Suc_pra	Novel	3	3	2018	03.09.2018	RG	1			26,5	18,5		10	7+3	87	22	11																			
+Gud	Suc_pra	Novel	3	3	2018	03.09.2018	RG	2			27,0	18,5		6		21	6																				
+Gud	Suc_pra	Novel	3	3	2018	03.09.2018	RG	3			28,5	19,0		6		38	8																				
+Gud	Suc_pra	Novel	3	3	2018	03.09.2018	RG	4			26,5	6,0		9		57	25																				
+Gud	Suc_pra	Novel	3	3	2018	03.09.2018	RG	5			27,5	7,5		9		53	19																				
+Gud	Hyp_mac	Novel	3	5	2018	03.09.2018	ELE	1			6,0	17,5	175	24		16	10																				
+Gud	Hyp_mac	Novel	3	5	2018	03.09.2018	ELE	2			8,0	7,5	144	26		16	10																				
+Gud	Suc_pra	Novel	3	5	2018	03.09.2018	ELE	1			18,5	18,0		12		105	29																				
+Gud	Suc_pra	Novel	3	5	2018	03.09.2018	ELE	2			17,0	7,0		7		101	22																				
+Gud	Suc_pra	Novel	3	5	2018	03.09.2018	ELE	3			19,0	7,0		17	9+8	67	16	8																			
+Ulv	Car_pal	Novel	6	4	2018	13.09.2018	SO	1			28,0	19,0		8		427																					
+Ulv	Car_pal	Novel	6	4	2018	13.09.2018	SO	2			28,5	18,0		4		287																					
+Ulv	Car_pal	Novel	6	4	2018	13.09.2018	SO	3			26,0	16,5		4		369																					
+Ulv	Car_pal	Novel	6	4	2018	13.09.2018	SO	4			26,0	15,5		8		327																					
+Ulv	Car_pal	Novel	6	4	2018	13.09.2018	SO	5			28,0	16,0		7		376																					
+Ulv	Car_pal	Novel	6	4	2018	13.09.2018	SO	6			26,0	9,0		7		185																	20				
+Ulv	Car_pal	Novel	6	4	2018	13.09.2018	SO	7			27,5	9,0		6		160																					
+Ulv	Car_pal	Novel	7	3	2018	12.09.2018	IA	1			18,0	19,0	13	408																		2	50	23+27			en klynge med to blomster
+Ulv	Car_pal	Novel	7	3	2018	12.09.2018	IA	2			17,5	9,5	9	185																		2	47	18+29			
+Ulv	Car_pal	Novel	7	3	2018	12.09.2018	IA	3			19,5	10,0	4	173																		0					
+Ulv	Car_pal	Novel	7	3	2018	12.09.2018	IA	4			17,5	8,5	11	194																		1					en blomsterstand, men mangler topp
+Gud	Hyp_mac	Novel	4	1	2018	03.09.2018	SO	1			8,0	19,0	285	140		27	17	3																			
+Gud	Hyp_mac	Novel	4	1	2018	03.09.2018	SO	2			8,0	6,5	284	48		18	11	1						2													
+Ulv	Car_pal	Novel	7	3	2018	12.09.2018	IA	5			18,5	7,5	4	185																		0					
+Ulv	Car_pal	Novel	7	4	2018	12.09.2018	RG	1			7,0	17,0				5																					new shoot
+Ulv	Car_pal	Novel	7	4	2018	12.09.2018	RG	2			8,5	16,0		5		198																					
+Ulv	Car_pal	Novel	7	4	2018	12.09.2018	RG	3			9,0	18,0		4		255																					
+Ulv	Car_pal	Novel	7	4	2018	12.09.2018	RG	4			5,5	7,5		4		248																					
+Gud	Suc_pra	Novel	4	1	2018	03.09.2018	SO	1			27,0	16,5		16	8+8	120	23	17	8	9								8				1					1 flower stem, 2 flowers + 1 capsule
+Gud	Suc_pra	Novel	4	1	2018	03.09.2018	SO	2			27,0	8,0		26	14+6+6	145	32											12	7	5		2					2 flower stem, 1 capsule in each
+Ulv	Car_pal	Novel	7	4	2018	12.09.2018	RG	5			6,5	7,0				50																					new shoot
+Ulv	Car_pal	Novel	7	4	2018	12.09.2018	RG	6			7,5	7,5		3		158												23									
+Ulv	Car_pal	Novel	7	4	2018	12.09.2018	RG	7			8,5	6,0				21																					new shoot
+Gud	Hyp_mac	Novel	6	3	2018	04.09.2018	ELE	1			8,0	17,5	240	60		19	8																				
+Gud	Hyp_mac	Novel	6	3	2018	04.09.2018	ELE	2			7,0	7,5	504	116		29	14											5									
+Gud	Suc_pra	Novel	6	3	2018	04.09.2018	ELE	1			28,0	18,0		39	11+6+6+6	90	19	32	(8+8)	6	10											3					
+Gud	Suc_pra	Novel	6	3	2018	04.09.2018	ELE	2			27,5	7,5		14	8+6	102	24	10										1				1					
+Gud	Suc_pra	Novel	6	4	2018	04.09.2018	SO	1			6,5	17,5		12	8+4	101	26	9														1					
+Gud	Suc_pra	Novel	6	4	2018	04.09.2018	SO	2			8,5	7,0		22	16+6	105	26	8														1					
+Gud	Hyp_mac	Novel	6	4	2018	04.09.2018	SO	1			18,5	28,0	355	70		25	12																				topp av skudd mangler
+Gud	Hyp_mac	Novel	6	4	2018	04.09.2018	SO	2			18,0	27,5	356	66		25	14											10									topp av skudd mangler
+Gud	Hyp_mac	Novel	6	4	2018	04.09.2018	SO	3			16,0	15,0	401	98		28	15																				
+Gud	Hyp_mac	Novel	6	4	2018	04.09.2018	SO	4			17,0	7,5	186	20		17	10																				
+Gud	Hyp_mac	Novel	6	4	2018	04.09.2018	SO	5			18,0	9,0	175	14		18	11																				
+Låv	Car_pil	Novel	3	6	2018	11.09.2018	RG	1			28,0	17,5		2		157																2	20				2 flower stems
+Låv	Car_pil	Novel	3	6	2018	11.09.2018	RG	2			27,5	8,5		1		161																	15				
+Gud	Hyp_mac	Novel	7	1	2018	03.09.2018	RG	1			18,5	17,0	339	41		21	9																				grazed
+Gud	Hyp_mac	Novel	7	1	2018	03.09.2018	RG	2			18,0	15,0	460	69		25	11											8			3						
+Gud	Hyp_mac	Novel	7	1	2018	03.09.2018	RG	3			17,5	7,5	168	57		17	10																				
+Gud	Suc_pra	Novel	7	1	2018	03.09.2018	RG	1			26,5	18,0		9		74	18																				
+Gud	Suc_pra	Novel	7	1	2018	03.09.2018	RG	2			26,5	7,0		12		150	28																				
+Gud	Hyp_mac	Novel	7	6	2018	03.09.2018	ELE	1			7,0	17,0	161	16		19	11																				grazed(top missing
+Gud	Hyp_mac	Novel	7	6	2018	03.09.2018	ELE	2			6,5	16,5	115	22		19	10																				grazed/top missing
+Gud	Hyp_mac	Novel	7	6	2018	03.09.2018	ELE	3			8,0	8,0	208	82		25	14																				
+Gud	Suc_pra	Novel	7	6	2018	03.09.2018	ELE	1			17,0	18,0		9		85	22	3																			wilting flowerin, one missing
+Gud	Suc_pra	Novel	7	6	2018	03.09.2018	ELE	2			16,0	16,5		8		110	23															2					2 flowering stems 2 flowers on one.
+Gud	Suc_pra	Novel	7	6	2018	03.09.2018	ELE	3			18,0	8,0		23	13+10	105	23	11+9																			
+Ulv	Hyp_mac	Novel	1	5	2018	13.09.2018	IA	1			16,5	17,0	481	126		31	15							3				11									
+Ulv	Hyp_mac	Novel	1	5	2018	13.09.2018	IA	2			15,5	6,0	500	31		22	12							1				1									
+Ulv	Suc_pra	Novel	1	5	2018	13.09.2018	IA	1			28,0	17,0		18		142	42	19						10	8	2											
+Ulv	Suc_pra	Novel	1	5	2018	13.09.2018	IA	2			25,5	9,0		21	11+10	135	30	12						2	1	1											
+Ulv	Suc_pra	Novel	1	5	2018	13.09.2018	IA	3			28,0	5,0		18	12+6	90	30	11						2	1	1											
+Gud	Car_pil	Novel	2	2	2018	04.09.2018	RG	1			27,0	17,0		6		97																					
+Gud	Car_pil	Novel	2	2	2018	04.09.2018	RG	2			28,0	16,0		3																							grazed (had two shoots)
+Gud	Car_pil	Novel	2	2	2018	04.09.2018	RG	3			27,0	15,0		2		97																	18				
+Gud	Car_pil	Novel	2	2	2018	04.09.2018	RG	6			25,5	6,5		5		75																					
+Gud	Car_pil	Novel	2	2	2018	04.09.2018	RG	7			27,5	7,0		4		72																					
+Gud	Car_pil	Novel	2	2	2018	04.09.2018	RG	8			27,0	5,5		2		61																	6				
+Ulv	Suc_pra	Novel	2	1	2018	13.09.2018		1			16,0	19,0		10		110	25																				
+Ulv	Suc_pra	Novel	2	1	2018	13.09.2018		2			17,0	6,0		10		64	24																				
+Ulv	Suc_pra	Novel	2	1	2018	13.09.2018		3			18,0	8,0		6		60	22																				
+Ulv	Suc_pra	Novel	2	1	2018	13.09.2018		4			18,0	5,5		5		29	9																				
+Ulv	Hyp_mac	Novel	2	1	2018	13.09.2018		1			28,0	17,5	468	68		33	80											10			8						
+Ulv	Hyp_mac	Novel	2	1	2018	13.09.2018		2			28,5	8,0	525	94		30	80											7			30						broke off
+Ulv	Suc_pra	Novel	2	5	2018	13.09.2018	IA	1			8,0	17,5		12	8+4	86	24	9																			longest leaf skewed
+Ulv	Suc_pra	Novel	2	5	2018	13.09.2018	IA	2			9,0	6,5		19	14+5	98	23	19										11									grazed
+Ulv	Hyp_mac	Novel	2	5	2018	13.09.2018	IA	1			27,5	17,5	546	72		30	13											15			2						
+Ulv	Hyp_mac	Novel	2	5	2018	13.09.2018	IA	2			28,0	7,0	491	92		32	14											21			2						
+Ulv	Hyp_mac	Novel	2	5	2018	13.09.2018	IA	3			26,5	4,5	515	182		36	14											22			9						
+Ulv	Suc_pra	Novel	3	3	2018	13.09.2018	SO	1			6,5	17,0		16	10+6	113	31																				
+Ulv	Suc_pra	Novel	3	3	2018	13.09.2018	SO	2			7,0	7,5		8		183	27	18										7				2					2 flowerstems diameter flower + capsule
+Ulv	Suc_pra	Novel	3	3	2018	13.09.2018	SO	3			8,0	6,0		10	6+4	159	27																				
+Gud	Car_pil	Novel	4	1	2018	03.09.2018	SO	1			17,5	18,0		6		115																					
+Gud	Car_pil	Novel	4	1	2018	03.09.2018	SO	2			17,5	16,0		4		115																	22				
+Gud	Car_pil	Novel	4	1	2018	03.09.2018	SO	3		1	17,0	8,0		4		141																					
+Gud	Car_pil	Novel	4	1	2018	03.09.2018	SO	4		1	16,5	7,5		2		116																	11				
+Gud	Car_pil	Novel	4	1	2018	03.09.2018	SO	5		1	16,0	6,5				21																					new shoots
+Ulv	Hyp_mac	Novel	3	3	2018	13.09.2018	SO	1			27,5	17,5	571	114		34	28	10						2				16									
+Ulv	Hyp_mac	Novel	3	3	2018	13.09.2018	SO	2			27,0	7,5	320	46		26	12	7										12									
+Ulv	Hyp_mac	Novel	3	3	2018	13.09.2018	SO	3			28,0	6,5	155	50		29	13																				
+Ulv	Suc_pra	Novel	4	3	2018	13.09.2018	IA	1			7,0	5,5		27	25+2	90	33	20						15	9	6											
+Ulv	Suc_pra	Novel	4	3	2018	13.09.2018	IA	2			5,0	5,5		6		86	9							9	4	5											
+Ulv	Suc_pra	Novel	4	3	2018	13.09.2018	IA	3			6,5	17,0		15	10+5	131	35	24																			
+Ulv	Hyp_mac	Novel	4	3	2018	13.09.2018	IA	1			16,0	21,0	435	116		23	15											2			8						
+Ulv	Hyp_mac	Novel	4	3	2018	13.09.2018	IA	2			19,5	9,5	445	116		26	14							1				3			9						
+Ulv	Hyp_mac	Novel	4	3	2018	13.09.2018	IA	3			17,5	6,5	431	124		30	15							5				8									
+Ulv	Hyp_mac	Novel	5	5	2018	13.09.2018	RG	1			7,0	18,0	475	145		23	13	1						1				6			22						
+Ulv	Hyp_mac	Novel	5	5	2018	13.09.2018	RG	2			7,5	9,0	346	40		28	12											5			1						
+Ulv	Hyp_mac	Novel	5	5	2018	13.09.2018	RG	3			8,0	8,0	268	36		24	12											1									
+Ulv	Suc_pra	Novel	5	5	2018	13.09.2018	RG	2			16,5	19,0		10		102	22																				
+Ulv	Suc_pra	Novel	5	5	2018	13.09.2018	RG	1			18,0	17,0		7		75	28																				longest leaf has lost tip (75 mm to the end)
+Ulv	Suc_pra	Novel	5	5	2018	13.09.2018	RG	3			17,0	8,5		13		130	34																				
+Ulv	Suc_pra	Novel	5	5	2018	13.09.2018	RG	4			17,5	18,5		10		127	37																				
+Ulv	Suc_pra	Novel	6	3	2018	13.09.2018	SO	1			8,0	17,5		14	8+6	110	30	21																			
+Ulv	Suc_pra	Novel	6	3	2018	13.09.2018	SO	2			7,5	6,5		15	7+4+4	138	44	51	17	17	17											2					2 blomsterstander, en med to blomster på.
+Ulv	Hyp_mac	Novel	6	3	2018	13.09.2018	SO	1			28,5	18,0	455	82		30	17											16				3					
+Ulv	Hyp_mac	Novel	6	3	2018	13.09.2018	SO	2			28,0	8,0	398	100		27	15											4				1					
+Ulv	Hyp_mac	Novel	6	4	2018	13.09.2018	SO	1			7,0	18,0	286	40		21	10											2				1					
+Ulv	Hyp_mac	Novel	6	4	2018	13.09.2018	SO	2			7,5	16,5	86	12		13	5																				
+Ulv	Hyp_mac	Novel	6	4	2018	13.09.2018	SO	3			7,5	8,5	95	16		19	9																				
+Ulv	Hyp_mac	Novel	6	4	2018	13.09.2018	SO	4			7,5	7,5	105	18		19	11																				
+Ulv	Suc_pra	Novel	6	4	2018	13.09.2018	SO	1			17,5	16,0		12	8+4	105	34	15																			
+Ulv	Suc_pra	Novel	6	4	2018	13.09.2018	SO	2			16,5	5,5		17	11+6	244	50											18									
+Ulv	Hyp_mac	Novel	7	3	2018	12.09.2018	IA	1			8,0	19,0	362	62		23	13											12									
+Ulv	Hyp_mac	Novel	7	3	2018	12.09.2018	IA	2			9,0	19,0	159	13		19	10																				
+Ulv	Hyp_mac	Novel	7	3	2018	12.09.2018	IA	3			8,5	8,0	318	52		22	13											8									
+Ulv	Suc_pra	Novel	7	3	2018	12.09.2018	IA	1			27,0	18,5		13		105	25																				
+Ulv	Suc_pra	Novel	7	3	2018	12.09.2018	IA	2			26,5	16,5		10		105	45																				
+Ulv	Hyp_mac	Novel	7	4	2018	12.09.2018	RG	1			17,5	17,0	135	19		21	10																				
+Ulv	Hyp_mac	Novel	7	4	2018	12.09.2018	RG	2			17,0	8,0	219	42		23	9																				
+Ulv	Suc_pra	Novel	7	4	2018	12.09.2018	RG	1			28,0	16,5		24	18+6	149	34	17						7								2					
+Ulv	Suc_pra	Novel	7	4	2018	12.09.2018	RG	2			28,0	6,0		28	18+4+6													8				2					en blomsterstand med tre manglende blomster, den andre blomsterstanden med en manglende blomst og en i frukt.
+Skj	Suc_pra	Novel	1	1	2018	02.09.2018	RG	1			7,0	17,0		13	9+4	91	26	12														1					
+Skj	Suc_pra	Novel	1	1	2018	02.09.2018	RG	2			6,5	7,5		15	7+8	130	26	9						7	4	3						3					
+Skj	Car_pal	Novel	1	1	2018	02.09.2018	RG	1			17,5	18,0		2		96																	14				
+Skj	Car_pal	Novel	1	1	2018	02.09.2018	RG	2			17,5	7,0		7		112																	12				
+Skj	Hyp_mac	Novel	1	1	2018	02.09.2018	RG	1			27,5	17,0	132	20		14	10																				
+Skj	Hyp_mac	Novel	1	1	2018	02.09.2018	RG	2			28,0	9,0	240	28		20	17																				Grazed
+Skj	Hyp_mac	Novel	1	1	2018	02.09.2018	RG	3			26,5	6,0	223	32		19	15																				Grazed
+Skj	Suc_pra	Novel	1	5	2018	02.09.2018	RG	1			7,5	19,0		14	12+2	65	19	7														1					
+Skj	Suc_pra	Novel	1	5	2018	02.09.2018	RG	2			8,0	7,5		15	11+4	118	30	61	12	12	13	14	10									1					1 flower stem, 5 flowers
+Skj	Car_pal	Novel	1	5	2018	02.09.2018	RG	1			15,5	19,5		3		11																					grazed
+Skj	Car_pal	Novel	1	5	2018	02.09.2018	RG	2			16,5	19,0		5		124																	18				
+Skj	Car_pal	Novel	1	5	2018	02.09.2018	RG	3			15,5	18,5		4		95																					
+Skj	Car_pal	Novel	1	5	2018	02.09.2018	RG	4			15,5	17,5		5																							grazed
+Skj	Car_pal	Novel	1	5	2018	02.09.2018	RG	5			16,5	17,0		4		119																	11				
+Skj	Car_pal	Novel	1	5	2018	02.09.2018	RG	6			15,5	10,0		4																							grazed
+Skj	Car_pal	Novel	1	5	2018	02.09.2018	RG	7			16,5	9,0		4		160																	8				
+Skj	Car_pal	Novel	1	5	2018	02.09.2018	RG	8			18,0	9,0		6																							grazed
+Skj	Hyp_mac	Novel	1	5	2018	02.09.2018	RG	1			26,0	18,5	228	100		23	11	2										7									grazed top, 4 branches
+Skj	Hyp_mac	Novel	1	5	2018	02.09.2018	RG	2			27,0	18,0	125	33		10	6	2																			
+Skj	Hyp_mac	Novel	1	5	2018	02.09.2018	RG	3			26,5	7,5	157	26		17	10	2										1									
+Skj	Car_pal	Novel	2	2	2018	01.09.2018	SO	1			7,0	17,0		2		93																	17				
+Skj	Car_pal	Novel	2	2	2018	01.09.2018	SO	2			8,0	17,0		3		94																	13				
+Skj	Car_pal	Novel	2	2	2018	01.09.2018	SO	3			7,5	16,0		5		42																					beitet på, ingen blomst
+Skj	Car_pal	Novel	2	2	2018	01.09.2018	SO	4			7,0	6,5		6		114																	30				
+Skj	Car_pal	Novel	2	2	2018	01.09.2018	SO	5			8,5	7,5		2		118																					aks vekke
+Skj	Car_pal	Novel	2	2	2018	01.09.2018	SO	6			8,0	6,0		3		14																					
+Skj	Car_pal	Novel	2	2	2018	01.09.2018	SO	7			9,5	5,0		4		90																	15				
+Skj	Car_pal	Novel	2	2	2018	01.09.2018	SO	8			7,5	5,5		5		115																					beitet på
+Skj	Hyp_mac	Novel	2	2	2018	01.09.2018	SO	1			15,5	19,0	104	26		15	10																				
+Skj	Hyp_mac	Novel	2	2	2018	01.09.2018	SO	2			16,0	8,0	259	64		25	13	1						2													
+Skj	Suc_pra	Novel	2	2	2018	01.09.2018	SO	1			26,0	16,5		6		67	25																				
+Skj	Suc_pra	Novel	2	2	2018	01.09.2018	SO	2			28,0	16,5		9		64	22																				
+Skj	Suc_pra	Novel	2	2	2018	01.09.2018	SO	3			29,0	6,0	333			63	13																				
+Skj	Suc_pra	Novel	2	2	2018	01.09.2018	SO	4			27,0	16,0		6		63	13																				
+Skj	Suc_pra	Novel	2	5	2018	01.09.2018	ELE	1			8,0	17,0		15		84	22																				
+Skj	Suc_pra	Novel	2	5	2018	01.09.2018	ELE	2			8,0	8,0		13		130	24																				
+Skj	Suc_pra	Novel	2	5	2018	01.09.2018	ELE	3			7,5	5,5		10		116	25																				
+Skj	Hyp_mac	Novel	2	5	2018	01.09.2018	ELE	1			17,0	19,0	342	24		19	8											10									
+Skj	Hyp_mac	Novel	2	5	2018	01.09.2018	ELE	2			17,0	18,0	331	24		16	9											5									
+Skj	Hyp_mac	Novel	2	5	2018	01.09.2018	ELE	3			17,5	7,0	345	54		17	8											10									stem broken
+Skj	Car_pal	Novel	2	5	2018	01.09.2018	ELE	1			26,0	19,0				135																	29				
+Skj	Car_pal	Novel	2	5	2018	01.09.2018	ELE	2			28,0	19,5				21																					grazed
+Skj	Car_pal	Novel	2	5	2018	01.09.2018	ELE	3			28,0	19,0				6																					new shoot
+Skj	Car_pal	Novel	2	5	2018	01.09.2018	ELE	4			28,0	17,5				28																					grazed
+Skj	Car_pal	Novel	2	5	2018	01.09.2018	ELE	5			27,0	17,0				20																					new shoot
+Skj	Car_pal	Novel	2	5	2018	01.09.2018	ELE	6			28,0	8,0				11																					new shoot
+Skj	Car_pal	Novel	2	5	2018	01.09.2018	ELE	7			27,0	6,0				110																	32				
+Skj	Car_pal	Novel	2	5	2018	01.09.2018	ELE	8			27,5	7,0				10																					grazed
+Skj	Car_pal	Novel	2	5	2018	01.09.2018	ELE	9			28,0	5,5				21																					grazed
+Skj	Suc_pra	Novel	3	1	2018	01.09.2018	RG	1			6,0	18,0		39	10+29	155	34	6	1	1	1	3										4					4 flowr stems, (1+1+1+3 flowers on each stem) (Unsure wether this is just number of flowers and not diameter).
+Skj	Suc_pra	Novel	3	1	2018	01.09.2018	RG	2			5,5	8,0		21	9+12	54	17	21	10	11												2					
+Skj	Suc_pra	Novel	3	1	2018	01.09.2018	RG	3			7,0	8,0		16	10+6	104	27	10														1					
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	1			16,0	20,5		2		72																					grazed
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	2			16,5	19,5		?		18																					new shoot
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	3			16,0	19,0		?		18																					new shoot
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	4			17,0	18,5		?		20																					new shoot
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	5			17,0	18,0		?		25																					new shoot
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	6			18,0	18,0		1		125																	14				leaf on fs
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	7			17,0	17,0		3		35																					new shoot
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	8			17,5	17,5		?		25																					new shoot + grazed
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	9			17,5	8,5		2		130																	19				leaf on fs
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	10			15,5	8,5		4		180																					
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	11			15,0	7,0		3		123																	20				
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	13			16,0	7,0		4		96																					
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	14			17,5	6,0		4		105																					
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	15			18,5	6,0		3		124																	7				
+Skj	Car_pal	Novel	3	1	2018	01.09.2018	RG	16			20,0	8,5		3		86																					
+Skj	Hyp_mac	Novel	3	1	2018	01.09.2018	RG	1			28,0	17,5	340	4		10												10									wilted
+Skj	Hyp_mac	Novel	3	1	2018	01.09.2018	RG	2			27,5	8,5	325	42		19	10											10									
+Skj	Car_pal	Novel	4	1	2018	01.09.2018	ELE	1			8,0	18,0				137																	34				
+Skj	Car_pal	Novel	4	1	2018	01.09.2018	ELE	2			6,0	19,0				11																					new shoot
+Skj	Car_pal	Novel	4	1	2018	01.09.2018	ELE	3			7,0	19,0				12																					new shoot
+Skj	Car_pal	Novel	4	1	2018	01.09.2018	ELE	4			9,0	18,0				18																					grazed
+Skj	Car_pal	Novel	4	1	2018	01.09.2018	ELE	5			8,0	16,0				9																					new shoot
+Skj	Car_pal	Novel	4	1	2018	01.09.2018	ELE	6			6,0	8,0				138																	40				
+Skj	Car_pal	Novel	4	1	2018	01.09.2018	ELE	7			7,0	9,0				21																					grazed
+Skj	Car_pal	Novel	4	1	2018	01.09.2018	ELE	8			8,0	8,0				19																					grazed
+Skj	Car_pal	Novel	4	1	2018	01.09.2018	ELE	9			6,0	6,0				30																					grazed
+Skj	Suc_pra	Novel	4	1	2018	01.09.2018	ELE	1			17,5	17,5		14	8+6	90	19	11																			
+Skj	Suc_pra	Novel	4	1	2018	01.09.2018	ELE	2			17,0	7,0		16	12+4	128	27	13																			
+Skj	Hyp_mac	Novel	4	1	2018	01.09.2018	ELE	1			29,0	19,0	232	58		13	7	3										1									3 flowers, 1 bud
+Skj	Hyp_mac	Novel	4	1	2018	01.09.2018	ELE	2			28,0	8,0	205	68		15	9	5																			5 flowers
+Skj	Hyp_mac	Novel	4	1	2018	01.09.2018	ELE	3			25,5	16,0	175	84		13	8																				
+Skj	Suc_pra	Novel	5	3	2018	01.09.2018	RG	2			8,5	18,5	310	13	8+5	114	29											12				1					
+Skj	Suc_pra	Novel	5	3	2018	01.09.2018	RG	1			6,5	9,5	425	14	9+5	113	27							14	11	3						2					
+Skj	Hyp_mac	Novel	5	3	2018	01.09.2018	RG	1			17,5	17,5	260	66		16	6	1																			
+Skj	Hyp_mac	Novel	5	3	2018	01.09.2018	RG	2			16,0	7,5	400	50		20	10											5			2						
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	1			26,0	18,5		1		170																					
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	2			28,0	19,0		4		144																1	31				
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	3			28,5	18,0		4		60																					
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	4			28,5	16,0		4		136																1	23				
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	5			27,0	17,0				22																		new shoot			
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	6			26,5	16,0				28																		new shoot			
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	7			25,5	8,5		2		89																1	22	avblomstret			
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	8			27,5	9,0		5	4+1	82																1	8	avblomstret			
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	9			28,0	7,0		5		30																		grazed tip of leaf			
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	10			28,5	17,5		2		18																		new shoot			
+Skj	Car_pal	Novel	5	3	2018	01.09.2018	RG	11			27,5	8,0		3		20																		new shoot			
+Skj	Car_pal	Novel	5	5	2018	01.09.2018	SO	1			6,5	18,0		7	5+2	132																1	24				
+Skj	Car_pal	Novel	5	5	2018	01.09.2018	SO	2		1	7,5	9,0		7	4+3	76																1	16				
+Skj	Car_pal	Novel	5	5	2018	01.09.2018	SO	3		1	8,0	7,0		7		47																1					flowershoot dead
+Skj	Hyp_mac	Novel	5	5	2018	01.09.2018	SO	1			16,0	18,5	38	18		5	3																				
+Skj	Hyp_mac	Novel	5	5	2018	01.09.2018	SO	2			17,0	17,0	145	56		13	8															1					
+Skj	Hyp_mac	Novel	5	5	2018	01.09.2018	SO	3			17,0	17,0	301	7		24	13	1										2									
+Skj	Suc_pra	Novel	5	5	2018	01.09.2018	SO	1			26,5	17,5	284	11	9+2	94	25											8				1					
+Skj	Suc_pra	Novel	5	5	2018	01.09.2018	SO	2			27,0	6,5	180	20	10+4+6	81	29											7				2					flower shoot 1: top missing
+Skj	Suc_pra	Novel	6	3	2018	02.09.2018	RG	1			7,5	17,5		16	9+7	126	26	12																			
+Skj	Suc_pra	Novel	6	3	2018	02.09.2018	RG	2			8,5	18,5		10		145	24																				
+Skj	Suc_pra	Novel	6	3	2018	02.09.2018	RG	3			7,5	7,0		9	7+2	135	31											10									
+Skj	Hyp_mac	Novel	6	3	2018	02.09.2018	RG	1			17,0	18,0	384	51		17	9											12									
+Skj	Hyp_mac	Novel	6	3	2018	02.09.2018	RG	2			18,0	17,0	405	70		20	10											10			3						
+Skj	Hyp_mac	Novel	6	3	2018	02.09.2018	RG	3			17,5	8,0	160	54		21	12							1													
+Skj	Car_pal	Novel	6	3	2018	02.09.2018	RG	1			26,0	16,5		1		126																	17				flowers/capsuls all gone
+Skj	Car_pal	Novel	6	3	2018	02.09.2018	RG	2			26,5	9,0		2		95																					
+Skj	Car_pal	Novel	6	3	2018	02.09.2018	RG	3			27,0	8,5		6		171																					
+Skj	Car_pal	Novel	6	3	2018	02.09.2018	RG	4			26,5	7,0				30																					new shoot
+Skj	Car_pal	Novel	6	3	2018	02.09.2018	RG	5			28,5	7,0		2		140																	20				
+Skj	Suc_pra	Novel	7	2	2018	02.09.2018	ELE	1			7,0	17,5		9		75	24																				
+Skj	Suc_pra	Novel	7	2	2018	02.09.2018	ELE	2			7,0	8,0		18	11+7	96	29	9																			
+Skj	Car_pal	Novel	7	2	2018	02.09.2018	ELE	1			17,0	17,5		2		175																					
+Skj	Car_pal	Novel	7	2	2018	02.09.2018	ELE	2			18,0	7,5		6		113																	50				
+Skj	Hyp_mac	Novel	7	2	2018	02.09.2018	ELE	1			28,0	18,0	48	42		21	14																				
+Skj	Hyp_mac	Novel	7	2	2018	02.09.2018	ELE	2			24,0	7,0	262	86		26	15	3						1													
+Skj	Hyp_mac	Novel	7	2	2018	02.09.2018	ELE	3			24,0	6,0	91	18		16	10																				

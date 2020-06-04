@@ -1,0 +1,450 @@
+"","site","date","SeedClim_plotID","FunCaB_plotID","soil_moisture"
+"1","Fauske",2016-05-10,"51 TTC","Fau1C",0.11025
+"2","Fauske",2016-05-10,"51 TTC","Fau1C",0.11025
+"3","Fauske",2016-05-10,"57 TTC","Fau2C",0.123625
+"4","Fauske",2016-05-10,"57 TTC","Fau2C",0.123625
+"5","Fauske",2016-05-10,"61 TTC","",0.13
+"6","Fauske",2016-05-10,"61 TTC","",0.13
+"7","Fauske",2016-05-10,"68 TTC","Fau4C",0.15575
+"8","Fauske",2016-05-10,"68 TTC","Fau4C",0.15575
+"9","Fauske",2016-05-10,"73 TTC","Fau5C",0.15675
+"10","Fauske",2016-06-07,"51 TTC","Fau1C",0
+"11","Fauske",2016-06-07,"57 TTC","Fau2C",0.001
+"12","Fauske",2016-06-07,"61 TTC","",0.001
+"13","Fauske",2016-06-07,"68 TTC","Fau4C",0.01075
+"14","Fauske",2016-06-07,"73 TTC","Fau5C",0.0275
+"15","Fauske",2016-06-07,"Fau1XC","Fau1XC",0
+"16","Fauske",2016-06-07,"Fau2XC","Fau2XC",0
+"17","Fauske",2016-06-07,"Fau3XC","Fau3XC",0.00075
+"18","Fauske",2016-06-07,"Fau4XC","Fau4XC",0.0045
+"19","Fauske",2016-06-20,"51 TTC","Fau1C",0.1165
+"20","Fauske",2016-06-20,"57 TTC","Fau2C",0.155
+"21","Fauske",2016-06-20,"61 TTC","",0.1315
+"22","Fauske",2016-06-20,"68 TTC","Fau4C",0.152
+"23","Fauske",2016-06-20,"73 TTC","Fau5C",0.119
+"24","Fauske",2016-06-22,"51 TTC","Fau1C",0.108
+"25","Fauske",2016-06-22,"57 TTC","Fau2C",0.1255
+"26","Fauske",2016-06-22,"61 TTC","",0.1425
+"27","Fauske",2016-06-22,"68 TTC","Fau4C",0.157
+"28","Fauske",2016-06-22,"73 TTC","Fau5C",0.1645
+"29","Fauske",2016-06-22,"Fau1XC","Fau1XC",0.20475
+"30","Fauske",2016-06-22,"Fau2XC","Fau2XC",0.18125
+"31","Fauske",2016-06-22,"Fau3XC","Fau3XC",0.1555
+"32","Fauske",2016-06-22,"Fau4XC","Fau4XC",0.139
+"33","Fauske",2016-06-13,"51 TTC","Fau1C",0.0315
+"34","Fauske",2016-06-13,"57 TTC","Fau2C",0.0645
+"35","Fauske",2016-06-13,"61 TTC","",0.05925
+"36","Fauske",2016-06-13,"68 TTC","Fau4C",0.068
+"37","Fauske",2016-06-13,"73 TTC","Fau5C",0.08875
+"38","Fauske",2016-06-13,"Fau1XC","Fau1XC",0.071
+"39","Fauske",2016-06-13,"Fau2XC","Fau2XC",0.0345
+"40","Fauske",2016-06-13,"Fau3XC","Fau3XC",0.033
+"41","Fauske",2016-06-13,"Fau4XC","Fau4XC",0.05025
+"42","Vikesland",2016-07-18,"140 TTC","Vik3C",0.24425
+"43","Vikesland",2016-07-18,"146 TTC","Vik5C",0.23975
+"44","Vikesland",2016-07-18,"Vik1XC","Vik1XC",0.2585
+"45","Vikesland",2016-07-18,"Vik2XC","Vik2XC",0.1795
+"46","Vikesland",2016-07-18,"Vik3XC","Vik3XC",0.242
+"47","Vikesland",2016-07-18,"Vik4XC","Vik4XC",0.22625
+"48","Arhelleren",2016-05-23,"211 TTC","Arh1C",0.2055
+"49","Arhelleren",2016-05-23,"216 TTC","",0.1985
+"50","Arhelleren",2016-05-23,"222 TTC","Arh3C",0.198
+"51","Arhelleren",2016-05-23,"226 TTC","Arh4C",0.17825
+"52","Arhelleren",2016-05-23,"234 TTC","",0.1835
+"53","Arhelleren",2016-05-23,"Arh2C","Arh1C",0.1905
+"54","Arhelleren",2016-06-17,"211 TTC","Arh1C",0.14925
+"55","Arhelleren",2016-06-17,"216 TTC","",0.10375
+"56","Arhelleren",2016-06-17,"222 TTC","Arh3C",0.10425
+"57","Arhelleren",2016-06-17,"226 TTC","Arh4C",0.13075
+"58","Arhelleren",2016-06-17,"234 TTC","",0.1025
+"59","Arhelleren",2016-06-17,"Arh1XC","Arh1XC",0.1095
+"60","Arhelleren",2016-06-17,"Arh2XC","Arh2XC",0.149
+"61","Arhelleren",2016-06-17,"Arh3XC","Arh3XC",0.12425
+"62","Arhelleren",2016-06-17,"Arh4XC","Arh4XC",0.1395
+"63","Arhelleren",2016-06-17,"Arh2C","Arh2C",0.1515
+"64","Arhelleren",2016-06-08,"211 TTC","Arh1C",0.13125
+"65","Arhelleren",2016-06-08,"216 TTC","",0.07475
+"66","Arhelleren",2016-06-08,"222 TTC","Arh3C",0.11875
+"67","Arhelleren",2016-06-08,"226 TTC","Arh4C",0.1075
+"68","Arhelleren",2016-06-08,"234 TTC","",0.1105
+"69","Arhelleren",2016-06-08,"Arh1XC","Arh1XC",0.089
+"70","Arhelleren",2016-06-08,"Arh2XC","Arh2XC",0.1125
+"71","Arhelleren",2016-06-08,"Arh3XC","Arh3XC",0.13175
+"72","Arhelleren",2016-06-08,"Arh4XC","Arh4XC",0.12525
+"73","Arhelleren",2016-07-05,"211 TTC","Arh1C",0.369
+"74","Arhelleren",2016-07-05,"216 TTC","",0.36175
+"75","Arhelleren",2016-07-05,"222 TTC","Arh3C",0.38625
+"76","Arhelleren",2016-07-05,"226 TTC","Arh4C",0.33625
+"77","Arhelleren",2016-07-05,"234 TTC","",0.35675
+"78","Arhelleren",2016-07-05,"Arh1XC","Arh1XC",0.3575
+"79","Arhelleren",2016-07-05,"Arh2XC","Arh2XC",0.4035
+"80","Arhelleren",2016-07-05,"Arh3XC","Arh3XC",0.39675
+"81","Arhelleren",2016-07-05,"Arh4XC","Arh4XC",0.43225
+"82","Arhelleren",2016-07-05,"Arh2C","Arh2C",0.37275
+"83","Arhelleren",2016-07-22,"211 TTC","Arh1C",0.34525
+"84","Arhelleren",2016-07-22,"216 TTC","",0.32575
+"85","Arhelleren",2016-07-22,"222 TTC","Arh3C",0.33925
+"86","Arhelleren",2016-07-22,"226 TTC","Arh4C",0.29925
+"87","Arhelleren",2016-07-22,"234 TTC","",NA
+"88","Arhelleren",2016-07-22,"Arh1XC","Arh1XC",0.371
+"89","Arhelleren",2016-07-22,"Arh2XC","Arh2XC",0.40225
+"90","Arhelleren",2016-07-22,"Arh3XC","Arh3XC",0.3475
+"91","Arhelleren",2016-07-22,"Arh4XC","Arh4XC",0.3615
+"92","Arhelleren",2016-07-22,"Arh2C","Arh2C",0.314
+"93","Ovstedal",2016-05-11,"286 TTC","Ovs1C",0.10625
+"94","Ovstedal",2016-05-11,"291 TTC","Ovs2C",0.132
+"95","Ovstedal",2016-05-11,"297 TTC","Ovs3C",0.10425
+"96","Ovstedal",2016-05-11,"297 TTC","Ovs3C",0.10425
+"97","Ovstedal",2016-05-11,"301 TTC","",0.13075
+"98","Ovstedal",2016-05-11,"Ovs4C","Ovs4C",0.1245
+"99","Ovstedal",2016-05-11,"307 TTC","",0.115
+"100","Ovstedal",2016-07-06,"286 TTC","Ovs1C",0.255
+"101","Ovstedal",2016-07-06,"291 TTC","Ovs2C",0.16825
+"102","Ovstedal",2016-07-06,"297 TTC","Ovs3C",0.1885
+"103","Ovstedal",2016-07-06,"301 TTC","",0.2245
+"104","Ovstedal",2016-07-06,"307 TTC","",0.2105
+"105","Ovstedal",2016-07-06,"Ovs1XC","Ovs1XC",0.231
+"106","Ovstedal",2016-07-06,"Ovs2XC","Ovs2XC",0.2745
+"107","Ovstedal",2016-07-06,"Ovs3XC","Ovs3XC",0.1885
+"108","Ovstedal",2016-07-06,"Ovs4XC","Ovs4XC",0.2335
+"109","Ovstedal",2016-07-06,"Ovs4C","Ovs4C",0.2245
+"110","Ovstedal",2016-07-13,"286 TTC","Ovs1C",0.2215
+"111","Ovstedal",2016-07-13,"291 TTC","Ovs2C",0.184
+"112","Ovstedal",2016-07-13,"297 TTC","Ovs3C",0.24075
+"113","Ovstedal",2016-07-13,"301 TTC","",0.26475
+"114","Ovstedal",2016-07-13,"307 TTC","",0.2295
+"115","Ovstedal",2016-07-13,"Fc4C","Ovs4C",0.18875
+"116","Ovstedal",2016-07-13,"Ovs1XC","Ovs1XC",0.25575
+"117","Ovstedal",2016-07-13,"Ovs2XC","Ovs2XC",0.256
+"118","Ovstedal",2016-07-13,"Ovs3XC","Ovs3XC",0.2225
+"119","Ovstedal",2016-07-13,"Ovs4XC","Ovs4XC",0.27925
+"120","Alrust",2016-05-09,"29 TTC","Alr1C",0.11
+"121","Alrust",2016-05-09,"29 TTC","Alr1C",0.11
+"122","Alrust",2016-05-09,"31 TTC","Alr2C",0.1189625
+"123","Alrust",2016-05-09,"31 TTC","Alr2C",0.1189625
+"124","Alrust",2016-05-09,"37 TTC","Alr3C",0.078
+"125","Alrust",2016-05-09,"37 TTC","Alr3C",0.078
+"126","Alrust",2016-05-09,"46 TTC","",0.04575
+"127","Alrust",2016-05-09,"Alr4C","Alr4C",0.09
+"128","Alrust",2016-05-09,"45 TTC","",0.08
+"129","Alrust",2016-06-21,"29 TTC","Alr1C",0.26375
+"130","Alrust",2016-06-21,"31 TTC","Alr2C",0.2475
+"131","Alrust",2016-06-21,"37 TTC","Alr3C",0.218625
+"132","Alrust",2016-06-21,"45 TTC","",0.2115
+"133","Alrust",2016-06-21,"46 TTC","",0.17925
+"134","Alrust",2016-06-21,"37 TTC","Alr3C",0.218625
+"135","Alrust",2016-06-21,"Alr5C","Alr4C",0.3015
+"136","Alrust",2016-06-21,"Alr1XC","Alr1XC",0.2815
+"137","Alrust",2016-06-21,"Alr2XC","Alr2XC",0.2275
+"138","Alrust",2016-06-21,"Alr3XC","Alr3XC",0.14875
+"139","Alrust",2016-06-21,"Alr4XC","Alr4XC",0.16275
+"140","Alrust",2016-06-14,"29 TTC","Alr1C",0.118
+"141","Alrust",2016-06-14,"31 TTC","Alr2C",0.121
+"142","Alrust",2016-06-14,"37 TTC","Alr3C",0.0875
+"143","Alrust",2016-06-14,"45 TTC","",0.06875
+"144","Alrust",2016-06-14,"46 TTC","",0.068
+"145","Alrust",2016-06-14,"Alr4C","Alr4C",0.094
+"146","Alrust",2016-06-14,"Alr1XC","Alr1XC",0.13275
+"147","Alrust",2016-06-14,"Alr2XC","Alr2XC",0.10975
+"148","Alrust",2016-06-14,"Alr3XC","Alr3XC",0.06165
+"149","Alrust",2016-06-14,"Alr4XC","Alr4XC",0.10075
+"150","Alrust",2016-06-14,"37 TTC","Alr3C",0.0875
+"151","Alrust",2016-06-23,"29 TTC","Alr1C",0.204
+"152","Alrust",2016-06-23,"31 TTC","Alr2C",0.221
+"153","Alrust",2016-06-23,"37 TTC","Alr3C",0.1265
+"154","Alrust",2016-06-23,"45 TTC","",0.17125
+"155","Alrust",2016-06-23,"46 TTC","",0.12
+"156","Hogsete",2016-05-10,"101 TTC","Hog1C",0.0925
+"157","Hogsete",2016-05-10,"110 TTC","Hog2C",0.09375
+"158","Hogsete",2016-05-10,"115 TTC","Hog3C",0.153
+"159","Hogsete",2016-05-10,"116 TTC","",0.1125
+"160","Hogsete",2016-05-10,"Hog4C","Hog4C",0.12525
+"161","Hogsete",2016-05-10,"124 TTC","",0.11825
+"162","Hogsete",2016-06-23,"101 TTC","Hog1C",0.089
+"163","Hogsete",2016-06-23,"110 TTC","Hog2C",0.10325
+"164","Hogsete",2016-06-23,"115 TTC","Hog3C",0.10225
+"165","Hogsete",2016-06-23,"116 TTC","",0.08325
+"166","Hogsete",2016-06-23,"124 TTC","",0.1225
+"167","Hogsete",2016-06-23,"Hog1XC","Hog1XC",0.09425
+"168","Hogsete",2016-06-23,"Hog2XC","Hog2XC",0.10425
+"169","Hogsete",2016-06-23,"Hog3XC","Hog3XC",0.10325
+"170","Hogsete",2016-06-23,"Hog4XC","Hog4XC",0.1415
+"171","Hogsete",2016-06-23,"Hog4C","Hog4C",0.1
+"172","Hogsete",2016-06-15,"101 TTC","Hog1C",0.032
+"173","Hogsete",2016-06-15,"110 TTC","Hog2C",0.01375
+"174","Hogsete",2016-07-07,"101 TTC","Hog1C",0.12825
+"175","Hogsete",2016-07-07,"110 TTC","Hog2C",0.18175
+"176","Hogsete",2016-07-07,"115 TTC","Hog3C",0.15325
+"177","Hogsete",2016-07-07,"116 TTC","",0.169
+"178","Hogsete",2016-07-07,"124 TTC","",0.2025
+"179","Hogsete",2016-07-07,"Hog1XC","Hog1XC",0.20725
+"180","Hogsete",2016-07-07,"Hog2XC","Hog2XC",0.222
+"181","Hogsete",2016-07-07,"Hog3XC","Hog3XC",0.2255
+"182","Hogsete",2016-07-07,"Hog4XC","Hog4XC",0.245
+"183","Hogsete",2016-07-07,"Hog4C","Hog4C",NA
+"184","Rambera",2016-06-30,"194 TTC","Ram4C",0.351
+"185","Rambera",2016-06-30,"198 TTC","Ram5C",0.23875
+"186","Rambera",2016-06-30,"203 TTC","",0.44125
+"187","Rambera",2016-06-30,"528 TTC","",0.32425
+"188","Rambera",2016-06-30,"525 TTC","",0.35025
+"189","Rambera",2016-06-30,"Ram1XC","Ram1XC",0.5105
+"190","Rambera",2016-06-30,"Ram2XC","Ram2XC",0.218
+"191","Rambera",2016-06-30,"Ram3XC","Ram3XC",0.285
+"192","Rambera",2016-06-30,"Ram4XC","Ram4XC",0.3275
+"193","Rambera",2016-06-30,"FC6C","Ram6C",0.22525
+"194","Rambera",2016-06-30,"FC8C","Ram8C",0.23825
+"195","Rambera",2016-07-20,"Ram1XC","Ram1XC",0.49825
+"196","Rambera",2016-07-20,"Ram2XC","Ram2XC",0.209
+"197","Rambera",2016-07-20,"Ram3XC","Ram3XC",0.3985
+"198","Rambera",2016-07-20,"Ram4XC","Ram4XC",0.40125
+"199","Rambera",2016-07-20,"Ram8C","Ram8C",0.27275
+"200","Rambera",2016-07-20,"Ram6C","Ram6C",0.378
+"201","Rambera",2016-07-20,"194 TTC","Ram4C",0.45525
+"202","Rambera",2016-07-20,"198 TTC","Ram5C",0.2535
+"203","Rambera",2016-07-20,"203 TTC","",0.72425
+"204","Rambera",2016-07-20,"528 TTC","",0.31325
+"205","Rambera",2016-07-20,"525 TTC","",0.41175
+"206","Rambera",2016-07-21,"194 TTC","Ram4C",0.3745
+"207","Rambera",2016-07-21,"198 TTC","Ram5C",0.257
+"208","Rambera",2016-07-21,"Ram1XC","Ram1XC",0.50175
+"209","Rambera",2016-07-21,"Ram2XC","Ram2XC",0.20075
+"210","Rambera",2016-07-21,"Ram3XC","Ram3XC",0.2835
+"211","Rambera",2016-07-21,"Ram4XC","Ram4XC",0.26475
+"212","Rambera",2016-07-21,"Ram8C","Ram8C",0.19675
+"213","Rambera",2016-07-21,"Ram6C","Ram6C",0.28
+"214","Veskre",2016-06-27,"263 TTC","Ves1C",0.54775
+"215","Veskre",2016-06-27,"270 TTC","",0.50125
+"216","Veskre",2016-06-27,"271 TTC","",0.83525
+"217","Veskre",2016-06-27,"280 TTC","",0.8195
+"218","Veskre",2016-06-27,"281 TTC","Ves4C",0.58475
+"219","Veskre",2016-06-27,"Ves1XC","Ves1XC",0.72125
+"220","Veskre",2016-06-27,"Ves2XC","Ves2XC",0.63
+"221","Veskre",2016-06-27,"Ves3XC","Ves3XC",0.86225
+"222","Veskre",2016-06-27,"Ves4XC","Ves4XC",0.6255
+"223","Veskre",2016-06-27,"Ves3C","Ves3C",0.79725
+"224","Veskre",2016-06-27,"Ves2C","Ves2C",0.55125
+"225","Veskre",2016-07-08,"263 TTC","Ves1C",0.53425
+"226","Veskre",2016-07-08,"270 TTC","",0.508
+"227","Veskre",2016-07-08,"271 TTC","",0.64425
+"228","Veskre",2016-07-08,"280 TTC","",0.584
+"229","Veskre",2016-07-08,"281 TTC","Ves4C",0.54375
+"230","Veskre",2016-07-08,"Ves1XC","Ves1XC",0.6005
+"231","Veskre",2016-07-08,"Ves2XC","Ves2XC",0.56925
+"232","Veskre",2016-07-08,"Ves3XC","Ves3XC",0.694
+"233","Veskre",2016-07-08,"Ves4XC","Ves4XC",0.60025
+"234","Veskre",2016-07-08,"Ves2C","Ves2C",0.51675
+"235","Veskre",2016-07-08,"Ves3C","Ves3C",0.5705
+"236","Veskre",2016-07-15,"263 TTC","Ves1C",0.49525
+"237","Veskre",2016-07-15,"270 TTC","",0.44075
+"238","Veskre",2016-07-15,"271 TTC","",0.59825
+"239","Veskre",2016-07-15,"280 TTC","",0.57675
+"240","Veskre",2016-07-15,"281 TTC","Ves4C",0.45975
+"241","Veskre",2016-07-15,"263 TTC","Ves1C",0.49525
+"242","Veskre",2016-07-15,"270 TTC","",0.44075
+"243","Veskre",2016-07-15,"271 TTC","",0.59825
+"244","Veskre",2016-07-15,"280 TTC","",0.57675
+"245","Veskre",2016-07-15,"281 TTC","Ves4C",0.45975
+"246","Veskre",2016-07-15,"Ves1XC","Ves1XC",0.56525
+"247","Veskre",2016-07-15,"Ves2XC","Ves2XC",0.56125
+"248","Veskre",2016-07-15,"Ves3XC","Ves3XC",0.626
+"249","Veskre",2016-07-15,"Ves4XC","Ves4XC",0.54225
+"250","Veskre",2016-07-15,"Ves3C","Ves3C",0.62075
+"251","Veskre",2016-07-15,"Ves2C","Ves2C",0.3815
+"252","Ulvehaugen",2016-06-30,"5 TTC","",0.45925
+"253","Ulvehaugen",2016-06-30,"6 TTC","Ulv2C",0.5355
+"254","Ulvehaugen",2016-06-30,"11 TTC","Ulv3C",0.32375
+"255","Ulvehaugen",2016-06-30,"17 TTC","",0.444
+"256","Ulvehaugen",2016-06-30,"23 TTC","",0.31675
+"257","Ulvehaugen",2016-06-30,"Ulv1XC","Ulv1XC",0.2255
+"258","Ulvehaugen",2016-06-30,"Ulv2XC","Ulv2XC",0.26325
+"259","Ulvehaugen",2016-06-30,"Ulv3XC","Ulv3XC",0.2795
+"260","Ulvehaugen",2016-06-30,"Ulv4XC","Ulv4XC",0.41925
+"261","Ulvehaugen",2016-06-30,"Ulv4C","Ulv4C",0.3205
+"262","Ulvehaugen",2016-06-30,"Ulv1C","Ulv1C",0.45675
+"263","Ulvehaugen",2016-07-28,"Ulv1C","Ulv1C",0.54625
+"264","Ulvehaugen",2016-07-28,"6 TTC","Ulv2C",0.47775
+"265","Ulvehaugen",2016-07-28,"11 TTC","Ulv3C",0.3695
+"266","Ulvehaugen",2016-07-28,"Ulv4C","Ulv4C",0.46775
+"267","Ulvehaugen",2016-07-28,"23 TTC","",0.401
+"268","Ulvehaugen",2016-07-28,"Ulv1XC","Ulv1XC",0.3045
+"269","Ulvehaugen",2016-07-28,"Ulv2XC","Ulv2XC",0.351
+"270","Ulvehaugen",2016-07-28,"Ulv3XC","Ulv3XC",0.3515
+"271","Ulvehaugen",2016-07-28,"Ulv4XC","Ulv4XC",0.43025
+"272","Ulvehaugen",2016-07-26,"5 TTC","",0.4965
+"273","Ulvehaugen",2016-07-26,"6 TTC","Ulv2C",0.53775
+"274","Ulvehaugen",2016-07-26,"11 TTC","Ulv3C",0.324
+"275","Ulvehaugen",2016-07-26,"17 TTC","",0.40525
+"276","Ulvehaugen",2016-07-26,"23 TTC","",0.367
+"277","Ulvehaugen",2016-07-26,"Ulv1XC","Ulv1XC",0.258
+"278","Ulvehaugen",2016-07-26,"Ulv2XC","Ulv2XC",0.273
+"279","Ulvehaugen",2016-07-26,"Ulv3XC","Ulv3XC",0.2895
+"280","Ulvehaugen",2016-07-26,"Ulv4XC","Ulv4XC",0.3395
+"281","Ulvehaugen",2016-07-26,"Ulv1C","Ulv1C",0.41025
+"282","Ulvehaugen",2016-07-26,"Ulv4C","Ulv4C",0.34975
+"283","Ulvehaugen",2016-08-02,"5 TTC","",0.45875
+"284","Ulvehaugen",2016-08-02,"6 TTC","Ulv2C",0.387
+"285","Ulvehaugen",2016-08-02,"11 TTC","Ulv3C",0.29875
+"286","Ulvehaugen",2016-08-02,"17 TTC","",0.41525
+"287","Ulvehaugen",2016-08-02,"23 TTC","",0.2905
+"288","Ulvehaugen",2016-08-02,"Ulv1XC","Ulv1XC",0.216
+"289","Ulvehaugen",2016-08-02,"Ulv2XC","Ulv2XC",0.25675
+"290","Ulvehaugen",2016-08-02,"Ulv3XC","Ulv3XC",0.27275
+"291","Ulvehaugen",2016-08-02,"Ulv4XC","Ulv4XC",0.297
+"292","Ulvehaugen",2016-08-02,"Ulv1C","Ulv1C",0.33975
+"293","Ulvehaugen",2016-08-02,"Ulv4C","Ulv4C",0.234
+"294","Lavisdalen",2016-06-29,"78 TTC","",0.3035
+"295","Lavisdalen",2016-06-29,"85 TTC","",0.322
+"296","Lavisdalen",2016-06-29,"87 TTC","",0.2945
+"297","Lavisdalen",2016-06-29,"94 TTC","",0.32775
+"298","Lavisdalen",2016-06-29,"99 TTC","",0.361
+"299","Lavisdalen",2016-06-29,"Lav1C","Lav1C",0.19475
+"300","Lavisdalen",2016-06-29,"Lav2C","Lav2C",0.29125
+"301","Lavisdalen",2016-06-29,"Lav3C","Lav3C",0.22975
+"302","Lavisdalen",2016-06-29,"Lav4C","Lav4C",0.2755
+"303","Lavisdalen",2016-08-03,"78 TTC","",0.27525
+"304","Lavisdalen",2016-08-03,"85 TTC","",0.40475
+"305","Lavisdalen",2016-08-03,"87 TTC","",0.32
+"306","Lavisdalen",2016-08-03,"94 TTC","",0.31325
+"307","Lavisdalen",2016-08-03,"99 TTC","",0.27925
+"308","Lavisdalen",2016-08-03,"Lav1XC","Lav1XC",0.25925
+"309","Lavisdalen",2016-08-03,"Lav2XC","Lav2XC",0.29875
+"310","Lavisdalen",2016-08-03,"Lav3XC","Lav3XC",0.365
+"311","Lavisdalen",2016-08-03,"Lav4XC","Lav4XC",0.35975
+"312","Lavisdalen",2016-08-03,"Lav1C","Lav1C",0.19525
+"313","Lavisdalen",2016-08-03,"Lav2C","Lav2C",0.26875
+"314","Lavisdalen",2016-08-03,"Lav3C","Lav3C",0.27
+"315","Lavisdalen",2016-08-03,"Lav4C","Lav4C",0.294
+"316","Lavisdalen",2016-08-04,"78 TTC","",0.32325
+"317","Lavisdalen",2016-08-04,"85 TTC","",0.425
+"318","Lavisdalen",2016-08-04,"87 TTC","",0.30125
+"319","Lavisdalen",2016-08-04,"94 TTC","",0.27925
+"320","Lavisdalen",2016-08-04,"99 TTC","",0.3715
+"321","Lavisdalen",2016-08-04,"Lav1XC","Lav1XC",0.284
+"322","Lavisdalen",2016-08-04,"Lav2XC","Lav2XC",0.37425
+"323","Lavisdalen",2016-08-04,"Lav3XC","Lav3XC",0.3685
+"324","Lavisdalen",2016-08-04,"Lav4XC","Lav4XC",0.3665
+"325","Lavisdalen",2016-08-04,"Lav1C","Lav1C",0.2495
+"326","Lavisdalen",2016-08-04,"Lav2C","Lav2C",0.33
+"327","Lavisdalen",2016-08-04,"Lav3C","Lav3C",0.2775
+"328","Lavisdalen",2016-08-04,"Lav4C","Lav4C",0.285
+"329","Gudmedalen",2016-06-29,"506 TTC","Gud5C",0.570875
+"330","Gudmedalen",2016-06-29,"511 TTC","Gud12C",0.648
+"331","Gudmedalen",2016-06-29,"516 TTC","",0.59975
+"332","Gudmedalen",2016-06-29,"167 TTC","",0.484
+"333","Gudmedalen",2016-06-29,"506 TTC","",0.570875
+"334","Gudmedalen",2016-06-29,"Gud1XC","Gud1XC",0.62075
+"335","Gudmedalen",2016-06-29,"Gud2XC","Gud2XC",0.70375
+"336","Gudmedalen",2016-06-29,"Gud3XC","Gud3XC",0.51875
+"337","Gudmedalen",2016-06-29,"Gud4XC","Gud4XC",0.525
+"338","Gudmedalen",2016-06-29,"Gud13C","Gud13C",0.53
+"339","Gudmedalen",2016-06-29,"Gud15C","Gud15C",0.33625
+"340","Gudmedalen",2016-08-22,"511 TTC","Gud12C",0.6535
+"341","Gudmedalen",2016-08-22,"Gud1XC","Gud1XC",0.47225
+"342","Gudmedalen",2016-08-22,"Gud2XC","Gud2XC",0.62175
+"343","Gudmedalen",2016-08-22,"Gud3XC","Gud3XC",0.475
+"344","Gudmedalen",2016-08-22,"Gud4XC","Gud4XC",0.48625
+"345","Gudmedalen",2016-08-22,"506 TTC","Gud5C",0.50925
+"346","Gudmedalen",2016-08-22,"Gud13C","Gud13C",0.49375
+"347","Gudmedalen",2016-08-22,"Gud15C","Gud15C",0.33975
+"348","Gudmedalen",2016-08-23,"511 TTC","Gud12C",0.6285
+"349","Gudmedalen",2016-08-23,"167 TTC","",0.5685
+"350","Gudmedalen",2016-08-23,"506 TTC","Gud5C",0.497375
+"351","Gudmedalen",2016-08-23,"Gud1XC","Gud1XC",0.57475
+"352","Gudmedalen",2016-08-23,"Gud2XC","Gud2XC",0.57375
+"353","Gudmedalen",2016-08-23,"Gud3XC","Gud3XC",0.4885
+"354","Gudmedalen",2016-08-23,"Gud4XC","Gud4XC",0.52375
+"355","Gudmedalen",2016-08-23,"506 TTC","Gud5C",0.497375
+"356","Gudmedalen",2016-08-23,"Gud13C","Gud13C",0.4565
+"357","Gudmedalen",2016-08-23,"Gud15C","Gud15C",0.26625
+"358","Gudmedalen",2016-08-23,"165 TTC","",0.5175
+"359","Gudmedalen",2016-08-23,"154 TTC","",0.78525
+"360","Skjellingahaugen",2016-07-29,"236 TTC","Skj1C",0.6325
+"361","Skjellingahaugen",2016-07-29,"246 TTC","Skj3C",0.49975
+"362","Skjellingahaugen",2016-07-29,"251 TTC","Skj4C",0.693
+"363","Skjellingahaugen",2016-07-29,"243 TTC","Skj2C",0.54075
+"364","Skjellingahaugen",2016-07-29,"Skj2XC","Skj2XC",0.5345
+"365","Skjellingahaugen",2016-07-29,"Skj3XC","Skj3XC",0.5555
+"366","Skjellingahaugen",2016-07-29,"Skj4XC","Skj4XC",0.50525
+"367","Skjellingahaugen",2016-08-25,"236 TTC","Skj1C",0.60975
+"368","Skjellingahaugen",2016-08-25,"246 TTC","Skj3C",0.47425
+"369","Skjellingahaugen",2016-08-25,"251 TTC","Skj4C",0.612
+"370","Skjellingahaugen",2016-08-25,"243 TTC","Skj2C",0.5
+"371","Skjellingahaugen",2016-08-25,"260 TTC","",0.51275
+"372","Skjellingahaugen",2016-08-25,"Skj1XC","Skj1XC",0.58225
+"373","Skjellingahaugen",2016-08-25,"Skj2XC","Skj2XC",0.495
+"374","Skjellingahaugen",2016-08-25,"Skj3XC","Skj3XC",0.554
+"375","Skjellingahaugen",2016-08-25,"Skj4XC","Skj4XC",0.4745
+"376","Skjellingahaugen",2016-08-25,"TTC 251","Skj4C",0.61175
+"377","Skjellingahaugen",2016-08-29,"236 TTC","Skj1C",0.63325
+"378","Skjellingahaugen",2016-08-29,"246 TTC","Skj3C",0.481
+"379","Skjellingahaugen",2016-08-29,"251 TTC","Skj4C",0.5915
+"380","Skjellingahaugen",2016-08-29,"243 TTC","Skj2C",0.6045
+"381","Skjellingahaugen",2016-08-29,"260 TTC","",0.566
+"382","Skjellingahaugen",2016-08-29,"Skj1XC","Skj1XC",0.673
+"383","Skjellingahaugen",2016-08-29,"Skj2XC","Skj2XC",0.5005
+"384","Skjellingahaugen",2016-08-29,"Skj3XC","Skj3XC",0.5695
+"385","Skjellingahaugen",2016-08-29,"Skj4XC","Skj4XC",0.454
+"386","Vikesland",2016-06-15,"Vik2XC","Vik2XC",0.03125
+"387","Vikesland",2016-06-15,"Vik3XC","Vik3XC",0.0235
+"388","Vikesland",2016-06-15,"Vik4XC","Vik4XC",0.0245
+"389","Vikesland",2016-06-15,"146 TTC","Vik5C",0.0205
+"390","Vikesland",2016-06-15,"Vik1XC","Vik1XC",0.03325
+"391","Vikesland",2016-06-15,"141 TTC","Vik4C",0.014
+"392","Vikesland",2016-06-15,"140 TTC","Vik3C",0.03425
+"393","Ovstedal",2016-07-23,"286 TTC","Ovs1C",0.2645
+"394","Ovstedal",2016-07-23,"291 TTC","Ovs2C",0.2225
+"395","Ovstedal",2016-07-23,"297 TTC","Ovs3C",0.2015
+"396","Ovstedal",2016-07-23,"301 TTC","",NA
+"397","Ovstedal",2016-07-23,"307 TTC","",NA
+"398","Ovstedal",2016-07-23,"Ovs1XC","Ovs1XC",0.215
+"399","Ovstedal",2016-07-23,"Ovs2XC","Ovs2XC",0.33675
+"400","Ovstedal",2016-07-23,"Ovs3XC","Ovs3XC",0.3145
+"401","Ovstedal",2016-07-23,"Ovs4XC","Ovs4XC",0.288
+"402","Ovstedal",2016-07-23,"Ovs4C","Ovs4C",0.257
+"403","Ovstedal",2016-07-14,"286 TTC","Ovs1C",0.2645
+"404","Ovstedal",2016-07-14,"291 TTC","Ovs2C",0.2225
+"405","Ovstedal",2016-07-14,"297 TTC","Ovs3C",0.20175
+"406","Ovstedal",2016-07-14,"Ovs1XC","Ovs1XC",0.215
+"407","Ovstedal",2016-07-14,"Ovs2XC","Ovs2XC",0.26175
+"408","Ovstedal",2016-07-14,"Ovs3XC","Ovs3XC",0.3145
+"409","Ovstedal",2016-07-14,"Ovs4XC","Ovs4XC",0.288
+"410","Ovstedal",2016-07-14,"Ovs4C","Ovs4C",0.257
+"411","Rambera",2016-07-21,"194 TTC","Ram4C",0.3745
+"412","Rambera",2016-07-21,"198 TTC","Ram5C",0.257
+"413","Rambera",2016-07-21,"FC8C","Ram8C",0.3995
+"414","Rambera",2016-07-21,"FC6C","Ram6C",0.28
+"415","Rambera",2016-07-21,"Ram1XC","Ram1XC",0.50175
+"416","Rambera",2016-07-21,"Ram2XC","Ram2XC",0.20075
+"417","Rambera",2016-07-21,"Ram3XC","Ram3XC",0.2835
+"418","Rambera",2016-07-21,"Ram4XC","Ram4XC",0.26475
+"419","Vikesland",2016-05-10,"126 TTC","",0.08925
+"420","Vikesland",2016-05-10,"Vik5C","Vik5C",0.096
+"421","Vikesland",2016-05-10,"134 TTC","Vik2C",0.09425
+"422","Vikesland",2016-05-10,"140 TTC","Vik3C",0.1125
+"423","Vikesland",2016-05-10,"141 TTC","Vik4C",0.077
+"424","Vikesland",2016-05-10,"Vik4C","Vik4C",0.09225
+"425","Vikesland",2016-06-24,"126 TTC","",0.07025
+"426","Vikesland",2016-06-24,"134 TTC","Vik2C",0.06725
+"427","Vikesland",2016-06-24,"140 TTC","Vik3C",0.069
+"428","Vikesland",2016-06-24,"141 TTC","Vik4C",0.04025
+"429","Vikesland",2016-06-24,"146 TTC","Vik5C",0.042
+"430","Vikesland",2016-06-24,"Vik1XC","Vik1XC",0.05425
+"431","Vikesland",2016-06-24,"Vik2XC","Vik2XC",0.0585
+"432","Vikesland",2016-06-24,"Vik3XC","Vik3XC",0.0515
+"433","Vikesland",2016-06-24,"Vik4XC","Vik4XC",0.0505
+"434","Vikesland",2016-06-28,"Vik1XC","Vik1XC",0.17225
+"435","Vikesland",2016-06-28,"Vik2XC","Vik2XC",0.15325
+"436","Vikesland",2016-06-28,"Vik3XC","Vik3XC",0.154
+"437","Vikesland",2016-06-28,"Vik4XC","Vik4XC",0.14225
+"438","Vikesland",2016-06-28,"134 TTC","Vik2C",0.1035
+"439","Vikesland",2016-06-28,"141 TTC","Vik4C",0.15825
+"440","Vikesland",2016-06-28,"140 TTC","Vik3C",0.13025
+"441","Vikesland",2016-06-28,"146 TTC","Vik5C",0.15875
+"442","Vikesland",2016-07-06,"134 TTC","Vik2C",0.16525
+"443","Vikesland",2016-07-06,"140 TTC","Vik3C",0.15675
+"444","Vikesland",2016-07-06,"141 TTC","Vik4C",0.15
+"445","Vikesland",2016-07-06,"146 TTC","Vik5C",0.1705
+"446","Vikesland",2016-07-06,"Vik1XC","Vik1XC",0.20925
+"447","Vikesland",2016-07-06,"Vik2XC","Vik2XC",0.14375
+"448","Vikesland",2016-07-06,"Vik3XC","Vik3XC",0.183
+"449","Vikesland",2016-07-06,"Vik4XC","Vik4XC",0.14425
