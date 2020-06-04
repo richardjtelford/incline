@@ -82,10 +82,10 @@ Sib_pro_2018_2019 <- Sib_pro_2018 %>%
 #### vital rate regressions ####
 x11()
 survModelComp(Sib_pro_2018_2019,makePlot = T)
-survChosenModel <- surv~size # Chose the surv~size model,evene if the AIC were lower than for the poluynomial model because the outliers is driving that trend.
-
+survChosenModel <- surv ~ size + size2 #Chosen based on AIC
+   
 growthModelComp(Sib_pro_2018_2019,makePlot=T)
-growthChosenModel <- sizeNext~size+size2 #The AIC value
+growthChosenModel <- sizeNext ~ size + size2 #The AIC value
 
 # flowering
 AIC(glm(flo.if~1,family='binomial',data=Sib_pro_2018_2019))
@@ -101,7 +101,7 @@ AIC(glm(flo.no~size,family='poisson',data = Sib_pro_2018_2019))
 AIC(glm(flo.no~size+I(size^2),family='poisson',data = Sib_pro_2018_2019))
 AIC(glm(flo.no~size+I(size^2)+I(size^3),family='poisson',data = Sib_pro_2018_2019))
 
-flowersChosenModel <- flo.no ~ size + (size^2)
+flowersChosenModel <- flo.no ~ size + size2 
 
 # cloning
 # AIC(glm(cloning ~ 1, family='binomial', data = Sib_pro_2018_2019))
@@ -112,6 +112,111 @@ flowersChosenModel <- flo.no ~ size + (size^2)
 # cloningChosenModel <- cloning~1
 
 
+#### Testing warming effect on population dynamics ####
+
+Control <- Sib_pro_2018_2019 %>% 
+  filter(OTC == "C")
+
+#### vital rate objects ####
+so_c <- makeSurvObj(Cold, Formula = survChosenModel)
+go_c <- makeGrowthObj(Cold, Formula = growthChosenModel)
+
+fo_c <- makeFecObj(Cold, Formula=c(floweringChosenModel, flowersChosenModel),
+                 Family=c("binomial", "poisson"),
+                 Transform=c("none", "none"),
+                 meanOffspringSize = Seedling_info$seeds_cap,
+                 sdOffspringSize = Seedling_info$seeds_cap_sd,
+                 fecConstants = data.frame(seedsPerCap=4.38, seedlingEstablishmentRate=0.1))
+
+#### matrices ####
+bin = 100
+minSize_c = min(Cold$size,na.rm=T)*0.9
+maxSize_c = max(Cold$size,na.rm=T)*1.1
+Pmatrix_c <- makeIPMPmatrix(nBigMatrix = bin, minSize = minSize_c, maxSize = maxSize_c, growObj = go_c, survObj = so_c, correction = "constant")
+
+x11()
+diagnosticsPmatrix(Pmatrix, growObj=go_c, survObj=so_c, dff=Cold, correction="constant")
+
+contourPlot(t(Pmatrix_c), Pmatrix_c@meshpoints,maxSize_c, 0.03, 0)
+
+#Cmatrix <- makeIPMCmatrix(clonalObj=co,nBigMatrix = bin,minSize=minSize,maxSize=maxSize,correction="constant")
+Fmatrix_c <- makeIPMFmatrix(fecObj=fo,nBigMatrix = bin,minSize=minSize_c, maxSize=maxSize_c, correction="constant")
+
+#contourPlot(t(Cmatrix), Cmatrix@meshpoints,maxSize, 0.03, 0)
+contourPlot(t(Fmatrix_c), Fmatrix_c@meshpoints, maxSize_c, 0.003, 0)
+
+IPM_c <- Pmatrix_c + Fmatrix_c #+ Cmatrix
+
+contourPlot(t(IPM_c), Pmatrix_c@meshpoints, maxSize_c, 0.05, 0)
+as.numeric(eigen(IPM_c)$value[1])
+
+
+#### vital rate objects ####
+so_w <- makeSurvObj(Warm, Formula = survChosenModel)
+go_w <- makeGrowthObj(Warm, Formula = growthChosenModel)
+
+fo_w <- makeFecObj(Warm, Formula=c(floweringChosenModel, flowersChosenModel),
+                   Family=c("binomial", "poisson"),
+                   Transform=c("none", "none"),
+                   meanOffspringSize = Seedling_info$seeds_cap,
+                   sdOffspringSize = Seedling_info$seeds_cap_sd,
+                   fecConstants = data.frame(seedsPerCap=4.38, seedlingEstablishmentRate=0.1))
+
+#### matrices ####
+bin = 100
+minSize_w = min(Warm$size,na.rm=T)*0.9
+maxSize_w = max(Warm$size,na.rm=T)*1.1
+Pmatrix_w <- makeIPMPmatrix(nBigMatrix = bin, minSize = minSize_w, maxSize = maxSize_w, growObj = go_w, survObj = so_w, correction = "constant")
+
+x11()
+diagnosticsPmatrix(Pmatrix, growObj=go_w, survObj=so_w, dff=Warm, correction="constant")
+
+contourPlot(t(Pmatrix_w), Pmatrix_w@meshpoints,maxSize_w, 0.03, 0)
+
+#Cmatrix <- makeIPMCmatrix(clonalObj=co,nBigMatrix = bin,minSize=minSize,maxSize=maxSize,correction="constant")
+Fmatrix_w <- makeIPMFmatrix(fecObj=fo,nBigMatrix = bin,minSize=minSize_w, maxSize=maxSize_w, correction="constant")
+
+#contourPlot(t(Cmatrix), Cmatrix@meshpoints,maxSize, 0.03, 0)
+contourPlot(t(Fmatrix_w), Fmatrix_w@meshpoints, maxSize_w, 0.003, 0)
+
+IPM_w <- Pmatrix_w + Fmatrix_w #+ Cmatrix
+
+contourPlot(t(IPM_w), Pmatrix_w@meshpoints, maxSize_w, 0.05, 0)
+as.numeric(eigen(IPM_w)$value[1])
+
+#############################################
+## Analysis of IPM 
+###############################################
+
+#### lambda ####
+lambda_w <- as.numeric(eigen(IPM_w)$value[1])
+
+#### stable size distribution and reproductive value ####
+w.eigen_w <- Re(eigen(IPM_w)$vectors[,1])
+stable.dist_w <- w.eigen_w/sum(w.eigen_w)
+v.eigen_w <- Re(eigen(t(IPM_w))$vectors[,1])
+repro.val_w <- v.eigen_w/v.eigen_w[1]
+
+#### matrix sensitivity & elasticity ####
+sensitivity <- sens(IPM_w)
+elasticity <- elas(IPM_w)
+
+x11()
+par(mfrow=c(2,3),mar=c(4,5,2,2))
+image.plot(Pmatrix_w@meshpoints,Pmatrix_w@meshpoints,t(IPM_w), xlab="Size (t)",ylab="Size (t+1)", col=topo.colors(100), main="IPM matrix")
+contour(Pmatrix_w@meshpoints_w@meshpoints,t(IPM_w), add = TRUE, drawlabels = TRUE)
+plot(Pmatrix_w@meshpoints,stable.dist,xlab="Size",type="l",main="Stable size distribution")
+plot(Pmatrix_w@meshpoints,repro.val,xlab="Size",type="l",main="Reproductive values")
+image.plot(Pmatrix_w@meshpoints,Pmatrix_w@meshpoints,t(elasticity),xlab="Size (t)",ylab="Size (t+1)",main="Elasticity")
+image.plot(Pmatrix_w@meshpoints,Pmatrix_w@meshpoints,t(sensitivity),xlab="Size (t)",ylab="Size (t+1)", main="Sensitivity")
+
+#### parameter sensitivity & elasticity ####
+res <- sensParams(go, so, fo, nBigMatrix = bin, minSize=minSize,maxSize=maxSize,correction="constant") #removed clonality, just add co if you want to add that
+
+x11()
+par(mfrow = c(2, 1), bty = "l", pty = "m")
+barplot(res$sens, main = expression("Parameter sensitivity of "*lambda),las = 2, cex.names = 0.5)
+barplot(res$elas, main = expression("Parameter elasticity of "*lambda),las = 2, cex.names = 0.5)
 
 
 #### vital rate objects ####
@@ -146,38 +251,3 @@ IPM <- Pmatrix + Fmatrix #+ Cmatrix
 
 contourPlot(t(IPM), Pmatrix@meshpoints,maxSize, 0.05, 0)
 as.numeric(eigen(IPM)$value[1])
-
-#############################################
-## Analysis of IPM 
-###############################################
-
-#### lambda ####
-lambda <- as.numeric(eigen(IPM)$value[1])
-
-#### stable size distribution and reproductive value ####
-w.eigen <- Re(eigen(IPM)$vectors[,1])
-stable.dist <- w.eigen/sum(w.eigen)
-v.eigen <- Re(eigen(t(IPM))$vectors[,1])
-repro.val <- v.eigen/v.eigen[1]
-
-#### matrix sensitivity & elasticity ####
-sensitivity <- sens(IPM)
-elasticity <- elas(IPM)
-
-library(fields)
-x11()
-par(mfrow=c(2,3),mar=c(4,5,2,2))
-image.plot(Pmatrix@meshpoints,Pmatrix@meshpoints,t(IPM), xlab="Size (t)",ylab="Size (t+1)", col=topo.colors(100), main="IPM matrix")
-contour(Pmatrix@meshpoints,Pmatrix@meshpoints,t(IPM), add = TRUE, drawlabels = TRUE)
-plot(Pmatrix@meshpoints,stable.dist,xlab="Size",type="l",main="Stable size distribution")
-plot(Pmatrix@meshpoints,repro.val,xlab="Size",type="l",main="Reproductive values")
-image.plot(Pmatrix@meshpoints,Pmatrix@meshpoints,t(elasticity),xlab="Size (t)",ylab="Size (t+1)",main="Elasticity")
-image.plot(Pmatrix@meshpoints,Pmatrix@meshpoints,t(sensitivity),xlab="Size (t)",ylab="Size (t+1)", main="Sensitivity")
-
-#### parameter sensitivity & elasticity ####
-res <- sensParams(go, so, fo, nBigMatrix = bin, minSize=minSize,maxSize=maxSize,correction="constant") #removed clonality, just add co if you want to add that
-
-x11()
-par(mfrow = c(2, 1), bty = "l", pty = "m")
-barplot(res$sens, main = expression("Parameter sensitivity of "*lambda),las = 2, cex.names = 0.5)
-barplot(res$elas, main = expression("Parameter elasticity of "*lambda),las = 2, cex.names = 0.5)
