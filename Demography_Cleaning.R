@@ -29,10 +29,10 @@ Treatments <- Treatments %>%
 
  Seedling_info <- Sib_pro %>% 
   filter(seedl == "yes") %>% 
-  mutate(size = 2.625811097 + LSL * 0.005558019 + NL * 0.069472337 + LL * 0.066783627) %>% 
+  mutate(size = 2.625811097 + LSL * 0.005558019 + NL * 0.069472337 + LL * 0.066783627) %>% #Mock numbers from Seedclim data and another species
   mutate(seeds_cap = mean(size),
          seeds_cap_sd = sd(size),
-         seedling_establishment_rate = 0.1) %>%
+         seedling_establishment_rate = 0.6) %>% # 60% chance of germinating in the lab with seeds from sibbaldia at Lavsidalen
   dplyr::select(seeds_cap, seeds_cap_sd, seedling_establishment_rate) %>% 
   distinct()
 
@@ -43,7 +43,7 @@ Sib_pro <- Sib_pro %>%
   dplyr::select(-starts_with("X."))
 
 Sib_pro <- Sib_pro %>% 
-left_join(Treatments, by =c("plotID" = "plotID")) %>% 
+left_join(Treatments, by =c("plotID" = "plotID", "Site" = "Site", "Block" = "Block", "Plot" = "Plot")) %>% 
   mutate(full_Treat = paste0(OTC, Treatment))
 
 # Sib_pro1 <- Sib_pro %>% 
@@ -68,11 +68,11 @@ Sib_pro_2019 <- Sib_pro %>%
 
 
 Sib_pro_2018_2019 <- Sib_pro_2018 %>% 
-  full_join(Sib_pro_2019, by = c("Uni_IDS", "plotID")) %>% 
-  dplyr::select(-Year.x, -Year.y) %>% 
-  rename("LSL_2018" = "LSL.x", "NL_2018" = "NL.x","LL_2018" = "LL.x", "NFL_2018" = "NFL.x", "NB_2018" = "NB.x", "NC_2018" = "NC.x", "NAC_2018" = "NAC.x", "LSL_2019" = "LSL.y", "NL_2019" = "NL.y", "LL_2019" =  "LL.y", "NFL_2019" = "NFL.y","NB_2019" = "NB.y", "NC_2019" = "NC.y", "NAC_2019" = "NAC.y") %>% 
-  mutate(size = 2.625811097 + LSL_2018 * 0.005558019 + NL_2018 * 0.069472337 + LL_2018 * 0.066783627,
-         sizeNext = 2.625811097 + LSL_2019 * 0.005558019 + NL_2019 * 0.069472337 + LL_2019 * 0.066783627,
+  full_join(Sib_pro_2019, by = c("Uni_IDS", "plotID"), suffix = c("_2018", "_2019")) %>% 
+  #dplyr::select(-Year.x, -Year.y) %>% 
+  #rename("LSL_2018" = "LSL.x", "NL_2018" = "NL.x","LL_2018" = "LL.x", "NFL_2018" = "NFL.x", "NB_2018" = "NB.x", "NC_2018" = "NC.x", "NAC_2018" = "NAC.x", "LSL_2019" = "LSL.y", "NL_2019" = "NL.y", "LL_2019" =  "LL.y", "NFL_2019" = "NFL.y","NB_2019" = "NB.y", "NC_2019" = "NC.y", "NAC_2019" = "NAC.y") %>% 
+  mutate(size = 2.625811097 + LSL_2018 * 0.005558019 + NL_2018 * 0.069472337 + LL_2018 * 0.066783627, #Mock numbers from Seedclim data and another species
+         sizeNext = 2.625811097 + LSL_2019 * 0.005558019 + NL_2019 * 0.069472337 + LL_2019 * 0.066783627, #Mock numbers from Seedclim data and another species
          fec = (4.38 * NFL_2018) + (4.38 * NB_2018) + (4.38 * NC_2018), #Average seeds per flower at Skjellingahaugen was 4.38
          surv = ifelse(size > 0 & is.na(sizeNext), 0,
                        ifelse(size > 0 & sizeNext > 0, 1, NA)),
