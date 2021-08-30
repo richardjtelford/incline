@@ -19,11 +19,13 @@ contourPlot <- function(M,meshpts,maxSize,upper,lower) {
 
 #Ver_alp <- read.csv2("Data/Ver_alp_2018.csv")
 Treatments <- read.csv2("Data/Treatment_dictionary.csv", stringsAsFactors = FALSE)
-Sib_pro <- read.csv2("Data/Sib_pro_2018_2019.csv")
+Sib_pro <- read.csv2("Data/Sib_pro_2018-2021.csv")
 
 
 #### Cleaning data ####
 
+Treatments <- Treatments %>%
+  dplyr::select(plotID, Site, Block, Plot, OTC, Treatment)
 
  Seedling_info <- Sib_pro %>% 
   filter(seedl == "yes") %>% 
@@ -38,7 +40,7 @@ Sib_pro <- read.csv2("Data/Sib_pro_2018_2019.csv")
 Sib_pro <- Sib_pro %>% 
   mutate(plotID = paste0(Site, "_", Block, "_", Plot)) %>%
   mutate(Uni_IDS = paste0(plotID, "_", IDS)) %>% 
-  dplyr::select(-Treat)
+  dplyr::select(-starts_with("X."))
 
 Sib_pro <- Sib_pro %>% 
 left_join(Treatments, by =c("plotID" = "plotID")) %>% 
