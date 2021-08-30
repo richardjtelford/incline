@@ -25,7 +25,7 @@ Sib_pro <- read.csv2("Data/Sib_pro_2018-2021.csv")
 #### Cleaning data ####
 
 Treatments <- Treatments %>%
-  dplyr::select(plotID, Site, Block, Plot, OTC, Treatment)
+  dplyr::select(plotID, OTC, Treatment)
 
  Seedling_info <- Sib_pro %>% 
   filter(seedl == "yes") %>% 
@@ -43,7 +43,7 @@ Sib_pro <- Sib_pro %>%
   dplyr::select(-starts_with("X."))
 
 Sib_pro <- Sib_pro %>% 
-left_join(Treatments, by =c("plotID" = "plotID", "Site" = "Site", "Block" = "Block", "Plot" = "Plot")) %>% 
+  left_join(Treatments, by =c("plotID" = "plotID")) %>% 
   mutate(full_Treat = paste0(OTC, Treatment))
 
 # Sib_pro1 <- Sib_pro %>% 
