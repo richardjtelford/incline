@@ -44,6 +44,7 @@ rsconnect/
 *.html
 *.pdf
 
+
 #strange file made by rticles or latex
 *.spl
 *.aux
@@ -58,17 +59,20 @@ rsconnect/
 *.jpg
 *.png
 *.gif
+*.jpeg
 
 #temp files
 *~
 *#
+*.tmp
 
 #data
 *.bil
 *.hdr
 *.zip
-#*.xlsx
-#*.xls
+*.xlsx
+*.xls
+*.csv
 
 #packrat
 packrat/lib*/
