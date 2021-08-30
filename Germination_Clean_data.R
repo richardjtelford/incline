@@ -9,8 +9,8 @@ library(lubridate)
 
 ## Load data ##
 
-VA_germ <- read.csv2("Data/INCLINE_Germination_Seedling_Experiment_Data_2020_05_15_VA.csv", header=TRUE, sep = ",", stringsAsFactors = FALSE)
-SP_germ <-read.csv2("Data/INCLINE_Germination_Seedling_Experiment_Data_2020_05_15_SP.csv", header=TRUE, sep = ",", dec = ".", stringsAsFactors = FALSE)
+VA_germ <- read.csv2("Data/INCLINE_Germination_Seedling_Experiment_Data_2020_06_21_VA.csv", header=TRUE, sep = ",", stringsAsFactors = FALSE)
+SP_germ <-read.csv2("Data/INCLINE_Germination_Seedling_Experiment_Data_2020_06_21_SP.csv", header=TRUE, sep = ",", dec = ".", stringsAsFactors = FALSE)
  
 
 ## Veronical alpina ##
@@ -280,7 +280,7 @@ Plot_leaf_graph <- function(data, site, species){
   data <- data %>% 
     filter(Site == site)
   
-  plot <- ggplot(aes(x = sort(as.integer(Days_to_leaf)), y = Cum_leaf_percent), data = data) +
+  plot <- ggplot(aes(x = sort(as.integer(Days_to_leaf)), y = Cum_leaf_percent, color = Replicate), data = data) +
     geom_point() +
     geom_line() +
     facet_wrap(~ Water_potential, labeller = as_labeller(WP_names)) +
@@ -367,7 +367,7 @@ Plot_germination_graph(data = SP_germ_analysis, site = "ULV", species = "Sibbald
 
 # SP cotelydon plot #
 
-Plot_cotelydon_graph(data = SP_cotelydon_analysis, site = "SKJ", species = "Sibbaldia procumbens")
+Plot_cotelydon_graph(data = SP_cotelydon_analysis, site = "LAV", species = "Sibbaldia procumbens")
 
 # SP leaf plot #
 
@@ -434,29 +434,37 @@ ggplot(aes(x = Water_potential, y = Max_germination)) +
 
 #Plots and info used to decide when to sample germinants
 
-# ggplot(aes(x = Water_potential, y = Days_since_germination), data = SP_germ1) +
-#   geom_boxplot()
-# 
-# ggplot(aes(x = Water_potential, y = Days_since_leaf), data = SP_germ1) +
-#   geom_boxplot()
-# 
-# ggplot(aes(x = Water_potential, y = Days_since_leaf), data = VA_germ1) +
-#   geom_jitter( alpha = 0.1) +
-#   geom_violin()
-# 
-# ggplot(aes(x = Water_potential, y = Days_since_leaf), data = SP_germ1) +
-#   geom_violin() +
-#   geom_jitter(alpha = 0.1)
-# 
-# VA_leaf <- VA_germ1 %>% 
-#   filter(!is.na(Leaf_date)) %>% 
-#   ungroup() %>% 
-#   mutate(Days_since_leaf = as.numeric(Days_since_leaf)) %>% 
-#   group_by(Site, Water_potential, Replicate, Days_since_leaf) %>%
-#   mutate(n = n()) %>%
-#   select(Site, Water_potential, Replicate, Days_since_leaf, n) %>%
-#   distinct() %>% 
-#   spread(Days_since_leaf, n)
+SP_germ1 %>% 
+  filter(Harvest_date == "") %>% 
+  filter(!is.na(Germination_date)) %>% 
+  filter(Days_since_germination > 0) %>% 
+ ggplot(aes(x = Water_potential, y = Days_since_germination)) +
+   geom_boxplot()
+ 
+ ggplot(aes(x = Water_potential, y = Days_since_leaf), data = SP_germ1) +
+   geom_boxplot()
+ 
+ VA_germ1 %>% 
+   filter(Harvest_date == "") %>% 
+   filter(!is.na(Germination_date)) %>% 
+   #filter(Days_since_leaf < 100) %>% 
+   ggplot(aes(x = Water_potential, y = Days_since_cotelydon)) +
+   geom_violin() +
+   geom_jitter( alpha = 0.1)
+ 
+ ggplot(aes(x = Water_potential, y = Days_since_leaf), data = SP_germ1) +
+   geom_violin() +
+   geom_jitter(alpha = 0.1)
+ 
+ VA_leaf <- VA_germ1 %>% 
+   filter(!is.na(Leaf_date)) %>% 
+   ungroup() %>% 
+   mutate(Days_since_leaf = as.numeric(Days_since_leaf)) %>% 
+   group_by(Site, Water_potential, Days_since_leaf) %>%
+   mutate(n = n()) %>%
+   select(Site, Water_potential, Days_since_leaf, n) %>%
+   distinct() %>% 
+   spread(Days_since_leaf, n)
 # 
 # write_csv(VA_leaf, path = "VA_leaf_summary.csv")
 # 
