@@ -5,7 +5,7 @@
 #### Loading packages ####
 
 library(tidyverse)
-library(GGally)
+#library(GGally)
 library(IPMpack)
 
 contourPlot <- function(M,meshpts,maxSize,upper,lower) {
@@ -41,6 +41,7 @@ Sib_pro <- Sib_pro %>%
   mutate(plotID = paste0(Site, "_", Block, "_", Plot)) %>%
   mutate(Uni_IDS = paste0(plotID, "_", IDS)) %>% 
   dplyr::select(-starts_with("X."))
+#Some Site is called "Ulv ", needs to be changed to "Ulv".
 
 Sib_pro <- Sib_pro %>% 
   left_join(Treatments, by =c("plotID" = "plotID")) %>% 
@@ -56,19 +57,17 @@ Sib_pro <- Sib_pro %>%
 
 Sib_pro_2018 <- Sib_pro %>% 
   filter(Year == 2018,
-         Site == "Lav",
-         Block %in% c(1,2,3)) %>% 
-  dplyr::select(plotID, Uni_IDS, OTC, Treatment, full_Treat, Year, LSL, NL, LL, NFL, NB, NC, NAC)
+         Site == "Lav") %>% 
+  dplyr::select(plotID, Uni_IDS, OTC, Treatment, full_Treat, Year, LSL, NL, LL, NFL, NB, NC, NAC, seedl, juvenile)
 
 Sib_pro_2019 <- Sib_pro %>% 
   filter(Year == 2019,
-         Site == "Lav",
-         Block %in% c(1,2,3)) %>% 
-  dplyr::select(plotID, Uni_IDS, Year, LSL, NL, LL, NFL, NB, NC, NAC)
+         Site == "Lav") %>% 
+  dplyr::select(plotID, Uni_IDS, OTC, Treatment, full_Treat, Year, LSL, NL, LL, NFL, NB, NC, NAC, seedl, juvenile)
 
 
 Sib_pro_2018_2019 <- Sib_pro_2018 %>% 
-  full_join(Sib_pro_2019, by = c("Uni_IDS", "plotID"), suffix = c("_2018", "_2019")) %>% 
+  full_join(Sib_pro_2019, by = c("Uni_IDS", "plotID", "OTC", "Treatment", "full_Treat"), suffix = c("_2018", "_2019")) %>% 
   #dplyr::select(-Year.x, -Year.y) %>% 
   #rename("LSL_2018" = "LSL.x", "NL_2018" = "NL.x","LL_2018" = "LL.x", "NFL_2018" = "NFL.x", "NB_2018" = "NB.x", "NC_2018" = "NC.x", "NAC_2018" = "NAC.x", "LSL_2019" = "LSL.y", "NL_2019" = "NL.y", "LL_2019" =  "LL.y", "NFL_2019" = "NFL.y","NB_2019" = "NB.y", "NC_2019" = "NC.y", "NAC_2019" = "NAC.y") %>% 
   mutate(size = 2.625811097 + LSL_2018 * 0.005558019 + NL_2018 * 0.069472337 + LL_2018 * 0.066783627, #Mock numbers from Seedclim data and another species
@@ -78,32 +77,100 @@ Sib_pro_2018_2019 <- Sib_pro_2018 %>%
                        ifelse(size > 0 & sizeNext > 0, 1, NA)),
          flo.no = NB_2018 + NFL_2018 + NC_2018,
          flo.if = ifelse(flo.no > 0, 1, 0),
-         offspringNext = NA)
+         offspringNext = NA) %>% #Need to check if this is how to do it
+  dplyr::select(Uni_IDS, OTC, Treatment, size, sizeNext, fec, surv, flo.no, flo.if, offspringNext, seedl_2019, juvenile_2019) 
   
 
 #### vital rate regressions ####
-x11()
+
+params=data.frame(
+  surv.int=NA,
+  surv.slope=NA,
+  surv.2=NA,
+  growth.int=NA,
+  growth.slope=NA,
+  growth.sd=NA,
+  growth.2=NA,
+  flower.if.int=NA,
+  flower.if.slope=NA,
+  flower.if.2=NA,
+  flower.if.3=NA,
+  flower.no.int=NA,
+  flower.no.slope=NA,
+  flower.no.2=NA,
+  recruit.size.mean=NA,
+  recruit.size.sd=NA,
+  establishment.prob=NA
+)
+
+x11() 
 survModelComp(Sib_pro_2018_2019,makePlot = T)
-survChosenModel <- surv ~ size + size2 #Chosen based on AIC
-   
+#survChosenModel <- surv ~ size + size2 #Chosen based on AIC
+
+# 1. survival regression
+surv.reg=glm(surv~size + I(size^2),data=Sib_pro_2018_2019,family=binomial())
+summary(surv.reg)
+params$surv.int=coefficients(surv.reg)[1]
+params$surv.slope=coefficients(surv.reg)[2]
+params$surv.2=coefficients(surv.reg)[3]
+
+x11()   
 growthModelComp(Sib_pro_2018_2019,makePlot=T)
-growthChosenModel <- sizeNext ~ size + size2 #The AIC value
+#growthChosenModel <- sizeNext ~ size + size2 #The AIC value
+
+growth.reg=lm(sizeNext~size + I(size^2),data=Sib_pro_2018_2019)
+summary(growth.reg)
+params$growth.int=coefficients(growth.reg)[1]
+params$growth.slope=coefficients(growth.reg)[2]
+params$growth.sd=sd(resid(growth.reg))
+params$growth.2=coefficients(growth.reg)[3]
 
 # flowering
+plot(x = Sib_pro_2018_2019$size, y = Sib_pro_2018_2019$flo.if)
+
 AIC(glm(flo.if~1,family='binomial',data=Sib_pro_2018_2019))
 AIC(glm(flo.if~size,family='binomial',data=Sib_pro_2018_2019))
 AIC(glm(flo.if~size+I(size^2),family='binomial',data=Sib_pro_2018_2019))
 AIC(glm(flo.if~size+I(size^2)+I(size^3),family='binomial',data=Sib_pro_2018_2019))
 
-floweringChosenModel <- flo.if ~ size
+#floweringChosenModel <- flo.if ~ size +I(size^2)+I(size^3)
+
+flowering.if.reg=glm(flo.if~size+I(size^2)+I(size^3),family='binomial', data=Sib_pro_2018_2019)
+summary(flowering.if.reg)
+params$flower.if.int=coefficients(flowering.if.reg)[1]
+params$flower.if.slope=coefficients(flowering.if.reg)[2]
+params$flower.if.2=coefficients(flowering.if.reg)[3]
+params$flower.if.3=coefficients(flowering.if.reg)[4]
 
 # # of flowers
-AIC(glm(flo.no~1,family='poisson',data = Sib_pro_2018_2019))
-AIC(glm(flo.no~size,family='poisson',data = Sib_pro_2018_2019))
-AIC(glm(flo.no~size+I(size^2),family='poisson',data = Sib_pro_2018_2019))
-AIC(glm(flo.no~size+I(size^2)+I(size^3),family='poisson',data = Sib_pro_2018_2019))
 
-flowersChosenModel <- flo.no ~ size + size2 
+Sib_pro_2018_2019_flo <- Sib_pro_2018_2019 %>% filter(flo.if == 1)
+
+plot(x = Sib_pro_2018_2019_flo$size, y = Sib_pro_2018_2019_flo$flo.no)
+
+AIC(glm(flo.no~1,family='poisson',data = Sib_pro_2018_2019_flo))
+AIC(glm(flo.no~size,family='poisson',data = Sib_pro_2018_2019_flo))
+AIC(glm(flo.no~size+I(size^2),family='poisson',data = Sib_pro_2018_2019_flo))
+AIC(glm(flo.no~size+I(size^2)+I(size^3),family='poisson',data = Sib_pro_2018_2019_flo))
+
+#flowersChosenModel <- flo.no ~ size + I(size^2)
+
+flowering.no.reg=glm(flo.no~size+I(size^2),family='poisson', data=Sib_pro_2018_2019_flo)
+summary(flowering.no.reg)
+params$flower.no.int=coefficients(flowering.no.reg)[1]
+params$flower.no.slope=coefficients(flowering.no.reg)[2]
+params$flower.no.2=coefficients(flowering.no.reg)[3]
+
+# size distribution of recruits
+
+Sib_pro_2018_2019_seedlings <- Sib_pro_2018_2019 %>% 
+  filter(seedl_2019 == "yes" | juvenile_2019 == "yes",
+         is.na(size))
+
+params$recruit.size.mean = mean(Sib_pro_2018_2019_seedlings$sizeNext)
+params$recruit.size.sd=sd(Sib_pro_2018_2019_seedlings$sizeNext)
+
+params$establishment.prob=sum(is.na(Sib_pro_2018_2019$size))/sum(Sib_pro_2018_2019$fec,na.rm=TRUE)
 
 # cloning
 # AIC(glm(cloning ~ 1, family='binomial', data = Sib_pro_2018_2019))
@@ -112,6 +179,11 @@ flowersChosenModel <- flo.no ~ size + size2
 # AIC(glm(cloning ~ size + I(size^2) + I(size^3), family='binomial',data = Sib_pro_2018_2019))
 # 
 # cloningChosenModel <- cloning~1
+
+
+
+
+
 
 
 #### Testing warming effect on population dynamics ####
