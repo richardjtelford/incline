@@ -98,6 +98,8 @@ params=data.frame(
   flower.no.int=NA,
   flower.no.slope=NA,
   flower.no.2=NA,
+  seed.int = NA,
+  seed.slope = NA,
   recruit.size.mean=NA,
   recruit.size.sd=NA,
   establishment.prob=NA
@@ -161,6 +163,13 @@ params$flower.no.int=coefficients(flowering.no.reg)[1]
 params$flower.no.slope=coefficients(flowering.no.reg)[2]
 params$flower.no.2=coefficients(flowering.no.reg)[3]
 
+# seeds regression
+# note that we are just pooling all individuals into this regression regardless of whether they flowered or not. a later exercise will be to explicitly model flowering probability.
+seed.reg=glm(fec~size,data=Sib_pro_2018_2019,family=poisson())
+summary(seed.reg)
+params$seed.int=coefficients(seed.reg)[1]
+params$seed.slope=coefficients(seed.reg)[2]
+
 # size distribution of recruits
 
 Sib_pro_2018_2019_seedlings <- Sib_pro_2018_2019 %>% 
@@ -181,6 +190,17 @@ params$establishment.prob=sum(is.na(Sib_pro_2018_2019$size))/sum(Sib_pro_2018_20
 # cloningChosenModel <- cloning~1
 
 
+# 6. plot the models over the data - figure 2
+par(mfrow=c(2,2),mar=c(4,4,2,1))
+xx=seq(0,8,by=.01)
+plot(Sib_pro_2018_2019$size,jitter(Sib_pro_2018_2019$surv),main='Survival') # jittered to see easier
+lines(xx,predict(surv.reg,data.frame(size=xx),type='response'), col='red',lwd=3)
+plot(Sib_pro_2018_2019$size,Sib_pro_2018_2019$sizeNext,main='Growth/Shrinkage/Stasis')	
+lines(xx,predict(growth.reg,data.frame(size=xx)),col='red',lwd=3)
+plot(Sib_pro_2018_2019$size,Sib_pro_2018_2019$fec,main='Seeds') # jittered to see easier
+lines(xx,predict(seed.reg,data.frame(size=xx),type='response'), col='red',lwd=3)
+hist(Sib_pro_2018_2019_seedlings$sizeNext,main='Size of Recruits',freq=FALSE)
+lines(xx,dnorm(xx,params$recruit.size.mean,params$recruit.size.sd), col='red',lwd=3)
 
 
 
