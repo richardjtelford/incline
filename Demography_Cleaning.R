@@ -279,14 +279,15 @@ s.x=function(x,params) {
 
 # 2. growth function
 g.yx=function(xp,x,params) { 			
-  dnorm(xp,mean=params$growth.int+params$growth.slope*x,sd=params$growth.sd)
+  dnorm(xp,mean=params$growth.int + params$growth.slope*x + params$growth.2*x^2,sd=params$growth.sd)
 }
 
 # 3. reproduction function      
 f.yx=function(xp,x,params) { 		
   params$establishment.prob*
     dnorm(xp,mean=params$recruit.size.mean,sd=params$recruit.size.sd)*
-    exp(params$seed.int+params$seed.slope*x)
+    exp(params$flower.no.int)*
+    exp(params$flower.if.int + params$flower.if.slope*x)/(1+exp(params$flower.if.int + params$flower.if.slope*x))
 }
 
 # -------------------------------------------------------------------
@@ -336,6 +337,10 @@ elas=matrix(as.vector(sens)*as.vector(K)/lam,nrow=n)
 # 3. plot results
 par(mfrow=c(2,3)) 
 image(y,y,t(K), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel")
+image(y,y,t(P), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel")
+image(y,y,t(F), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel")
+
+
 contour(y,y,t(K), add = TRUE, drawlabels = TRUE)
 plot(y,stable.dist,xlab="Size",type="l",main="Stable size distribution")
 plot(y,repro.val,xlab="Size",type="l",main="Reproductive values") 
