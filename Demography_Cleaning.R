@@ -15,6 +15,64 @@ contourPlot <- function(M,meshpts,maxSize,upper,lower) {
   return(0);
 }
 
+### some extra functions ###
+#Visualizing the IPM kernel - this function is not available in IPMpack, you'll have to run it here
+contourPlot <- function(M,meshpts,maxSize,upper,lower) {
+  q <- sum(meshpts<=maxSize);
+  filled.contour(meshpts[1:q],meshpts[1:q],M[1:q,1:q], zlim=c(upper,lower),
+                 xlab="size at time t", ylab="size at time t+1", color=heat.colors, nlevels=20, cex.lab=1.5,
+                 plot.axes = { axis(1); axis(2); lines(0:maxSize, 0:maxSize, lty=2)});
+  return(0);
+}
+
+
+### function for plotting of sequential means
+pointsSeq <- function (dataf, ncuts = 10, vitalRate = "survival", col="red")
+{
+  
+  os <- order(dataf$size)
+  osSize <- (dataf$size)[os]
+  psz <- tapply(osSize, as.numeric(cut(osSize, ncuts)), mean, na.rm = TRUE)
+  
+  if (vitalRate == "survival") {
+    os.surv <- (dataf$surv)[os]
+    ps <- tapply(os.surv, as.numeric(cut(osSize, ncuts)), mean, na.rm = TRUE)
+    points(as.numeric(psz), as.numeric(ps), pch = 19, col=col)
+  }
+  if (vitalRate == "cloning") {
+    os.cloning <- (dataf$cloning)[os]
+    ps <- tapply(os.cloning, as.numeric(cut(osSize, ncuts)), mean, na.rm = TRUE)
+    points(as.numeric(psz), as.numeric(ps), pch = 19, col=col)
+  }
+  if (vitalRate == "flowering") {
+    os.flowering <- (dataf$flowering)[os]
+    ps <- tapply(os.flowering, as.numeric(cut(osSize, ncuts)), mean, na.rm = TRUE)
+    points(as.numeric(psz), as.numeric(ps), pch = 19, col=col)
+  }
+  if (vitalRate == "growth") {
+    os.sizeNext <- (dataf$sizeNext)[os]
+    ps <- tapply(os.sizeNext, as.numeric(cut(osSize, ncuts)), mean, na.rm = TRUE)
+    points(as.numeric(psz), as.numeric(ps), pch = 19, col=col)
+  }
+  if (vitalRate == "clones") {
+    os.clonesNext <- (dataf$clonesNext)[os]
+    ps <- tapply(os.clonesNext, as.numeric(cut(osSize, ncuts)), mean, na.rm = TRUE)
+    points(as.numeric(psz), as.numeric(ps), pch = 19, col=col)
+  }
+  if (vitalRate == "clonesize") {
+    os.sizeNext <- (dataf$sizeNext)[os]
+    ps <- tapply(os.sizeNext, as.numeric(cut(osSize, ncuts)), mean, na.rm = TRUE)
+    points(as.numeric(psz), as.numeric(ps), pch = 19, col=col)
+  }
+  if (vitalRate == "flowers") {
+    os.flo.no <- (dataf$flowers)[os]
+    ps <- tapply(os.flo.no, as.numeric(cut(osSize, ncuts)), mean, na.rm = TRUE)
+    points(as.numeric(psz), as.numeric(ps), pch = 19, col=col)
+  }
+}
+
+
+
 #### Loading data #### 
 
 #Ver_alp <- read.csv2("Data/Ver_alp_2018.csv")
@@ -76,8 +134,12 @@ Sib_pro_2018_2019 <- Sib_pro_2018 %>%
          surv = ifelse(size > 0 & is.na(sizeNext), 0,
                        ifelse(size > 0 & sizeNext > 0, 1, NA)),
          flo.no = NB_2018 + NFL_2018 + NC_2018,
-         flo.if = ifelse(flo.no > 0, 1, 0),
-         offspringNext = NA) %>% #Need to check if this is how to do it
+         flo.if = ifelse(flo.no > 0, 1, 0)) %>%
+  mutate(offspringNext = ifelse(seedl_2019 == "yes", "sexual",
+                                ifelse(juvenile_2019 == "yes" & is.na(size), "sexual",
+                                       ifelse(is.na(size) & sizeNext>0, "clone", NA)))) %>% 
+  
+  ## Make clonal information (clo.if, clo.no and transfer the size of the mother to size)
   dplyr::select(Uni_IDS, OTC, Treatment, size, sizeNext, fec, surv, flo.no, flo.if, offspringNext, seedl_2019, juvenile_2019) 
   
 
@@ -93,13 +155,7 @@ params=data.frame(
   growth.2=NA,
   flower.if.int=NA,
   flower.if.slope=NA,
-  flower.if.2=NA,
-  flower.if.3=NA,
   flower.no.int=NA,
-  flower.no.slope=NA,
-  flower.no.2=NA,
-  seed.int = NA,
-  seed.slope = NA,
   recruit.size.mean=NA,
   recruit.size.sd=NA,
   establishment.prob=NA
@@ -128,7 +184,7 @@ params$growth.sd=sd(resid(growth.reg))
 params$growth.2=coefficients(growth.reg)[3]
 
 # flowering
-plot(x = Sib_pro_2018_2019$size, y = Sib_pro_2018_2019$flo.if)
+plot(x = Sib_pro_2018_2019$size, y = jitter(Sib_pro_2018_2019$flo.if))
 
 AIC(glm(flo.if~1,family='binomial',data=Sib_pro_2018_2019))
 AIC(glm(flo.if~size,family='binomial',data=Sib_pro_2018_2019))
@@ -137,12 +193,10 @@ AIC(glm(flo.if~size+I(size^2)+I(size^3),family='binomial',data=Sib_pro_2018_2019
 
 #floweringChosenModel <- flo.if ~ size +I(size^2)+I(size^3)
 
-flowering.if.reg=glm(flo.if~size+I(size^2)+I(size^3),family='binomial', data=Sib_pro_2018_2019)
+flowering.if.reg=glm(flo.if~size,family='binomial', data=Sib_pro_2018_2019)
 summary(flowering.if.reg)
 params$flower.if.int=coefficients(flowering.if.reg)[1]
 params$flower.if.slope=coefficients(flowering.if.reg)[2]
-params$flower.if.2=coefficients(flowering.if.reg)[3]
-params$flower.if.3=coefficients(flowering.if.reg)[4]
 
 # # of flowers
 
@@ -157,11 +211,11 @@ AIC(glm(flo.no~size+I(size^2)+I(size^3),family='poisson',data = Sib_pro_2018_201
 
 #flowersChosenModel <- flo.no ~ size + I(size^2)
 
-flowering.no.reg=glm(flo.no~size+I(size^2),family='poisson', data=Sib_pro_2018_2019_flo)
+flowering.no.reg=glm(flo.no~1,family='poisson', data=Sib_pro_2018_2019_flo)
 summary(flowering.no.reg)
 params$flower.no.int=coefficients(flowering.no.reg)[1]
-params$flower.no.slope=coefficients(flowering.no.reg)[2]
-params$flower.no.2=coefficients(flowering.no.reg)[3]
+#params$flower.no.slope=coefficients(flowering.no.reg)[2]
+#params$flower.no.2=coefficients(flowering.no.reg)[3]
 
 # seeds regression
 # note that we are just pooling all individuals into this regression regardless of whether they flowered or not. a later exercise will be to explicitly model flowering probability.
@@ -182,12 +236,22 @@ params$recruit.size.sd=sd(Sib_pro_2018_2019_seedlings$sizeNext)
 params$establishment.prob=sum(is.na(Sib_pro_2018_2019$size))/sum(Sib_pro_2018_2019$fec,na.rm=TRUE)
 
 # cloning
-# AIC(glm(cloning ~ 1, family='binomial', data = Sib_pro_2018_2019))
-# AIC(glm(cloning ~ size, family='binomial', data = Sib_pro_2018_2019))
-# AIC(glm(cloning ~ size + I(size^2),family='binomial', data = Sib_pro_2018_2019))
-# AIC(glm(cloning ~ size + I(size^2) + I(size^3), family='binomial',data = Sib_pro_2018_2019))
-# 
-# cloningChosenModel <- cloning~1
+
+Sib_pro_2018_2019_clones <- Sib_pro_2018_2019 %>%
+  mutate(offspringNext = ifelse(seedl_2019 == "yes", "sexual",
+                                ifelse(juvenile_2019 == "yes" & is.na(size), "sexual",
+                                       ifelse(is.na(size) & sizeNext>0, "clone", NA))))
+  
+
+ #AIC(glm(cloning ~ 1, family='binomial', data = Sib_pro_2018_2019))
+ #AIC(glm(cloning ~ size, family='binomial', data = Sib_pro_2018_2019))
+ #AIC(glm(cloning ~ size + I(size^2),family='binomial', data = Sib_pro_2018_2019))
+ #AIC(glm(cloning ~ size + I(size^2) + I(size^3), family='binomial',data = Sib_pro_2018_2019))
+ 
+ #cloningChosenModel <- cloning~1
+
+
+
 
 
 # 6. plot the models over the data - figure 2
@@ -197,13 +261,86 @@ plot(Sib_pro_2018_2019$size,jitter(Sib_pro_2018_2019$surv),main='Survival') # ji
 lines(xx,predict(surv.reg,data.frame(size=xx),type='response'), col='red',lwd=3)
 plot(Sib_pro_2018_2019$size,Sib_pro_2018_2019$sizeNext,main='Growth/Shrinkage/Stasis')	
 lines(xx,predict(growth.reg,data.frame(size=xx)),col='red',lwd=3)
-plot(Sib_pro_2018_2019$size,Sib_pro_2018_2019$fec,main='Seeds') # jittered to see easier
-lines(xx,predict(seed.reg,data.frame(size=xx),type='response'), col='red',lwd=3)
+plot(Sib_pro_2018_2019$size,jitter(Sib_pro_2018_2019$flo.if),main='Flowering')	
+lines(xx,predict(flowering.if.reg,data.frame(size=xx), type = "response"),col='red',lwd=3)
+
+plot(Sib_pro_2018_2019_flo$size,Sib_pro_2018_2019_flo$flo.no,main='Flower number') # jittered to see easier
+lines(xx,predict(flowering.no.reg,data.frame(size=xx),type='response'), col='red',lwd=3)
 hist(Sib_pro_2018_2019_seedlings$sizeNext,main='Size of Recruits',freq=FALSE)
 lines(xx,dnorm(xx,params$recruit.size.mean,params$recruit.size.sd), col='red',lwd=3)
 
+## vital rate functions
 
+# 1. probability of surviving
+s.x=function(x,params) {
+  u=exp(params$surv.int+params$surv.slope*x)
+  return(u/(1+u))
+}
 
+# 2. growth function
+g.yx=function(xp,x,params) { 			
+  dnorm(xp,mean=params$growth.int+params$growth.slope*x,sd=params$growth.sd)
+}
+
+# 3. reproduction function      
+f.yx=function(xp,x,params) { 		
+  params$establishment.prob*
+    dnorm(xp,mean=params$recruit.size.mean,sd=params$recruit.size.sd)*
+    exp(params$seed.int+params$seed.slope*x)
+}
+
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+# D. make a kernel
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+# 1. boundary points b, mesh points y and step size h
+# integration limits - these limits span the range of sizes observed in the data set, and then some.
+min.size=.9*min(c(Sib_pro_2018_2019$size,Sib_pro_2018_2019$sizeNext),na.rm=T)
+max.size=1.1*max(c(Sib_pro_2018_2019$size,Sib_pro_2018_2019$sizeNext),na.rm=T)
+# number of cells in the discretized kernel
+n=100 
+# #boundary points (the edges of the cells defining the kernel)
+b=min.size+c(0:n)*(max.size-min.size)/n 
+# mesh points (midpoints of the cells)
+y=0.5*(b[1:n]+b[2:(n+1)])
+# width of the cells
+h=y[2]-y[1] 
+
+# 2. make component kernels
+# the function outer() evaluates the kernal at all pairwise combinations of the two vectors y and y. for the numerical integration, we're estimating the area of a rectangle under the curve. the hieghts of the rectangles are given by the outer function and the width of the rectangles is h. 
+G=h*outer(y,y,g.yx,params=params) # growth kernel
+S=s.x(y,params=params) # survival 
+P=G # placeholder; we're about to redefine P on the next line
+for(i in 1:n) P[,i]=G[,i]*S[i]  # growth/survival kernel
+F=h*outer(y,y,f.yx,params=params) # reproduction kernel
+K=P+F #full kernel
+
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+# E. basic analyses
+# -------------------------------------------------------------------
+# -------------------------------------------------------------------
+# 1. get lamda,v,w  
+lam=Re(eigen(K)$values[1]) 
+w.eigen=Re(eigen(K)$vectors[,1])
+stable.dist=w.eigen/sum(w.eigen) 
+v.eigen=Re(eigen(t(K))$vectors[,1])
+repro.val=v.eigen/v.eigen[1] 
+
+# 2. compute elasticity and sensitivity matrices
+v.dot.w=sum(stable.dist*repro.val)*h
+sens=outer(repro.val,stable.dist)/v.dot.w
+elas=matrix(as.vector(sens)*as.vector(K)/lam,nrow=n)
+
+# 3. plot results
+par(mfrow=c(2,3)) 
+image(y,y,t(K), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel")
+contour(y,y,t(K), add = TRUE, drawlabels = TRUE)
+plot(y,stable.dist,xlab="Size",type="l",main="Stable size distribution")
+plot(y,repro.val,xlab="Size",type="l",main="Reproductive values") 
+image(y,y,t(elas),xlab="Size (t)",ylab="Size (t+1)",main="Elasticity")
+image(y,y,t(sens),xlab="Size (t)",ylab="Size (t+1)", main="Sensitivity")
 
 
 #### Testing warming effect on population dynamics ####
