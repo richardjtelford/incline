@@ -158,7 +158,8 @@ params=data.frame(
   flower.no.int=NA,
   recruit.size.mean=NA,
   recruit.size.sd=NA,
-  establishment.prob=NA
+  establishment.prob=NA,
+  seedsperflower=4.38
 )
 
 x11() 
@@ -273,7 +274,7 @@ lines(xx,dnorm(xx,params$recruit.size.mean,params$recruit.size.sd), col='red',lw
 
 # 1. probability of surviving
 s.x=function(x,params) {
-  u=exp(params$surv.int+params$surv.slope*x)
+  u=exp(params$surv.int+params$surv.slope*x+params$surv.2*x^2)
   return(u/(1+u))
 }
 
@@ -284,10 +285,12 @@ g.yx=function(xp,x,params) {
 
 # 3. reproduction function      
 f.yx=function(xp,x,params) { 		
+  exp(params$flower.if.int + params$flower.if.slope*x)/(1+exp(params$flower.if.int + params$flower.if.slope*x))*
+        exp(params$flower.no.int)*
+    params$seedsperflower*
   params$establishment.prob*
-    dnorm(xp,mean=params$recruit.size.mean,sd=params$recruit.size.sd)*
-    exp(params$flower.no.int)*
-    exp(params$flower.if.int + params$flower.if.slope*x)/(1+exp(params$flower.if.int + params$flower.if.slope*x))
+    dnorm(xp,mean=params$recruit.size.mean,sd=params$recruit.size.sd)
+    
 }
 
 # -------------------------------------------------------------------
@@ -323,7 +326,7 @@ K=P+F #full kernel
 # -------------------------------------------------------------------
 # -------------------------------------------------------------------
 # 1. get lamda,v,w  
-lam=Re(eigen(K)$values[1]) 
+(lam=Re(eigen(K)$values[1]))
 w.eigen=Re(eigen(K)$vectors[,1])
 stable.dist=w.eigen/sum(w.eigen) 
 v.eigen=Re(eigen(t(K))$vectors[,1])
@@ -336,9 +339,13 @@ elas=matrix(as.vector(sens)*as.vector(K)/lam,nrow=n)
 
 # 3. plot results
 par(mfrow=c(2,3)) 
-image(y,y,t(K), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel")
-image(y,y,t(P), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel")
-image(y,y,t(F), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel")
+image(y,y,t(K), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel IPM")
+abline(0,1,lty=2)
+image(y,y,t(P), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel P")
+abline(0,1,lty=2)
+image(y,y,t(F), xlab="Size (t)",ylab="Size (t+1)",col=topo.colors(100), main="Kernel F")
+abline(0,1,lty=2)
+
 
 
 contour(y,y,t(K), add = TRUE, drawlabels = TRUE)
