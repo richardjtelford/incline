@@ -24,13 +24,29 @@ VA_mistakes <- read.table(header = TRUE, stringsAsFactors = FALSE, text =
   21.02 21.02.2020
   13.04 13.04.2020 
   21.02.2002 20.02.2020
-  04.02.2020 04.03.2020")
+  04.02.2020 04.03.2020
+  03.07.22020 03.07.2020
+  6.7.2020 06.07.2020")
 
 
 
 VA_germ1 <- VA_germ %>%
-  filter(!Leaf_date == " ",
-         !Germination_date %in% c("DEAD", "dead")) %>% 
+  mutate(Comment = ifelse(Germination_date %in% c("DEAD", "dead"), "Dead", Comment),
+         Germination_date = ifelse(Germination_date %in% c("DEAD", "dead", " ", ""), NA, Germination_date),
+         Harvest_comment = ifelse(Harvest_date == "Brown and a bit moldy", "Brown and a bit moldy", Harvest_comment),
+         Harvest_date = ifelse(Harvest_date == "Brown and a bit moldy", NA, Harvest_date),
+         Comment = ifelse(dead_date == "yellow", "yellow",
+                          ifelse(dead_date %in% c("seed seems dead", "Seed seems dead"), "Seed seems dead", 
+                                 ifelse(dead_date == "early", "dead",
+                                        ifelse(dead_date == "meant to be harvested 20.04 but no plant?", "meant to be harvested 20.04 but no plant?", Comment)))),
+         dead_date = ifelse(dead_date %in% c("yellow", "Unknown", "seed seems dead", "meant to be harvested 20.04 but no plant?", "early", "Seed seems dead"), NA,
+                            ifelse(dead_date == "before 18.05.2020", "18.05.2020",
+                                   ifelse(dead_date == "before 17.03.2020", "17.03.2020", dead_date))),
+         Dry_mass_g_root = ifelse(Dry_mass_g_root == "X", NA, Dry_mass_g_root),
+         Weighing_comments = ifelse(Dry_mass_g_total == "two roots; two seedlings; second seedling: Dry_mass_g_root=0.00036, Dry_mass_g_above_ground=0.00022", "two roots; two seedlings; second seedling: Dry_mass_g_root=0.00036, Dry_mass_g_above_ground=0.00022", 
+                                    ifelse(Dry_mass_g_total == "two roots", "two roots", 
+                                           ifelse(Dry_mass_g_total == "3 roots", "3 roots", Weighing_comments))),
+         Dry_mass_g_total = ifelse(Dry_mass_g_total %in% c("two roots; two seedlings; second seedling: Dry_mass_g_root=0.00036, Dry_mass_g_above_ground=0.00022","two roots","3 roots"), NA, Dry_mass_g_total)) %>% 
   mutate(Germination_date = plyr::mapvalues(Germination_date, from = VA_mistakes$old, to = VA_mistakes$new),
          Cotelydon_date = plyr::mapvalues(Cotelydon_date, from = VA_mistakes$old, to = VA_mistakes$new),
          Leaf_date = plyr::mapvalues(Leaf_date, from = VA_mistakes$old, to = VA_mistakes$new)) %>% 
@@ -41,14 +57,12 @@ VA_germ1 <- VA_germ %>%
   mutate(Petri_dish = paste(Species, Site, Water_potential, Replicate, sep = "_")) %>% 
   mutate(Days_to_germination = Germination_date - Start_date,
          Days_to_cotelydon = Cotelydon_date - Start_date,
-         Days_to_leaf = Leaf_date - Start_date,
-         Days_since_germination = today() - Germination_date,
-         Days_since_cotelydon = today() - Cotelydon_date,
-         Days_since_leaf = today() - Leaf_date) %>% 
+         Days_to_leaf = Leaf_date - Start_date) %>% 
   mutate(Site_WP = paste(Site, Water_potential)) %>% 
   mutate(Water_potential = as.factor(Water_potential)) %>% 
   group_by(Species, Site, Water_potential, Replicate) %>% 
-  mutate(Seeds_in_dish = n())
+  mutate(Seeds_in_dish = n()) %>% 
+  rename(ID = X)
 
 VA_germ_analysis <- VA_germ1 %>% 
   filter(!is.na(Germination_date)) %>% 
