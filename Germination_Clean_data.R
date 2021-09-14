@@ -9,8 +9,8 @@ library(lubridate)
 
 ## Load data ##
 
-VA_germ <- read.csv2("Data/INCLINE_Germination_Seedling_Experiment_Data_2020_06_21_VA.csv", header=TRUE, sep = ",", stringsAsFactors = FALSE)
-SP_germ <-read.csv2("Data/INCLINE_Germination_Seedling_Experiment_Data_2020_06_21_SP.csv", header=TRUE, sep = ",", dec = ".", stringsAsFactors = FALSE)
+VA_germ <- read.csv2("Data/INCLINE_Germination_Seedling_Experiment_Data_VA.csv", header=TRUE, sep = ",", stringsAsFactors = FALSE)
+SP_germ <-read.csv2("Data/INCLINE_Germination_Seedling_Experiment_Data_SP.csv", header=TRUE, sep = ",", dec = ".", stringsAsFactors = FALSE)
  
 
 ## Veronical alpina ##
