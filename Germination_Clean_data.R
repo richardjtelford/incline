@@ -149,11 +149,12 @@ VA_leaf_analysis <- VA_germ1 %>%
 SP_mistakes <- read.table(header = TRUE, stringsAsFactors = FALSE, text = 
   "old new
   02.02.2020 02.03.2020
-  09.04.2020 09.03.2020") #remove after new data on the 6th of April
+  09.04.2020 09.03.2020
+  08.06 08.06.2020")
 
 
 SP_germ1 <- SP_germ %>% 
-  filter(!Germination_date %in% c("only 10 seeds")) %>% 
+  mutate(Germination_date = ifelse(Germination_date %in% c("Agar dried out, crossed out dish 07.05.2022", "Agar dried out, crossed out dish 07.05.2021", "Agar dried out, crossed out dish 07.05.2020"), NA, Germination_date)) %>% 
   mutate(Germination_date = plyr::mapvalues(Germination_date, from = SP_mistakes$old, to = SP_mistakes$new)) %>% 
   mutate(Cotelydon_date = plyr::mapvalues(Cotelydon_date, from = SP_mistakes$old, to = SP_mistakes$new)) %>%
   mutate(Leaf_date = plyr::mapvalues(Leaf_date, from = SP_mistakes$old, to = SP_mistakes$new)) %>% 
@@ -165,10 +166,7 @@ SP_germ1 <- SP_germ %>%
   mutate(Petri_dish = paste(Species, Site, Water_potential, Replicate, sep = "_")) %>% 
   mutate(Days_to_germination = Germination_date - Start_date,
          Days_to_cotelydon = Cotelydon_date - Start_date,
-         Days_to_leaf = Leaf_date - Start_date,
-         Days_since_germination = today() - Germination_date,
-         Days_since_cotelydon = today() - Cotelydon_date,
-         Days_since_leaf = today() - Leaf_date) %>% 
+         Days_to_leaf = Leaf_date - Start_date) %>% 
   mutate(Site_WP = paste(Site, Water_potential)) %>% 
   mutate(Water_potential = as.factor(Water_potential)) %>% 
   group_by(Species, Site, Water_potential, Replicate) %>% 
