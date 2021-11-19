@@ -4,6 +4,7 @@
 
 library(tidyverse)
 library(lubridate)
+library(patchwork)
 #library(extrafont)
 #loadfonts(device = "win")
 
@@ -346,17 +347,19 @@ Plot_leaf_graph <- function(data, site, species){
 
 # VA Germination plot #
 
-Plot_germination_graph(data = VA_germ_analysis, site = "SKJ", species = "Veronica alpina")
+VA_germ_SKJ <- Plot_germination_graph(data = VA_germ_analysis, site = "SKJ", species = "Veronica alpina")
 #ggsave("VA_SKJ.png", width = 15, height = 10, unit = "cm")
 
-Plot_germination_graph(data = VA_germ_analysis, site = "GUD", species = "Veronica alpina")
+VA_germ_GUD <- Plot_germination_graph(data = VA_germ_analysis, site = "GUD", species = "Veronica alpina")
 #ggsave("VA_GUD.png", width = 15, height = 10, unit = "cm")
 
-Plot_germination_graph(data = VA_germ_analysis, site = "LAV", species = "Veronica alpina")
+VA_germ_LAV <- Plot_germination_graph(data = VA_germ_analysis, site = "LAV", species = "Veronica alpina")
 #ggsave("VA_LAV.png", width = 15, height = 13, unit = "cm")
 
-Plot_germination_graph(data = VA_germ_analysis, site = "ULV", species = "Veronica alpina")
+VA_germ_ULV <- Plot_germination_graph(data = VA_germ_analysis, site = "ULV", species = "Veronica alpina")
 #ggsave("VA_ULV.png", width = 15, height = 13, unit = "cm")
+
+
 
 
 # VA germination average #
