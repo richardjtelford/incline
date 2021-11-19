@@ -359,7 +359,8 @@ VA_germ_LAV <- Plot_germination_graph(data = VA_germ_analysis, site = "LAV", spe
 VA_germ_ULV <- Plot_germination_graph(data = VA_germ_analysis, site = "ULV", species = "Veronica alpina")
 #ggsave("VA_ULV.png", width = 15, height = 13, unit = "cm")
 
-
+(VA_germ_SKJ | VA_germ_GUD)/
+  (VA_germ_LAV | VA_germ_ULV)
 
 
 # VA germination average #
