@@ -25,8 +25,9 @@ library(broom.mixed)
 #N <- as.numeric(length(GermMax))
 
 #jags.data <- list("site", "WP", "Precip", "GermMax", "N")
+jags.param <- c("b", "prec1", "sig1", "rss", "rss_new")
 
-model_GermMax <- function(){
+model_GermN <- function(){
   #group effects
   for (j in 1:4){lokaliteter[j]~dnorm(0, prec1)}
   
@@ -52,6 +53,12 @@ model_GermMax <- function(){
   rss_new <- sum(res_new[])
 }
 
-
-
+results_GermN <- jags.parallel(data = jags.data,
+                               inits = NULL,
+                               parameters.to.save = jags.params,
+                               n.itter = 10000,
+                               model.file = model_GermN,
+                               n.thin = 5,
+                               n.chains = 3)
+results_GermN
 
