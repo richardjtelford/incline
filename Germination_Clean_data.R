@@ -1,4 +1,4 @@
-#### Germination data ####
+#### Drought germination data cleaning ####
 
 ## Load libraries ##
 
